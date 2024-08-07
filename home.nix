@@ -29,6 +29,7 @@
     bitwarden
     obsidian
     steam
+    libreoffice
     firefox
     thunderbird
     vlc
