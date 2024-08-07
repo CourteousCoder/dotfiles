@@ -49,10 +49,11 @@
     fnm
     sakura
     gparted
+    font-awesome
     powerline-rs
     powerline-fonts
     powerline-symbols
-    fira-code-nerdfont
+    nerdfonts
     starship
     taskwarrior
     tmsu
