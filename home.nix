@@ -52,7 +52,7 @@
     powerline-rs
     powerline-fonts
     powerline-symbols
-    nerdfonts
+    fira-code-nerdfont
     starship
     taskwarrior
     tmsu
