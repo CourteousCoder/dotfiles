@@ -25,6 +25,7 @@
     # # "Hello, world!" when run.
     # pkgs.hello
     wine
+    lutris
     winetricks
     ungoogled-chromium
     neofetch
