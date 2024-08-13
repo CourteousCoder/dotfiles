@@ -2,80 +2,17 @@ warning: Git tree '/home/chloe/dotfiles' is dirty
 warning: Git tree '/home/chloe/dotfiles' is dirty
 [32m>[39m Building home configuration
 [?25l[35;1mwarning:[0m Git tree '/home/chloe/dotfiles' is dirty
-[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2Kthese 3 derivations will be built:
-  /nix/store/964aa4b14rbd1b4wymysa0xr15amzr26-home-manager-path.drv
-  /nix/store/wwj60sknbg0n9cvp32isvrbsjg6msrls-activation-script.drv
-  /nix/store/hpmxjaqjd8wc5bsn1rpmrr87sh6h455j-home-manager-generation.drv
-these 3 paths will be fetched (3.86 MiB download, 16.35 MiB unpacked):
-  /nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2
-  /nix/store/wndh4yaf6cl8bnki78xnhn75wgk56wr2-alacritty-0.13.2-terminfo
-  /nix/store/8pvq5yi6il67l31qjz4lb1v3800dgnsy-nerdfix-0.4.1
+[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2Kthese 3 derivations will be built:
+  /nix/store/px091w7m287q22rmaqb1hwn5h7sk5hlb-home-manager-path.drv
+  /nix/store/h8xmyz5yyn1848pnv91lqzm3gi0db9rj-activation-script.drv
+  /nix/store/q8yw44pdprmy7dbqznrpbjd550v5d5a3-home-manager-generation.drv
 ┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[34m3 ↓ ⏸[0m
-┃ [34m│  [0m[34m┌─ [0m[34m↓ ⏸ alacritty-0.13.2[0m[90m waiting for [0m[34m2 ↓ ⏸[0m
-┃ [34m│  [0m[34m├─ [0m[34m↓ ⏸ nerdfix-0.4.1[0m[90m waiting for [0m[34m1 ↓ ⏸[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ 0[0m │ [34m⏸ [1m3[0m[0m │ [1m⏱ 17s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2Kcopying path '/nix/store/wndh4yaf6cl8bnki78xnhn75wgk56wr2-alacritty-0.13.2-terminfo' from 'https://cache.nixos.org'
-copying path '/nix/store/8pvq5yi6il67l31qjz4lb1v3800dgnsy-nerdfix-0.4.1' from 'https://cache.nixos.org'
-copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from 'https://cache.nixos.org'
-┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m2 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
-┃ [34m│  [0m[34m├─ [0m[1m[33m↓ ⏵ nerdfix-0.4.1[0m[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m2 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
-┃ [34m│  [0m[34m├─ [0m[1m[33m↓ ⏵ nerdfix-0.4.1[0m[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m2 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
-┃ [34m│  [0m[34m├─ [0m[1m[33m↓ ⏵ nerdfix-0.4.1[0m[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m2[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m│  [0m[34m├─ [0m[1m[33m↓ ⏵ nerdfix-0.4.1[0m[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mbuilding '/nix/store/964aa4b14rbd1b4wymysa0xr15amzr26-home-manager-path.drv'
-┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [1m⏱ 17s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mbuilding '/nix/store/px091w7m287q22rmaqb1hwn5h7sk5hlb-home-manager-path.drv'
+[0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -90,54 +27,29 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
+[0m[34mhome-manager-path> [0mcreated 1594 symlinks in user environment
 ┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mcreated 1606 symlinks in user environment
-┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m ⏱ 1s
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[33m[1m⏵ home-manager-path[0m[0m
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃ [34m│  [0m[34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃ [34m├─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/wwj60sknbg0n9cvp32isvrbsjg6msrls-activation-script.drv'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
+┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m
+┃ [34m├─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/h8xmyz5yyn1848pnv91lqzm3gi0db9rj-activation-script.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -153,43 +65,22 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
-┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
-┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/hpmxjaqjd8wc5bsn1rpmrr87sh6h455j-home-manager-generation.drv'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/q8yw44pdprmy7dbqznrpbjd550v5d5a3-home-manager-generation.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -205,49 +96,32 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ nerdfix-0.4.1[0m
-┃       [34m├─ [0m[32m↓ ✔ alacritty-0.13.2[0m
-┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                          [0m
-┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost                     [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m3[0m[0m │     │ [35mhttps://cache.nixos.org       [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 16:24:10 after 22s[0m[0m[?25h
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 16:28:50 after 20s[0m[0m[?25h
 [32m>[39m Comparing changes
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-home-64t3IO/result
-Added packages:
-[A.]  #1  alacritty  0.13.2, 0.13.2-terminfo
-[A.]  #2  nerdfix    0.4.1
-Closure size: 1259 -> 1262 (5 paths added, 2 paths removed, delta +3, disk usage +16.3MiB).
+>>> /tmp/nh-home-dga4n5/result
+Removed packages:
+[R.]  #1  alacritty  0.13.2, 0.13.2-terminfo
+Closure size: 1262 -> 1260 (2 paths added, 4 paths removed, delta -2, disk usage -10.7MiB).
 [32m>[39m Activating configuration
 Starting Home Manager activation
 Activating checkFilesChanged
@@ -256,10 +130,10 @@ Activating writeBoundary
 Activating installPackages
 replacing old 'home-manager-path'
 installing 'home-manager-path'
-building '/nix/store/38hm3mnjcfgc45ybv78vg8lbch0w0wap-user-environment.drv'...
+building '/nix/store/9jb8m1r7s50cl70ha7rivdgvzdijw29v-user-environment.drv'...
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-Creating profile generation 20
+Creating profile generation 21
 Creating home file links in /home/chloe
 Activating onFilesChange
 Activating reloadSystemd
