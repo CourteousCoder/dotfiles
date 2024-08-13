@@ -50,8 +50,8 @@
     rustup
     pipx
     fnm
-    sakura
     gparted
+    gpu-screen-recorder
     font-awesome
     powerline-rs
     powerline-fonts
