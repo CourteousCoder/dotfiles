@@ -57,11 +57,13 @@
     powerline-fonts
     powerline-symbols
     nerdfonts
+    nerdfix
     starship
     taskwarrior
     tmsu
     thefuck
     nautilus
+    alacritty
     pcmanfm
     syncthing
     # # It is sometimes useful to fine-tune packages, for example, by applying
