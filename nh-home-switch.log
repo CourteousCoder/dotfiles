@@ -2,127 +2,329 @@ warning: Git tree '/home/chloe/dotfiles' is dirty
 warning: Git tree '/home/chloe/dotfiles' is dirty
 [32m>[39m Building home configuration
 [?25l[35;1mwarning:[0m Git tree '/home/chloe/dotfiles' is dirty
-[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2Kthese 3 derivations will be built:
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rwbmhhcf9fli28650v35809f7s2c6bd8-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/g3srvlaad8gv30xibyj2gsnibfr70sk4-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bgv2hklqf9w72qgbw06pjp5dm9rx41q0-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bgv2hklqf9w72qgbw06pjp5dm9rx41q0-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/zkk8pzgc51n8j6lfbmkj4iq4makcyk1v-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bgv2hklqf9w72qgbw06pjp5dm9rx41q0-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/g3srvlaad8gv30xibyj2gsnibfr70sk4-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/cyd83s0zh12bwy3x53ryjmc0m1hkd3bw-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/a435knza7ikgvkw3vx5csfnm3c66ib3b-libadwaita-1.5.2.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/cyd83s0zh12bwy3x53ryjmc0m1hkd3bw-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/sbqlrv31kn5ygpg3kyfnj34q4mzmcbsk-wheel-0.37.1-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/sbqlrv31kn5ygpg3kyfnj34q4mzmcbsk-wheel-0.37.1-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rn3830p6mvdbna1h9i20dffgvqmdvvyy-perl5.38.2-strip-nondeterminism-1.13.1.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rn3830p6mvdbna1h9i20dffgvqmdvvyy-perl5.38.2-strip-nondeterminism-1.13.1.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rwbmhhcf9fli28650v35809f7s2c6bd8-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rwbmhhcf9fli28650v35809f7s2c6bd8-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/9lq20gzr2qdwld4q1xmwg3cz3c8l553z-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/izksawggyna48qbqqv1445d9n98mpm6w-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/jza4h6vvzxd6nnaqincqc4gq52r9mqnb-config.fish.appendix.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/cyd83s0zh12bwy3x53ryjmc0m1hkd3bw-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bsddf8gfkadvdjv1axgp8sygg1acad9h-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/a435knza7ikgvkw3vx5csfnm3c66ib3b-libadwaita-1.5.2.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/3x94smh73kf7ip4387qlxb948p8my57b-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/cyd83s0zh12bwy3x53ryjmc0m1hkd3bw-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bgv2hklqf9w72qgbw06pjp5dm9rx41q0-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/d988z7n2il3kv1pr22ncv2p3wmf6x2l0-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/m6dqvsy9rpzd8h27y608xqp2a3b4ibmv-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/15f9cxkrcc7259a32w612r5l0r80dz5l-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/8g6njnrf3pql244kq57ss4paqsqm243l-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/8g6njnrf3pql244kq57ss4paqsqm243l-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/m6dqvsy9rpzd8h27y608xqp2a3b4ibmv-shadow-4.16.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/6ww3s85ihz70l8fkfsdx3ki0rj3wcrma-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/lrzza9l61gjblspxr4fwbh09jlavx6lr-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/lrzza9l61gjblspxr4fwbh09jlavx6lr-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/bsddf8gfkadvdjv1axgp8sygg1acad9h-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/6ww3s85ihz70l8fkfsdx3ki0rj3wcrma-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/lrzza9l61gjblspxr4fwbh09jlavx6lr-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-  /nix/store/2sincfs8prvcipjmhq043iqa62qfad47-home-manager-path.drv
-[31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/xkzsp5sz4j0n6lixc2zjgsyx3zlcn0sy-link.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-  /nix/store/mq76fl302zylblbc4w1p3mszwc2mzsji-activation-script.drv
-  /nix/store/gf23n0kiw66a950c0308x8g8fa4h1mkf-home-manager-generation.drv
-these 2 paths will be fetched (2.61 MiB download, 10.74 MiB unpacked):
-  /nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2
-  /nix/store/wndh4yaf6cl8bnki78xnhn75wgk56wr2-alacritty-0.13.2-terminfo
+[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 17s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 18s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 19s[0m[1G[2K[1m⏱ 20s[0m[1G[2K[1m⏱ 20s[0m[1G[2K[1m⏱ 20s[0m[1G[2K[1m⏱ 21s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2K[1m⏱ 22s[0m[1G[2Kthese 3 derivations will be built:
+  /nix/store/61yrk09p5iqcl5dcvbhxxy6w56i4vj7n-home-manager-path.drv
+  /nix/store/wh5w9gqfnpcyvpmj5kpv2924xa02p35a-activation-script.drv
+  /nix/store/y0y8ihm3wg061245yr0ys5r5i6wxy860-home-manager-generation.drv
+these 5 paths will be fetched (7.93 MiB download, 38.15 MiB unpacked):
+  /nix/store/5xy7b28d6a18c2jrs3m1grz88lh725c8-kitty-0.35.2
+  /nix/store/j1i2wa85xwhxn17pj98ff4hhqngcgfyv-kitty-0.35.2-terminfo
+  /nix/store/82wl9cx2bgjzlmdl2kail32w2mxjh7y2-libstartup-notification-0.12
+  /nix/store/6ab4llivczxhyd1d8j3wpcjyzmka89jf-ncurses-6.4.20221231-dev
+  /nix/store/1jzr0jxx94wrx3lvz7l63pdvnc64ggnb-xxHash-0.8.2
 ┏━ [1mDependency Graph[0m:
-┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[34m2 ↓ ⏸[0m
-┃ [34m│  [0m[34m┌─ [0m[34m↓ ⏸ alacritty-0.13.2[0m[90m waiting for [0m[34m2 ↓ ⏸[0m
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[34m4 ↓ ⏸[0m
+┃ [34m│  [0m   [34m┌─ [0m[34m↓ ⏸ xxHash-0.8.2[0m[90m waiting for [0m[34m1 ↓ ⏸[0m
+┃ [34m│  [0m   [34m├─ [0m[34m↓ ⏸ ncurses-6.4.20221231[0m[90m waiting for [0m[34m1 ↓ ⏸[0m
+┃ [34m│  [0m   [34m├─ [0m[34m↓ ⏸ libstartup-notification-0.12[0m[90m waiting for [0m[34m1 ↓ ⏸[0m
+┃ [34m│  [0m[34m┌─ [0m[34m↓ ⏸ kitty-0.35.2[0m
 ┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ 0[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 17s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2Kcopying path '/nix/store/wndh4yaf6cl8bnki78xnhn75wgk56wr2-alacritty-0.13.2-terminfo' from 'https://cache.nixos.org'
-copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from 'https://cache.nixos.org'
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ 0[0m │ [34m⏸ [1m5[0m[0m │ [1m⏱ 22s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2Kcopying path '/nix/store/j1i2wa85xwhxn17pj98ff4hhqngcgfyv-kitty-0.35.2-terminfo' from 'https://cache.nixos.org'
+copying path '/nix/store/82wl9cx2bgjzlmdl2kail32w2mxjh7y2-libstartup-notification-0.12' from 'https://cache.nixos.org'
+copying path '/nix/store/6ab4llivczxhyd1d8j3wpcjyzmka89jf-ncurses-6.4.20221231-dev' from 'https://cache.nixos.org'
+copying path '/nix/store/1jzr0jxx94wrx3lvz7l63pdvnc64ggnb-xxHash-0.8.2' from 'https://cache.nixos.org'
+copying path '/nix/store/5xy7b28d6a18c2jrs3m1grz88lh725c8-kitty-0.35.2' from 'https://cache.nixos.org'
 ┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
 ┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 24s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
 ┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
-┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ alacritty-0.13.2[0m[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
 ┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 25s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ↓[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[1m[33m↓ ⏵ kitty-0.35.2[0m[0m ⏱ 1s
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ [1m1[0m[0m │ [32m↓ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mbuilding '/nix/store/2sincfs8prvcipjmhq043iqa62qfad47-home-manager-path.drv'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 26s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mbuilding '/nix/store/61yrk09p5iqcl5dcvbhxxy6w56i4vj7n-home-manager-path.drv'
 ┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 27s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -139,47 +341,73 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mcreated 1579 symlinks in user environment
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 27s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mcreated 1654 symlinks in user environment
 ┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 27s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m ⏱ 1s
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 28s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
+┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m ⏱ 1s
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃ [34m│  [0m   [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃ [34m│  [0m   [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃ [34m├─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/mq76fl302zylblbc4w1p3mszwc2mzsji-activation-script.drv'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/wh5w9gqfnpcyvpmj5kpv2924xa02p35a-activation-script.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 21s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -195,31 +423,51 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
+┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
+┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/gf23n0kiw66a950c0308x8g8fa4h1mkf-home-manager-generation.drv'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 29s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/y0y8ihm3wg061245yr0ys5r5i6wxy860-home-manager-generation.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 30s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -235,44 +483,67 @@ copying path '/nix/store/c2nszmh6li1r2q5z0aiajlga1rdyqwha-alacritty-0.13.2' from
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 30s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 30s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
 ┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 22s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ alacritty-0.13.2[0m
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org[0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 30s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃          [34m┌─ [0m[32m↓ ✔ libstartup-notification-0.12[0m
+┃          [34m├─ [0m[32m↓ ✔ ncurses-6.4.20221231[0m
+┃          [34m├─ [0m[32m↓ ✔ xxHash-0.8.2[0m
+┃       [34m┌─ [0m[32m↓ ✔ kitty-0.35.2[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m⏱ 1s[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
 ┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                          [0m
 ┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost                     [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m2[0m[0m │     │ [35mhttps://cache.nixos.org       [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 16:20:02 after 22s[0m[0m[?25h
+┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m5[0m[0m │     │ [35mhttps://cache.nixos.org       [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m5[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 16:49:57 after 30s[0m[0m[?25h
 [32m>[39m Comparing changes
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-home-I2F8nZ/result
+>>> /tmp/nh-home-gQOzhy/result
+Version changes:
+[C*]  #1  ncurses  6.4.20221231 x2, 6.4.20221231-man x2 -> 6.4.20221231 x2, 6.4.20221231-dev, 6.4.20221231-man x2
+[C.]  #2  openexr  3.2.4 -> 2.5.10, 3.2.4
 Added packages:
-[A.]  #1  alacritty  0.13.2, 0.13.2-terminfo
-Closure size: 1251 -> 1253 (4 paths added, 2 paths removed, delta +2, disk usage +10.7MiB).
+[A.]  #1  djvulibre                3.5.28
+[A.]  #2  imagemagick              7.1.1-36
+[A.]  #3  kitty                    0.35.2, 0.35.2-terminfo
+[A.]  #4  libheif                  1.18.0
+[A.]  #5  liblqr                   1-0.4.2
+[A.]  #6  libraw                   0.21.2-lib
+[A.]  #7  libstartup-notification  0.12
+[A.]  #8  potrace                  1.16
+[A.]  #9  xxHash                   0.8.2
+Closure size: 1253 -> 1265 (14 paths added, 2 paths removed, delta +12, disk usage +56.8MiB).
 [32m>[39m Activating configuration
 Starting Home Manager activation
 Activating checkFilesChanged
@@ -281,10 +552,10 @@ Activating writeBoundary
 Activating installPackages
 replacing old 'home-manager-path'
 installing 'home-manager-path'
-building '/nix/store/1f75d6s6rcj9kwv5pys12a1f04zimkbm-user-environment.drv'...
+building '/nix/store/8cmb05xmln6nc7sb7yrazp9w02jkhbnn-user-environment.drv'...
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-Creating profile generation 25
+Creating profile generation 26
 Creating home file links in /home/chloe
 Activating onFilesChange
 Activating reloadSystemd

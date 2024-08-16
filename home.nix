@@ -64,6 +64,7 @@
     thefuck
     nautilus
     pcmanfm
+    kitty
     alacritty
     syncthing
 #    asciinema
