@@ -2,7 +2,7 @@ warning: Git tree '/home/chloe/dotfiles' is dirty
 warning: Git tree '/home/chloe/dotfiles' is dirty
 [32m>[39m Building home configuration
 [?25l[35;1mwarning:[0m Git tree '/home/chloe/dotfiles' is dirty
-[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2Kthese 3 derivations will be built:
+[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 14s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 15s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2K[1m⏱ 16s[0m[1G[2Kthese 3 derivations will be built:
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/r6gcylm54mhzx0c1kwv1j5821alszbvi-db-5.3.28.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/rwbmhhcf9fli28650v35809f7s2c6bd8-db-4.8.30.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/g3srvlaad8gv30xibyj2gsnibfr70sk4-source.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 195)
@@ -66,19 +66,16 @@ warning: Git tree '/home/chloe/dotfiles' is dirty
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/6ww3s85ihz70l8fkfsdx3ki0rj3wcrma-polkit-124.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/lrzza9l61gjblspxr4fwbh09jlavx6lr-gsettings-desktop-schemas-46.0.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/nkc7ii4rnflxqwsvqj6mfydf8c0ijh28-libsecret-0.21.4.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-  /nix/store/k7wwdyh0zkn7mjkz991h273in1r6kpyp-home-manager-path.drv
+  /nix/store/5h6qbfdks6lvzsv2pcxpg9lxrz621wq3-home-manager-path.drv
 [31;1mnix-output-monitor error: [0mDerivationReadError /nix/store/xkzsp5sz4j0n6lixc2zjgsyx3zlcn0sy-link.drv: hGetContents: invalid argument (cannot decode byte sequence starting from 226)
-  /nix/store/55givhz73w9gg6r0bpx1agpnxvzjwisx-activation-script.drv
-  /nix/store/acvr81r3y2c5zzw1zhmv9ff0hh257wqv-home-manager-generation.drv
-this path will be fetched (0.11 MiB download, 0.45 MiB unpacked):
+  /nix/store/xkngl5dinxhhr83mi4wr1f221irv9ga4-activation-script.drv
+  /nix/store/gnqlbfyv51a71rv32035hi4s52sz1265-home-manager-generation.drv
 ┏━ [1mDependency Graph[0m:
-┃    [34m┌─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
 ┣━━━ [1mBuilds         [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [1m⏱ 17s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K  /nix/store/9bbfzr89ljaa5ihyq1b6s1nhad08ngrj-asciinema-2.4.0
-copying path '/nix/store/9bbfzr89ljaa5ihyq1b6s1nhad08ngrj-asciinema-2.4.0' from 'https://cache.nixos.org'
-[0m[34mhome-manager-path> [0mbuilding '/nix/store/k7wwdyh0zkn7mjkz991h273in1r6kpyp-home-manager-path.drv'
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m3[0m[0m │ [1m⏱ 16s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-path> [0mbuilding '/nix/store/5h6qbfdks6lvzsv2pcxpg9lxrz621wq3-home-manager-path.drv'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
@@ -94,33 +91,24 @@ copying path '/nix/store/9bbfzr89ljaa5ihyq1b6s1nhad08ngrj-asciinema-2.4.0' from 
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mhome-manager-path> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
-[0m[34mhome-manager-path> [0mcreated 1574 symlinks in user environment
+[0m[34mhome-manager-path> [0mcreated 1567 symlinks in user environment
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
-┃    [34m┌─ [0m[33m[1m⏵ home-manager-path[0m[0m
-┃ [34m┌─ [0m[34m⏸ activation-script[0m
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
+┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m   [0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ 0[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃ [34m┌─ [0m[34m⏸ activation-script[0m
-┃ [34m│  [0m[34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
 ┃ [34m├─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/55givhz73w9gg6r0bpx1agpnxvzjwisx-activation-script.drv'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/xkngl5dinxhhr83mi4wr1f221irv9ga4-activation-script.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -136,31 +124,22 @@ copying path '/nix/store/9bbfzr89ljaa5ihyq1b6s1nhad08ngrj-asciinema-2.4.0' from 
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mactivation-script> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 19s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [34m⏸ home-manager-generation[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/acvr81r3y2c5zzw1zhmv9ff0hh257wqv-home-manager-generation.drv'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 19s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/gnqlbfyv51a71rv32035hi4s52sz1265-home-manager-generation.drv'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/dv5vgsw8naxnkcc88x78vprbnn1pp44y-patchelf-0.15.0/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/i4iynx9axbq23sd0gyrc5wdb46zz6z8l-update-autotools-gnu-config-scripts-hook/nix-support/setup-hook'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
@@ -176,53 +155,32 @@ copying path '/nix/store/9bbfzr89ljaa5ihyq1b6s1nhad08ngrj-asciinema-2.4.0' from 
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/aazf105snicrlvyzzbdj85sx4179rpfp-set-source-date-epoch-to-latest.sh'
 [0m[34mhome-manager-generation> [0msourcing setup hook '/nix/store/gps9qrh99j7g02840wv5x78ykmz30byp-strip.sh'
 ┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                   [0m
-┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost              [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org[0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s                  [0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
-┃       [34m┌─ [0m[32m↓ ✔ asciinema-2.4.0[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 20s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
 ┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
 ┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
 ┃ [32m✔ home-manager-generation[0m [90m[0m[0m
-┣━━━ [1mBuilds         [0m │ [1mDownloads      [0m │ [1mHost                          [0m
-┃    [33m   [0m │ [32m✔ [1m3[0m[0m │     │ [33m   [0m │ [32m   [0m │     │ [35mlocalhost                     [0m
-┃    [33m   [0m │ [32m   [0m │     │ [33m   [0m │ [32m↓ [1m1[0m[0m │     │ [35mhttps://cache.nixos.org       [0m
-┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [33m↓ 0[0m │ [32m↓ [1m1[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 15:36:37 after 20s[0m[0m[?25h
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 15:55:06 after 20s[0m[0m[?25h
 [32m>[39m Comparing changes
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-home-OYY3pB/result
-Added packages:
-[A.]  #1  asciinema  2.4.0
+>>> /tmp/nh-home-s7pOJg/result
 Removed packages:
-[R.]  #1  dee-unstable                 2017-06-16
-[R.]  #2  disable-breaking-updates.py  <none>
-[R.]  #3  discord                      0.0.62
-[R.]  #4  discord.desktop              <none>
-[R.]  #5  libappindicator-gtk3         12.10.1+20.10.20200706.1
-[R.]  #6  libcxx                       18.1.8
-[R.]  #7  libdbusmenu-gtk3             16.04.0
-[R.]  #8  libunity-unstable            2021-02-01
-Closure size: 1259 -> 1252 (3 paths added, 10 paths removed, delta -7, disk usage -256.2MiB).
+[R.]  #1  asciinema  2.4.0
+Closure size: 1252 -> 1251 (2 paths added, 3 paths removed, delta -1, disk usage -463.1KiB).
 [32m>[39m Activating configuration
 Starting Home Manager activation
 Activating checkFilesChanged
@@ -231,10 +189,10 @@ Activating writeBoundary
 Activating installPackages
 replacing old 'home-manager-path'
 installing 'home-manager-path'
-building '/nix/store/95h5z8k12hdgjx1kls9z73m8b1z0m6w1-user-environment.drv'...
+building '/nix/store/q18ny2i655xywr7ylg2xam7fhjxpsx3a-user-environment.drv'...
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-Creating profile generation 23
+Creating profile generation 24
 Creating home file links in /home/chloe
 Activating onFilesChange
 Activating reloadSystemd
