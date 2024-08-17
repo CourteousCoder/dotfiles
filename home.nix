@@ -67,7 +67,7 @@
     kitty
     alacritty
     syncthing
-#    asciinema
+    asciinema
 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying

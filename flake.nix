@@ -1,6 +1,6 @@
 {
-  description = "Home Manager configuration of chloe";
 
+  description = "Home Manager configuration of chloe";
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -8,12 +8,18 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nixgl.url = "github:nix-community/nixGL";
   };
 
-  outputs = { nixpkgs, home-manager, ... }:
+  outputs = { nixpkgs, home-manager, nixgl, ... }:
     let
       system = "x86_64-linux";
-      pkgs = import nixpkgs { system = "${system}"; config.allowUnfree = true; };
+      pkgs = import nixpkgs {
+        system = "${system}";
+        config.allowUnfree = true;
+        # nixGL overlay is required for opengl programs from nixpkgs to run on non-nixos linux
+        overlays = [ nixgl.overlay ];
+      };
     in {
       homeConfigurations."chloe" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
