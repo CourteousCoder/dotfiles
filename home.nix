@@ -80,7 +80,7 @@
     # # configuration. For example, this adds a command 'my-hello' to your
     # # environment:
     (pkgs.writeShellScriptBin "terminal.sh" ''
-     nix run github:nix-community/nixGL#nixGLIntel -- nixpkgs#alacritty & 
+     nix run github:nix-community/nixGL#nixGLIntel -- alacritty & 
     '')
       
     (pkgs.writeShellScriptBin "home-rebuild.sh" ''
