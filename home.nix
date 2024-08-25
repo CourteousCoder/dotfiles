@@ -68,6 +68,7 @@
     syncthing
     asciinema
     #nixgl
+    alacritty
     
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -78,8 +79,8 @@
     # # You can also create simple shell scripts directly inside your
     # # configuration. For example, this adds a command 'my-hello' to your
     # # environment:
-    (pkgs.writeShellScriptBin "alacritty" ''
-     nix run github:nix-community/nixGL#nixGLIntel -- nix run nixpkgs#alacritty & 
+    (pkgs.writeShellScriptBin "terminal.sh" ''
+     nix run github:nix-community/nixGL#nixGLIntel -- nixpkgs#alacritty & 
     '')
       
     (pkgs.writeShellScriptBin "home-rebuild.sh" ''
