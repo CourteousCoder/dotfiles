@@ -2,12 +2,91 @@ warning: Git tree '/home/chloe/dotfiles' is dirty
 warning: Git tree '/home/chloe/dotfiles' is dirty
 [32m>[39m Building home configuration
 [?25l[35;1mwarning:[0m Git tree '/home/chloe/dotfiles' is dirty
-[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m[32mFinished at 16:55:22 after 9s[0m[0m[?25h
+[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 0s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 1s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 2s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 3s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 4s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 5s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 6s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 7s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 8s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 9s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 10s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 11s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 12s[0m[1G[2K[1m⏱ 13s[0m[1G[2K[1m⏱ 13s[0m[1G[2Kthese 4 derivations will be built:
+  /nix/store/908mfzs0qivvnmfm0px0xzdn468kb14a-alacritty.drv
+  /nix/store/gbwnxlg2sqsq5ii6mlkk0m1ybad8mddm-home-manager-path.drv
+  /nix/store/wnc2x8jr7nb47ak9qjrqlrsn549v13bb-activation-script.drv
+  /nix/store/06ary8apdbxbm3zpaq3ifr98il34lb6k-home-manager-generation.drv
+┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m
+┃ [34m│  [0m[34m┌─ [0m[34m⏸ alacritty[0m
+┃ [34m├─ [0m[34m⏸ home-manager-path[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ 0[0m │ [34m⏸ [1m4[0m[0m │ [1m⏱ 13s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34malacritty> [0mbuilding '/nix/store/908mfzs0qivvnmfm0px0xzdn468kb14a-alacritty.drv'
+[0m[34mhome-manager-path> [0mbuilding '/nix/store/gbwnxlg2sqsq5ii6mlkk0m1ybad8mddm-home-manager-path.drv'
+[0m[34mhome-manager-path> [0mcreated 1649 symlinks in user environment
+┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
+┃ [34m│  [0m[34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 14s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m[90m waiting for [0m[33m1 ⏵[0m
+┃ [34m│  [0m[34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃ [34m├─ [0m[33m[1m⏵ home-manager-path[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m1[0m[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 14s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃ [34m┌─ [0m[34m⏸ activation-script[0m
+┃ [34m│  [0m[34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃ [34m├─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m2[0m[0m │ [1m⏱ 14s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mactivation-script> [0mbuilding '/nix/store/wnc2x8jr7nb47ak9qjrqlrsn549v13bb-activation-script.drv'
+┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[33m[1m⏵ activation-script[0m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m2[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
+┃ [34m⏸ home-manager-generation[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ [1m1[0m[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[0m[34mhome-manager-generation> [0mbuilding '/nix/store/06ary8apdbxbm3zpaq3ifr98il34lb6k-home-manager-generation.drv'
+┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
+┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
+┃ [33m[1m⏵ home-manager-generation[0m[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ [1m1[0m[0m │ [32m✔ [1m3[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
+┃ [32m✔ home-manager-generation[0m [90m[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m⏱ 15s[0m[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K[1F[2K┏━ [1mDependency Graph[0m:
+┃       [34m┌─ [0m[32m✔ alacritty[0m [90m[0m
+┃    [34m┌─ [0m[32m✔ home-manager-path[0m [90m[0m
+┃ [34m┌─ [0m[32m✔ activation-script[0m [90m[0m
+┃ [32m✔ home-manager-generation[0m [90m[0m[0m
+┣━━━ [1mBuilds         [0m
+┗━ ∑ [33m⏵ 0[0m │ [32m✔ [1m4[0m[0m │ [34m⏸ 0[0m │ [1m[32mFinished at 22:31:57 after 15s[0m[0m[?25h
 [32m>[39m Comparing changes
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-home-raReKY/result
-No version or selection state changes.
-Closure size: 1269 -> 1269 (0 paths added, 0 paths removed, delta +0, disk usage +0B).
+>>> /tmp/nh-home-YM0Srp/result
+Version changes:
+[D.]  #1  alacritty  0.13.2, 0.13.2-terminfo -> <none>
+Added packages:
+[A.]  #1  home-rebuild.sh  <none>
+Closure size: 1269 -> 1269 (4 paths added, 4 paths removed, delta +0, disk usage -10.6MiB).
 [32m>[39m Activating configuration
 Starting Home Manager activation
 Activating checkFilesChanged
@@ -16,9 +95,10 @@ Activating writeBoundary
 Activating installPackages
 replacing old 'home-manager-path'
 installing 'home-manager-path'
+building '/nix/store/ghbgwnwa022aczxmxb3pllmrxnw5gdkb-user-environment.drv'...
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-No change so reusing latest profile generation 30
+Creating profile generation 31
 Creating home file links in /home/chloe
 Activating onFilesChange
 Activating reloadSystemd
