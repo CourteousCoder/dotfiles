@@ -59,16 +59,16 @@
     nerdfonts
     nerdfix
     starship
-    taskwarrior
+    taskwarrior3
     tmsu
     thefuck
     nautilus
     pcmanfm
-    kitty
+#    kitty
     syncthing
     asciinema
     #nixgl
-    alacritty
+#    alacritty
     
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
