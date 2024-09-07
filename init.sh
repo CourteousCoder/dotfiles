@@ -1,15 +1,18 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
+set -e
 
-if which nix; then
-  echo nix detected
-else
+# TODO: Do this the nix way.
+
+REMOTE_REPO=github:CourteousCoder/dotfiles
+LOCAL_FLAKE=~/.dotfiles
+
+if ! command -v nix; then
   echo installing nix
   curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
-  source ~/.bashrc
 fi
 
-
-# clone repo
-#nix run nixpkgs#git -- clone git@codeberg.org:CourteousCoder/dotfiles.git ~/dotfiles
-echo running home-manager
-nix run home-manager/master -- init --switch ~/dotfiles
+test -d "$LOCAL_FLAKE" || nix flake clone "$REMOTE_REPO" --dest "$LOCAL_FLAKE"
+pushd "$LOCAL_FLAKE"
+nix run nixpkgs#git -- pull 
+nix run home-manager/master -- switch --flake .
+popd

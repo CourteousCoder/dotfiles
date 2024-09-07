@@ -1,11 +1,14 @@
-{ config, pkgs, lib, nixpkgs, ... }:
-
-{
+{ config, pkgs, lib, nixpkgs, ... }: let
+  username = "chloe";
+  homeDirectory = "/home/${username}";
+  myHomeManagerFlake = "${homeDirectory}/dotfiles";
+  mydotfiles = "${myHomeManagerFlake}/dotfiles";
+in {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  home.username = "chloe";
-  home.homeDirectory = "/home/chloe";
-
+  home.username = username;
+  home.homeDirectory = homeDirectory;
+  
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -83,17 +86,17 @@
      nix run github:nix-community/nixGL#nixGLIntel -- alacritty & 
     '')
       
-    (pkgs.writeShellScriptBin "home-rebuild.sh" ''
-    #!/usr/bin/env bash
+    (pkgs.writeShellScriptBin "home-edit" ''
+    #!/usr/bin/env nix-shell
+    #! nix-shell -i bash --packages git grep nh cat home-manager vim
 
     set -e
 
-    export EDITOR=${EDITOR:-lvim}
-    dotfiles=~/dotfiles
+    dotfiles=${myHomeManagerFlake}
 
     pushd "$dotfiles"
 
-    home-manager edit
+    vim $dotfiles/home.nix
     git diff -U0 *.nix
 
     echo "Rebuilding Nix home manager..."
@@ -114,14 +117,26 @@
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
-#     ".config/fish".source = dotfiles/.config/fish/config.fish
-
+    ".config/home-manager".source = config.lib.file.mkOutOfStoreSymlink myHomeManagerFlake;
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-  };
+  } // (
+    # This declares an attribute set that describes that each linkName is a
+    # symlink from ~/${linkName} to ${mydotfiles}/_${linkName}.
+    # The target path format is arbitrary and merely the convention I chose.
+    lib.attrsets.mergeAttrsList (lib.lists.map (linkName: { 
+      "${linkName}".source = config.lib.file.mkOutOfStoreSymlink "${mydotfiles}/_${linkName}";
+    }) [
+    # Thus, these symlinks point to targets outside of the nix store
+    # and therefore both writable and tracked by this flake's version control
+    ".config/fish"
+    ".config/starship.toml"
+    ".gitignore"
+    ".gitconfig"
+  ]));
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
