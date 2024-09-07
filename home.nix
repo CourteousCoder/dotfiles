@@ -78,36 +78,6 @@ in {
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
     # # fonts?
     #(pkgs.alacritty.overrides { fonts = [ "FantasqueSansMono" ]; })
-
-    # # You can also create simple shell scripts directly inside your
-    # # configuration. For example, this adds a command 'my-hello' to your
-    # # environment:
-    (pkgs.writeShellScriptBin "terminal.sh" ''
-     nix run github:nix-community/nixGL#nixGLIntel -- alacritty & 
-    '')
-      
-    (pkgs.writeShellScriptBin "home-edit" ''
-    #!/usr/bin/env nix-shell
-    #! nix-shell -i bash --packages git grep nh cat home-manager vim
-
-    set -e
-
-    dotfiles=${myHomeManagerFlake}
-
-    pushd "$dotfiles"
-
-    vim $dotfiles/home.nix
-    git diff -U0 *.nix
-
-    echo "Rebuilding Nix home manager..."
-    nh home switch "$dotfiles" &>nh-home-switch.log || (
-      cat nh-home-switch.log | grep --color error && false)
-
-    gen="$(home-manager generations | head -n 1)"
-    git commit -am "$gen"
-
-    popd
-    '')
   ];
   # ++ import ./packages.nix { inherit pkgs; };
 
