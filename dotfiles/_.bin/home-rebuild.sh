@@ -3,7 +3,7 @@
 set -e
 
 export EDITOR=${EDITOR:-lvim}
-dotfiles=~/dotfiles
+dotfiles=~/.dotfiles
 
 pushd "$dotfiles"
 

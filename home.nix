@@ -1,7 +1,7 @@
 { config, pkgs, lib, nixpkgs, ... }: let
   username = "chloe";
   homeDirectory = "/home/${username}";
-  myHomeManagerFlake = "${homeDirectory}/dotfiles";
+  myHomeManagerFlake = "${homeDirectory}/.dotfiles";
   mydotfiles = "${myHomeManagerFlake}/dotfiles";
 in {
   # Home Manager needs a bit of information about you and the paths it should
@@ -102,6 +102,7 @@ in {
     }) [
     # Thus, these symlinks point to targets outside of the nix store
     # and therefore both writable and tracked by this flake's version control
+    ".bin"
     ".config/fish"
     ".config/starship.toml"
     ".gitignore"
