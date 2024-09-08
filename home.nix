@@ -67,6 +67,7 @@ in {
     thefuck
     nautilus
     pcmanfm
+    qflipper
 #    kitty
     syncthing
     asciinema
