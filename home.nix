@@ -71,6 +71,7 @@ in {
 #    kitty
     syncthing
     asciinema
+    ventoy-full
     #nixgl
 #    alacritty
     
