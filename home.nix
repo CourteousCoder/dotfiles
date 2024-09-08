@@ -44,7 +44,6 @@ in {
     direnv
     eza
     fish
-    bash
     git
     gh
     fjo
