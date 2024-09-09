@@ -1,86 +1,29 @@
-{ config, pkgs, lib, nixpkgs, ... }: let
+{ config, pkgs, lib, misc, ... }: 
+let
   username = "chloe";
   homeDirectory = "/home/${username}";
   myHomeManagerFlake = "${homeDirectory}/.dotfiles";
   mydotfiles = "${myHomeManagerFlake}/dotfiles";
-in {
-  # Home Manager needs a bit of information about you and the paths it should
-  # manage.
-  home.username = username;
-  home.homeDirectory = homeDirectory;
-  
-  # This value determines the Home Manager release that your configuration is
-  # compatible with. This helps avoid breakage when a new Home Manager release
-  # introduces backwards incompatible changes.
-  #
-  # You should not change this value, even if you update Home Manager. If you do
-  # want to update the value, then make sure to first check the Home Manager
-  # release notes.
-  home.stateVersion = "24.05"; # Please read the comment before changing
+in 
+{
 
-  #pkgs.config.allowUnfree = true;
+  programs.home-manager.enable = true;
+  fonts.fontconfig.enable = true; 
+  home.stateVersion = "24.05";
 
+  nixpkgs = {
+    # Configure your nixpkgs instance
+    config = {
+      # Disable if you don't want unfree packages
+      
+      allowUnfree = true;
+      # Workaround for https://github.com/nix-community/home-manager/issues/2942
+      allowUnfreePredicate = (_: true);
+      
+      
+    };
+  };
 
-  # The home.packages option allows you to install Nix packages into your
-  # environment.
-  home.packages = with pkgs; [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    # pkgs.hello
-    jetbrains.pycharm-community
-    librewolf
-    neofetch
-    #discord
-    bitwarden
-    obsidian
-    steam
-    libreoffice
-    firefox
-    thunderbird
-    vlc
-    nh
-    bat
-    devenv
-    direnv
-    eza
-    fish
-    git
-    gh
-    fjo
-    vscodium
-    lunarvim
-    rustup
-    pipx
-    fnm
-    gparted
-    gpu-screen-recorder
-    font-awesome
-    powerline-rs
-    powerline-fonts
-    powerline-symbols
-    nerdfonts
-    nerdfix
-    starship
-    taskwarrior3
-    tmsu
-    thefuck
-    nautilus
-    pcmanfm
-    qflipper
-#    kitty
-    syncthing
-    asciinema
-    ventoy-full
-    #nixgl
-#    alacritty
-    
-    # # It is sometimes useful to fine-tune packages, for example, by applying
-    # # overrides. You can do that directly here, just don't forget the
-    # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
-    # # fonts?
-    #(pkgs.alacritty.overrides { fonts = [ "FantasqueSansMono" ]; })
-  ];
-  # ++ import ./packages.nix { inherit pkgs; };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
@@ -131,7 +74,65 @@ in {
     VISUAL = "codium";
     PAGER = "bat";
   };
+  # packages are just installed (no configuration applied)
+  # programs are installed and configuration applied to dotfiles
+  home.packages = [
+    pkgs.asciinema
+    pkgs.bash
+    pkgs.bat
+    pkgs.bitwarden
+    pkgs.btop
+    pkgs.cheat
+    pkgs.devbox
+    pkgs.eza
+    pkgs.firefox
+    pkgs.fish
+    pkgs.fjo
+    pkgs.fnm
+    pkgs.font-awesome
+    pkgs.fzf
+    pkgs.gh
+    pkgs.git
+    pkgs.glab
+    pkgs.gparted
+    pkgs.gpu-screen-recorder
+    pkgs.helix
+    pkgs.htop
+    pkgs.jetbrains.pycharm-community
+    pkgs.jq
+    pkgs.just
+    pkgs.lazygit
+    pkgs.libreoffice
+    pkgs.librewolf
+    pkgs.lunarvim
+    pkgs.nautilus
+    pkgs.neofetch
+    pkgs.neovim
+    pkgs.nerdfix
+    pkgs.nerdfonts
+    pkgs.nh
+    pkgs.obsidian
+    pkgs.pipx
+    pkgs.powerline-fonts
+    pkgs.powerline-rs
+    pkgs.powerline-symbols
+    pkgs.qflipper
+    pkgs.ripgrep
+    pkgs.rustup
+    pkgs.starship
+    pkgs.steam
+    pkgs.syncthing
+    pkgs.taskwarrior3
+    pkgs.thefuck
+    pkgs.thunderbird
+    pkgs.tmsu
+    pkgs.ventoy-full
+    pkgs.vlc
+    pkgs.vscodium
+    pkgs.yq-go
+    pkgs.zsh
 
-  # Let Home Manager install and manage itself.
-  programs.home-manager.enable = true;
+    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+  ];
+
 }

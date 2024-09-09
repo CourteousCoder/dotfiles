@@ -1,8 +1,7 @@
 {
-
   description = "Home Manager configuration of chloe";
   inputs = {
-    # Specify the source of Home Manager and Nixpkgs.
+# Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -11,25 +10,36 @@
     nixgl.url = "github:nix-community/nixGL";
   };
 
-  outputs = { nixpkgs, home-manager, nixgl, ... }:
-    let
-      system = "x86_64-linux";
-      pkgs = import nixpkgs {
-        system = "${system}";
-        config.allowUnfree = true;
-        # nixGL overlay is required for opengl programs from nixpkgs to run on non-nixos linux
-        overlays = [ nixgl.overlay ];
-      };
-    in {
-      homeConfigurations."chloe" = home-manager.lib.homeManagerConfiguration {
+  outputs = { self, nixpkgs, home-manager, nixgl, ... }@inputs: { 
+      #   Available through 'home-manager --flake .#your-username@your-hostname'
+      homeConfigurations = let
+        system = "x86_64-linux";
+        pkgs = import nixpkgs {
+          system = "${system}";
+          # nixGL overlay is required for opengl programs from nixpkgs to run on non-nixos linux
+          overlays = [ nixgl.overlay ];
+        };
+      in {
+      inherit inputs pkgs;
+      "chloe@pop-os" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
+        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        modules = [
+          ./home.nix 
+          ./path.nix
+          ./shell.nix
+          ./user.nix
+          ./aliases.nix
+          ./programs.nix
+           # Host Specific configs
+          ./pop-os/chloe.nix
+          ./pop-os/custom.nix
 
-        # Specify your home configuration modules here, for example,
-        # the path to your home.nix.
-        modules = [ ./home.nix ];
+          { home.packages = []; }
+          { nixpkgs.overlays = pkgs.overlays; }
 
-        # Optionally use extraSpecialArgs
-        # to pass through arguments to home.nix
+        ];
       };
     };
+  };  
 }
