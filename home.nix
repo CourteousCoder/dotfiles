@@ -78,7 +78,7 @@ in
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     pkgs.asciinema
-    pkgs.bash
+    pkgs.bashInteractive
     pkgs.bat
     pkgs.bitwarden
     pkgs.btop
