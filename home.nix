@@ -50,7 +50,7 @@ in
     ".config/fish"
     ".config/starship.toml"
     ".gitignore"
-    ".gitconfig"
+    #".gitconfig"
   ]));
 
   # Home Manager can also manage your environment variables through

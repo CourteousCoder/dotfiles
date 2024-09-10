@@ -1,13 +1,16 @@
-{ pkgs, misc, ... }: {
-  # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
-    home.username = "chloe";
-    home.homeDirectory = "/home/chloe";
+{ pkgs, misc, ... }: let
+    username = "chloe";
+in   
+{
+    home.username = username;
+    home.homeDirectory = "/home/${username}";
     programs.git = {
         enable = true;
         aliases = {
             pushall = "!git remote | xargs -L1 git push --all";
             graph = "log --decorate --oneline --graph";
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
+            ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi";
         };
         userName = "Chloe Shetreet";
         userEmail = "CourteousCoder@gmail.com";

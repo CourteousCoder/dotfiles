@@ -21,6 +21,9 @@
         };
       in {
       inherit inputs pkgs;
+      
+      # TODO: reduce repeated code by recursing over each user of each hostname and user.
+      
       "chloe@pop-os" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
@@ -31,9 +34,31 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
+          
            # Host Specific configs
-          ./pop-os/chloe.nix
-          ./pop-os/custom.nix
+          ./hosts/pop-os/chloe.nix
+          ./hosts/pop-os/custom.nix
+
+          { home.packages = []; }
+          { nixpkgs.overlays = pkgs.overlays; }
+
+        ];
+      };
+      "chloe@ombre" = home-manager.lib.homeManagerConfiguration {
+        inherit pkgs;
+        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        modules = [
+          ./home.nix 
+          ./path.nix
+          ./shell.nix
+          ./user.nix
+          ./aliases.nix
+          ./programs.nix
+          
+          
+           # Host Specific configs
+          ./hosts/ombre/chloe.nix
+          ./hosts/ombre/custom.nix
 
           { home.packages = []; }
           { nixpkgs.overlays = pkgs.overlays; }
