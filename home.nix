@@ -49,9 +49,8 @@ in
     ".bin"
     ".config/fish"
     ".config/starship.toml"
-    ".config/git/ignore"
     ".gitignore"
-    #".gitconfig"
+    ".gitconfig"
   ]));
 
   # Home Manager can also manage your environment variables through
