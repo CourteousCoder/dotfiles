@@ -15,6 +15,5 @@
     "/usr/bin"
     "/sbin"
     "/bin"
-
  ];
 }

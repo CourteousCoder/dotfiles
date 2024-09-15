@@ -5,7 +5,7 @@ in
     home.username = username;
     home.homeDirectory = "/home/${username}";
     programs.git = {
-        enable = true;
+        enable = false;
         aliases = {
             pushall = "!git remote | xargs -L1 git push --all";
             graph = "log --decorate --oneline --graph";
