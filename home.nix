@@ -49,6 +49,7 @@ in
     ".bin"
     ".config/fish"
     ".config/starship.toml"
+    ".config/git/ignore"
     ".gitignore"
     #".gitconfig"
   ]));
