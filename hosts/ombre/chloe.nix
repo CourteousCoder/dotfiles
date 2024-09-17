@@ -20,13 +20,13 @@ in
             gpg.format = "ssh";
         };
 
-        signing = {
-            key = "~/.ssh/id_ed25519";
-            signByDefault = builtins.stringLength "~/.ssh/id_ed25519" > 0;
-        };
+        #signing = {
+        #    key = "~/.ssh/id_ed25519";
+        #    signByDefault = builtins.stringLength "~/.ssh/id_ed25519" > 0;
+        #};
 
         lfs.enable = true;
-        ignores = [ ".direnv" "result" ];
+        ignores = [ ".direnv" ".idea" ".env" ];
   };
   
 }
