@@ -1,1 +1,1 @@
-fish_add_path -g $HOME/.config/emacs/bin
+fish_add_path -U $HOME/.config/emacs/bin
