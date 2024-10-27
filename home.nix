@@ -78,12 +78,14 @@ in
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     pkgs.asciinema
+    pkgs.bash
     pkgs.bashInteractive
     pkgs.bat
     pkgs.bitwarden
     pkgs.btop
     pkgs.cheat
     pkgs.devbox
+    pkgs.emacs
     pkgs.eza
     pkgs.firefox
     pkgs.fish
@@ -98,13 +100,11 @@ in
     pkgs.gpu-screen-recorder
     pkgs.helix
     pkgs.htop
-    pkgs.jetbrains.pycharm-community
     pkgs.jq
     pkgs.just
     pkgs.lazygit
     pkgs.libreoffice
     pkgs.librewolf
-    pkgs.lunarvim
     pkgs.nautilus
     pkgs.neofetch
     pkgs.neovim
@@ -120,7 +120,6 @@ in
     pkgs.ripgrep
     pkgs.rustup
     pkgs.starship
-    pkgs.steam
     pkgs.syncthing
     pkgs.taskwarrior3
     pkgs.thefuck
