@@ -106,6 +106,7 @@ in
     pkgs.lazygit
     pkgs.libreoffice
     pkgs.librewolf
+    pkgs.mdcat
     pkgs.nautilus
     pkgs.neofetch
     pkgs.neovim
@@ -120,6 +121,7 @@ in
     pkgs.qflipper
     pkgs.ripgrep
     pkgs.rustup
+    pkgs.shellcheck
     pkgs.starship
     pkgs.syncthing
     pkgs.taskwarrior3
