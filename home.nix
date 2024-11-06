@@ -85,7 +85,6 @@ in
     pkgs.bitwarden
     pkgs.btop
     pkgs.cheat
-    pkgs.devbox
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -131,7 +130,6 @@ in
     pkgs.ventoy-full
     pkgs.vlc
     pkgs.vscodium
-    pkgs.yq-go
     pkgs.zsh
 
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
