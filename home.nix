@@ -85,6 +85,7 @@ in
     pkgs.bitwarden
     pkgs.btop
     pkgs.cheat
+    pkgs.distrobox
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
