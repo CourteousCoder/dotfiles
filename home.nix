@@ -86,7 +86,6 @@ in
     pkgs.btop
     pkgs.cheat
     pkgs.distrobox
-    pkgs.docker
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -99,7 +98,6 @@ in
     pkgs.git
     pkgs.glab
     pkgs.gparted
-    pkgs.gpu-screen-recorder
     pkgs.helix
     pkgs.htop
     pkgs.jq
@@ -115,7 +113,7 @@ in
     pkgs.nerdfonts
     pkgs.nh
     pkgs.obsidian
-    pkgs.pipx
+    pkgs.podman
     pkgs.powerline-fonts
     pkgs.powerline-rs
     pkgs.powerline-symbols
@@ -133,7 +131,7 @@ in
     pkgs.vlc
     pkgs.vscodium
     pkgs.zsh
-
+    pkgs.uv
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
 
