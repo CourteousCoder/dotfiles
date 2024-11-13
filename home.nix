@@ -85,7 +85,6 @@ in
     pkgs.bitwarden
     pkgs.btop
     pkgs.cheat
-    pkgs.distrobox
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -113,7 +112,6 @@ in
     pkgs.nerdfonts
     pkgs.nh
     pkgs.obsidian
-    pkgs.podman
     pkgs.powerline-fonts
     pkgs.powerline-rs
     pkgs.powerline-symbols
