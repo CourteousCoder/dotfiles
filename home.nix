@@ -86,6 +86,7 @@ in
     pkgs.btop
     pkgs.cheat
     pkgs.distrobox
+    pkgs.docker
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
