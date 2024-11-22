@@ -129,7 +129,6 @@ in
     pkgs.vlc
     pkgs.vscodium
     pkgs.zsh
-    pkgs.uv
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
 
