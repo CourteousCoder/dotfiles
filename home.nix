@@ -109,7 +109,7 @@ in
     pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
-    pkgs.nerdfonts
+    #pkgs.nerdfonts
     pkgs.nh
     pkgs.obsidian
     pkgs.powerline-fonts
@@ -129,7 +129,7 @@ in
     pkgs.vlc
     pkgs.vscodium
     pkgs.zsh
-    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+    #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
 
 }
