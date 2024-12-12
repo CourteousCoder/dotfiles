@@ -109,7 +109,7 @@ in
     pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
-    #pkgs.nerdfonts
+    pkgs.nerd-fonts.fira-code
     pkgs.nh
     pkgs.obsidian
     pkgs.powerline-fonts
