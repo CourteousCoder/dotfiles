@@ -134,6 +134,7 @@ in
     pkgs.ventoy-full
     pkgs.vlc
     pkgs.vscodium
+    pkgs.wofi
     pkgs.zsh
     #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
