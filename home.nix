@@ -50,6 +50,7 @@ in
     ".config/emacs"
     ".config/fish"
     ".config/starship.toml"
+    ".config/redshift"
     ".gitconfig"
     ".gitignore"
   ]));
