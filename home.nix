@@ -118,6 +118,7 @@ in
     pkgs.powerline-rs
     pkgs.powerline-symbols
     pkgs.qflipper
+    pkgs.redshift
     pkgs.ripgrep
     pkgs.rustup
     pkgs.shellcheck
