@@ -47,12 +47,13 @@ in
     # Thus, these symlinks point to targets outside of the nix store
     # and therefore both writable and tracked by this flake's version control
     ".bin"
-    ".config/emacs"
-    ".config/fish"
-    ".config/starship.toml"
-    ".config/redshift"
     ".gitconfig"
     ".gitignore"
+    ".config/distrobox"
+    ".config/emacs"
+    ".config/fish"
+    ".config/redshift"
+    ".config/starship.toml"
   ]));
 
   # Home Manager can also manage your environment variables through
