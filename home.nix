@@ -74,6 +74,7 @@ in
     EDITOR = "lvim";
     VISUAL = "codium";
     PAGER = "bat";
+    XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
   };
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
@@ -102,6 +103,7 @@ in
     pkgs.jq
     pkgs.just
     pkgs.lazygit
+    pkgs.legcord
     pkgs.libreoffice
     pkgs.librewolf
     pkgs.mdcat
@@ -125,6 +127,7 @@ in
     pkgs.thefuck
     pkgs.thunderbird
     pkgs.tmsu
+    pkgs.uutils-coreutils-noprefix
     pkgs.ventoy-full
     pkgs.vlc
     pkgs.vscodium
