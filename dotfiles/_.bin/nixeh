@@ -1,0 +1,22 @@
+#!/usr/bin/env -S nix --extra-experimental-features 'nix-command flakes' shell nixpkgs#bash nixpkgs#bash nixpkgs#uutils-coreutils-noprefix home-manager/master nixpkgs#nh nixpkgs#neovim --command bash
+
+set -e
+
+FALLBACK_EDITOR=neovim
+export EDITOR=${EDITOR:-FALLBACK_EDITOR}
+
+dotfiles=~/.dotfiles
+
+pushd "$dotfiles"
+
+home-manager edit
+git diff -U0 *.nix
+
+echo "Rebuilding Nix home manager..."
+nh home switch "$dotfiles" &>nh-home-switch.log || (
+  cat nh-home-switch.log | grep --color error && false)
+
+gen="$(home-manager generations | head -n 1)"
+git commit -am "$gen"
+
+popd
