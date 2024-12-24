@@ -87,7 +87,6 @@ in
     pkgs.bat
     pkgs.bitwarden
     pkgs.btop
-    pkgs.cheat
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -130,6 +129,7 @@ in
     pkgs.thefuck
     pkgs.thunderbird
     pkgs.tmsu
+    pkgs.ungoogled-chromium
     pkgs.uutils-coreutils-noprefix
     pkgs.ventoy-full
     pkgs.vlc
