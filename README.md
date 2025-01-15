@@ -1,6 +1,10 @@
 # Install
 ```sh
-git clone git@coderberg.org/CourteousCoder/dotfiles.git $HOME/.dotfiles
-cd $HOME/.dotfiles
+SOURCE="git@codeberg.org:CourteousCoder/dotfiles.git"
+DEST="$HOME/.dotfiles"
+
+git clone "$SOURCE" "$DEST"
+cd "$DEST"
 sh ./init.sh
 ```
+
