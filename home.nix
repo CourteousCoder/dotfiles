@@ -97,16 +97,17 @@ in
     pkgs.fzf
     pkgs.gh
     pkgs.git
+    pkgs.git-stack
     pkgs.glab
     pkgs.gparted
     pkgs.helix
     pkgs.htop
     pkgs.jq
+    pkgs.jujutsu
     pkgs.just
     pkgs.lazygit
     pkgs.legcord
     pkgs.libreoffice
-    pkgs.librewolf
     pkgs.mdcat
     pkgs.nautilus
     pkgs.neofetch
@@ -127,7 +128,6 @@ in
     pkgs.syncthing
     pkgs.taskwarrior3
     pkgs.thefuck
-    pkgs.thunderbird
     pkgs.tmsu
     pkgs.ungoogled-chromium
     pkgs.uutils-coreutils-noprefix
