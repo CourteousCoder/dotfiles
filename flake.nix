@@ -1,7 +1,7 @@
 {
   description = "Home Manager configuration of chloe";
   inputs = {
-# Specify the source of Home Manager and Nixpkgs.
+    # Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -11,7 +11,6 @@
   };
 
   outputs = { self, nixpkgs, home-manager, nixgl, ... }@inputs: { 
-      #   Available through 'home-manager --flake .#your-username@your-hostname'
       homeConfigurations = let
         system = "x86_64-linux";
         pkgs = import nixpkgs {
@@ -23,7 +22,7 @@
       inherit inputs pkgs;
       
       # TODO: reduce repeated code by recursing over each user of each hostname and user.
-      
+      #   Available through 'home-manager --flake .#your-username@your-hostname'      
       "chloe@qweenkpad" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config

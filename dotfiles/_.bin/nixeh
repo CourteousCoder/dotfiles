@@ -2,7 +2,7 @@
 
 set -e
 
-FALLBACK_EDITOR=neovim
+FALLBACK_EDITOR=nvim
 export EDITOR=${EDITOR:-FALLBACK_EDITOR}
 
 dotfiles=~/.dotfiles

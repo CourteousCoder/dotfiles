@@ -54,6 +54,7 @@ in
     ".config/fish"
     ".config/redshift"
     ".config/starship.toml"
+    ".local/lib"
   ]));
 
   # Home Manager can also manage your environment variables through
@@ -73,7 +74,7 @@ in
   #  /etc/profiles/per-user/chloe/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    EDITOR = "lvim";
+    EDITOR = "nvim";
     VISUAL = "codium";
     PAGER = "bat";
     XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
