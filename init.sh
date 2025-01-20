@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# Provides: check_cmd, ensure, err, need_cmd, runn, say
+. ./dotfiles/_.local/lib/script-utils/common.sh
+
 main() {
 	if ! check_cmd nix; then
 		say Installing nix
@@ -14,17 +17,17 @@ main() {
 	fi
 
 	need_cmd nix
-	
-	run_or_nix_run git pull  --all
-	run_or_nix_run home-manager switch --flake .
+
+	runn git pull --all
+	runn home-manager switch --flake .
 }
 
 install_nix_from() {
 	local _retval=true
-	local _installer=$( mktemp tmp_nix-installer_XXXX.sh )
+	local _installer=$(mktemp tmp_nix-installer_XXXX.sh)
 	ensure downloader --check
 
-	say "\t trying installer from $1" 
+	say "\t trying installer from $1"
 	downloader "$1" "$_installer" || _retval=false
 	chmod +x "$_installer"
 	"$_installer" install || _retval=false
@@ -32,6 +35,4 @@ install_nix_from() {
 	return "$_retval"
 }
 
-
-
-. ./dotfiles/_.local/lib/script-utils.sh
+main "$@"

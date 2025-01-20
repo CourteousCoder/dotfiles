@@ -3,14 +3,17 @@
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    
+    home-manager.url = "github:nix-community/home-manager";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
+
+    nix-index-database.url = "github:nix-community/nix-index-database";
+    nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
+
     nixgl.url = "github:nix-community/nixGL";
   };
 
-  outputs = { self, nixpkgs, home-manager, nixgl, ... }@inputs: { 
+  outputs = { self, nixpkgs, home-manager, nix-index-database, nixgl, ... }@inputs: { 
       homeConfigurations = let
         system = "x86_64-linux";
         pkgs = import nixpkgs {
@@ -34,6 +37,10 @@
           ./aliases.nix
           ./programs.nix
           
+           nix-index-database.hmModules.nix-index
+           # optional to also wrap and install comma
+           { programs.nix-index-database.comma.enable = true; }
+           
            # Host Specific configs
           ./hosts/qweenkpad/chloe.nix
           ./hosts/qweenkpad/custom.nix

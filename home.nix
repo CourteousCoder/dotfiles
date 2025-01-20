@@ -82,7 +82,8 @@ in
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
   home.packages = [
-    pkgs.asciinema
+    pkgs.alejandra
+    # pkgs.asciinema
     pkgs.bash
     pkgs.bashInteractive
     pkgs.bat
@@ -121,7 +122,7 @@ in
     pkgs.powerline-rs
     pkgs.powerline-symbols
     pkgs.qflipper
-    pkgs.redshift
+    # pkgs.redshift
     pkgs.ripgrep
     pkgs.rustup
     pkgs.shellcheck

@@ -5,6 +5,7 @@ SETUVAR FLAKE:/home/chloe/\x2edotfiles
 SETUVAR VISUAL:codium
 SETUVAR XDG_CONFIG_HOME:/home/chloe/\x2econfig
 SETUVAR __fish_initialized:3400
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
