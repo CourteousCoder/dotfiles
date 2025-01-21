@@ -1,12 +1,12 @@
-set -g SHELL (which fish)
+set -u SHELL (which fish)
 if status is-interactive
+	set -gx EDITOR nvim
 	    # Commands to run in interactive sessions can go here
-	command -v thefuck > /dev/null
+	command -q thefuck 
 	and thefuck --alias | source
-
-	command -v uv > /dev/null
+	command -q uv 
 	and uv generate-shell-completion fish | source
-	command -v uvx > /dev/null
+	command -q uvx 
 	and uvx --generate-shell-completion fish | source
 
 end
