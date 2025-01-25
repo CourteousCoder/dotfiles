@@ -7,6 +7,7 @@
 	ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi"
 [core]
 	excludesFile = /home/chloe/.gitignore
+	editor = nvim
 [credential "https://github.com"]
 	helper = !/home/chloe/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
