@@ -1,32 +1,13 @@
-# Plugin manager
-jorgebucaran/fisher
-
-# Shell prompt
 ilancosman/tide
-
-# Bash compatibility
 hunter-richardson/fish-bax
-
-# Notify when jobs are done
-franciscolourenco/done
-
-# Suggests abbreviations for commands you type, if they exist
 gazorby/fish-abbreviation-tips
-
-# Expands ... to ../.. , .... to ../../.. and so on like zsh-manydots-magic
-# Expands !! to the full previous command, like bash
-# Expands !$ to the last argument in previous command
-nickeb96/puffer-fish
-
-# Creates closing bracket,quote,etc for you when type the opening one.
 jorgebucaran/autopair.fish
-
-# sanitize history
 meaningful-ooo/sponge
-
 patrickf3139/colored-man-pages
 fishingline/safe-rm
 jorgebucaran/getopts.fish
 oh-my-fish/plugin-ssh
 brgmnn/fish-docker-compose
 evanlucas/fish-kubectl-completions
+#franciscolourenco/done
+nickeb96/expanddots
