@@ -75,7 +75,7 @@ in
   #
   home.sessionVariables = {
     EDITOR = "nvim";
-    VISUAL = "codium";
+    #VISUAL = "codium";
     PAGER = "bat";
     XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
   };
@@ -121,6 +121,8 @@ in
     pkgs.powerline-fonts
     pkgs.powerline-rs
     pkgs.powerline-symbols
+    pkgs.protonvpn-cli
+    pkgs.protonvpn-gui
     pkgs.qflipper
     # pkgs.redshift
     pkgs.ripgrep
@@ -128,6 +130,7 @@ in
     pkgs.shellcheck
     pkgs.starship
     pkgs.syncthing
+    pkgs.tailscale
     pkgs.taskwarrior3
     pkgs.thefuck
     pkgs.tmsu
@@ -136,6 +139,7 @@ in
     pkgs.ventoy-full
     pkgs.vlc
     pkgs.vscodium
+    pkgs.wireguard-tools
     pkgs.wofi
     pkgs.zsh
     #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
