@@ -10,7 +10,7 @@ check_dependencies() {
 	do
 		local is_found='no'
 		command -v "$cmd" > /dev/null && is_found='yes'
-		printf 'INFO: %-30s%s\n' "$cmd~" "~[$is_found]" | tr ' ~' '\t '
+		printf 'INFO: %-30s%s\n' "$cmd~" "~[$is_found]" | tr ' ~' '. '
 	done
 }
 
