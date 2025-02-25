@@ -5,12 +5,13 @@ set -e
 
 check_dependencies() {
 	echo "INFO: Checking dependencies..."
-	local commands=( 'bash' 'bat' 'cat' 'column' 'false' 'git' 'grep' 'head' 'home-manager' 'nh' 'nvim' "$EDITOR" "$PAGER" )
-	$(for cmd in "${commands[@]}"
+	local commands=( 'bash' 'bat' 'cat' 'column' 'false' 'git' 'grep' 'head' 'home-manager' 'nh' 'nvim' 'printf' \$EDITOR \$PAGER )
+	for cmd in "${commands[@]}"
 	do
-		echo -n "INFO: ${cmd}:|"
-		command -v "$cmd" > /dev/null && echo 'Available'
-	done) | column -ts '|'
+		local is_found='no'
+		command -v $cmd > /dev/null && is_found='yes'
+		column -ts $'\t' <(printf 'INFO: %s: %s' "$cmd" "$is_found")
+	done 
 }
 
 check_dependencies | column -ts '\t'
