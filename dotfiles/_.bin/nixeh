@@ -14,8 +14,7 @@ check_dependencies() {
 	done
 }
 
-check_dependencies | column -ts '\t'
- 
+check_dependencies 
 
 FALLBACK_EDITOR=nvim
 export EDITOR=${EDITOR:-$FALLBACK_EDITOR}
