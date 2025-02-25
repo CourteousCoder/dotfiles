@@ -1,9 +1,26 @@
-#!/usr/bin/env -S nix --extra-experimental-features 'nix-command flakes' shell nixpkgs#bash nixpkgs#bash nixpkgs#uutils-coreutils-noprefix home-manager/master nixpkgs#nh nixpkgs#neovim --command bash
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p bash bat git home-manager neovim nh util-linux
 
 set -e
 
+check_dependencies() {
+	echo "INFO: Checking dependencies..."
+	local commands=( 'bash' 'bat' 'cat' 'column' 'false' 'git' 'grep' 'head' 'home-manager' 'nh' 'nvim' "$EDITOR" "$PAGER" )
+	$(for cmd in "${commands[@]}"
+	do
+		echo -n "INFO: ${cmd}:|"
+		command -v "$cmd" > /dev/null && echo 'Available'
+	done) | column -ts '|'
+}
+
+check_dependencies | column -ts '\t'
+ 
+
 FALLBACK_EDITOR=nvim
-export EDITOR=${EDITOR:-FALLBACK_EDITOR}
+export EDITOR=${EDITOR:-$FALLBACK_EDITOR}
+
+FALLBACK_PAGER=bat
+export ${PAGER:-$FALLBACK_PAGER}
 
 dotfiles=~/.dotfiles
 

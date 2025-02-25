@@ -119,7 +119,7 @@ in
     pkgs.nh
     pkgs.obsidian
     pkgs.powerline-fonts
-    pkgs.powerline-rs
+    pkgs.powerline
     pkgs.powerline-symbols
     pkgs.protonvpn-cli
     pkgs.protonvpn-gui
