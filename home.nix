@@ -55,6 +55,7 @@ in {
           ".config/distrobox"
           ".config/emacs"
           ".config/fish"
+          ".config/hypr"
           ".config/redshift"
           ".config/starship.toml"
           ".local/lib"
