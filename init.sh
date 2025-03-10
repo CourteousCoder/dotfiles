@@ -2,10 +2,12 @@
 set -e
 
 this_script="$0"
-export FLAKE="$(dirname "$this_script")"
-export NIX_INSTALER_NO_CONFIRM="true"
-export NIX_INSTALLER_ENABLE_FLAKES="true"
+
+export FLAKE="$HOME/.dotfiles"
+export NIX_INSTALER_NO_CONFIRM=1
+export NIX_INSTALLER_ENABLE_FLAKES=1
 export NIX_INSTALLER_EXTRA_CONF='extra-trusted-users = "@wheel"'
+
 main() {
 	pushd "$FLAKE"
 
@@ -16,7 +18,7 @@ main() {
 	need_cmd nix git
 
 	git pull --all
-	nix --quiet run nixpkgs#comma -- home-manager switch --flake "${FLAKE}"
+	nix --quiet run nixpkgs#comma -- home-manager switch -b 'backup' --flake "${FLAKE}"
 	popd
 }
 

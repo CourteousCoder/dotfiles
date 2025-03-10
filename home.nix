@@ -45,20 +45,35 @@ in {
       # symlink from ~/${linkName} to ${mydotfiles}/_${linkName}.
       # The target path format is arbitrary and merely the convention I chose.
       lib.attrsets.mergeAttrsList (lib.lists.map (linkName: {
-          "${linkName}".source = config.lib.file.mkOutOfStoreSymlink "${mydotfiles}/_${linkName}";
+          "${linkName}".source = config.lib.file.mkOutOfStoreSymlink "${mydotfiles}/${linkName}";
         }) [
           # Thus, these symlinks point to targets outside of the nix store
           # and therefore both writable and tracked by this flake's version control
           ".bin"
-          ".gitconfig"
-          ".gitignore"
           ".config/distrobox"
+          ".config/dunst"
           ".config/emacs"
+          ".config/fastfetch"
           ".config/fish"
+          ".config/git"
+          ".config/gtk-3.0"
+          ".config/gtk-4.0"
           ".config/hypr"
+          ".config/ml4w"
+          ".config/nwg-dock-hyprland"
+          ".config/ohmyposh"
+          ".config/qt6ct"
           ".config/redshift"
+          ".config/rofi"
+          ".config/swaync"
           ".config/starship.toml"
+          ".config/vim"
+          ".config/wal"
+          ".config/waybar"
+          ".config/wlogout"
+          ".gtkrc-2.0"
           ".local/lib"
+          ".Xresources"
         ])
     );
 

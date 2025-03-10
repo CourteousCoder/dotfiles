@@ -1,0 +1,56 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p alejandra bash bashInteractive git home-manager neovim nh util-linux
+
+set -e
+
+_main() {
+	_set_env
+	_check_dependencies 
+
+	pushd "$FLAKE"
+
+	_edit_config
+	_rebuild_activate
+
+	popd
+}
+
+_set_env() {
+	local _default_flake="$HOME/.dotfiles"
+	local _fallback_editor=nvim
+	local _fallback_pager=less
+
+	export FLAKE="${FLAKE:-$_default_flake}"
+	export EDITOR="${EDITOR:-$_fallback_editor}"
+	export PAGER="${PAGER:-$_fallback_pager}"
+}
+
+_check_dependencies() {
+	echo "INFO: Checking dependencies..."
+	local _commands=( $EDITOR $PAGER 'alejandra' 'bash' 'less' 'cat' 'false' 'git' 'grep' 'head' 'home-manager' 'nh' 'nvim' 'printf' 'tr' )
+
+	for cmd in ${_commands[@]}
+	do
+		local _is_found='no'
+		command -v "$cmd" > /dev/null && _is_found='yes'
+		printf 'INFO: %-30s%s\n' "$cmd~" "~[$_is_found]" | tr ' ~' '. '
+	done
+}
+
+_edit_config() {
+	home-manager edit
+	git diff -U0 *.nix
+	alejandra "$PWD"
+}
+
+_rebuild_activate() {
+	echo "Rebuilding Nix home manager..."
+	nh home switch "$PWD" &>nh-home-switch.log || (cat nh-home-switch.log | grep --color error && false)
+
+	gen="$(home-manager generations | head -n 1)"
+	git commit -am "$gen"
+}
+
+_main "$@"
+
+
