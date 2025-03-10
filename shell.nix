@@ -1,10 +1,14 @@
-{ pkgs, misc, ... }: {
+{
+  pkgs,
+  misc,
+  ...
+}: {
   programs.eza.extraOptions = [
-   "--group-directories-first"
-   "--header"
+    "--group-directories-first"
+    "--header"
   ];
-      
+
   programs.bat.config = {
-      theme = "TwoDark";
+    theme = "TwoDark";
   };
 }

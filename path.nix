@@ -1,7 +1,11 @@
-{ pkgs, misc, ... }: {
-# Untested
- 
- home.sessionPath = [ 
+{
+  pkgs,
+  misc,
+  ...
+}: {
+  # Untested
+
+  home.sessionPath = [
     "$HOME/bin"
     "$HOME/.bin"
     "$HOME/.local/bin"
@@ -15,5 +19,5 @@
     "/usr/bin"
     "/sbin"
     "/bin"
- ];
+  ];
 }

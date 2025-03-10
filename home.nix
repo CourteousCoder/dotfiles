@@ -1,61 +1,65 @@
-{ config, pkgs, lib, misc, ... }: 
-let
+{
+  config,
+  pkgs,
+  unstable,
+  lib,
+  misc,
+  ...
+}: let
   username = "chloe";
   homeDirectory = "/home/${username}";
   myHomeManagerFlake = "${homeDirectory}/.dotfiles";
   mydotfiles = "${myHomeManagerFlake}/dotfiles";
-in 
-{
-
+in {
   programs.home-manager.enable = true;
-  fonts.fontconfig.enable = true; 
+  fonts.fontconfig.enable = true;
   home.stateVersion = "24.05";
 
   nixpkgs = {
     # Configure your nixpkgs instance
     config = {
       # Disable if you don't want unfree packages
-      
+
       allowUnfree = true;
       # Workaround for https://github.com/nix-community/home-manager/issues/2942
-      allowUnfreePredicate = (_: true);
-      
-      
+      allowUnfreePredicate = _: true;
     };
   };
 
-
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
-  home.file = {
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    ".config/home-manager".source = config.lib.file.mkOutOfStoreSymlink myHomeManagerFlake;
-    # # You can also set the file content immediately.
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
-  } // (
-    # This declares an attribute set that describes that each linkName is a
-    # symlink from ~/${linkName} to ${mydotfiles}/_${linkName}.
-    # The target path format is arbitrary and merely the convention I chose.
-    lib.attrsets.mergeAttrsList (lib.lists.map (linkName: { 
-      "${linkName}".source = config.lib.file.mkOutOfStoreSymlink "${mydotfiles}/_${linkName}";
-    }) [
-    # Thus, these symlinks point to targets outside of the nix store
-    # and therefore both writable and tracked by this flake's version control
-    ".bin"
-    ".gitconfig"
-    ".gitignore"
-    ".config/distrobox"
-    ".config/emacs"
-    ".config/fish"
-    ".config/redshift"
-    ".config/starship.toml"
-    ".local/lib"
-  ]));
+  home.file =
+    {
+      # # Building this configuration will create a copy of 'dotfiles/screenrc' in
+      # # the Nix store. Activating the configuration will then make '~/.screenrc' a
+      # # symlink to the Nix store copy.
+      ".config/home-manager".source = config.lib.file.mkOutOfStoreSymlink myHomeManagerFlake;
+      # # You can also set the file content immediately.
+      # ".gradle/gradle.properties".text = ''
+      #   org.gradle.console=verbose
+      #   org.gradle.daemon.idletimeout=3600000
+      # '';
+    }
+    // (
+      # This declares an attribute set that describes that each linkName is a
+      # symlink from ~/${linkName} to ${mydotfiles}/_${linkName}.
+      # The target path format is arbitrary and merely the convention I chose.
+      lib.attrsets.mergeAttrsList (lib.lists.map (linkName: {
+          "${linkName}".source = config.lib.file.mkOutOfStoreSymlink "${mydotfiles}/_${linkName}";
+        }) [
+          # Thus, these symlinks point to targets outside of the nix store
+          # and therefore both writable and tracked by this flake's version control
+          ".bin"
+          ".gitconfig"
+          ".gitignore"
+          ".config/distrobox"
+          ".config/emacs"
+          ".config/fish"
+          ".config/redshift"
+          ".config/starship.toml"
+          ".local/lib"
+        ])
+    );
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
@@ -89,11 +93,12 @@ in
     pkgs.bat
     pkgs.bitwarden
     pkgs.btop
+    pkgs.codeberg-cli
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
     pkgs.fish
-    pkgs.fjo
+    pkgs.forgejo
     pkgs.fnm
     pkgs.font-awesome
     pkgs.fzf
@@ -108,14 +113,14 @@ in
     pkgs.jujutsu
     pkgs.just
     pkgs.lazygit
-    pkgs.legcord
+    # unstable.legcord
     pkgs.libreoffice
     pkgs.mdcat
     pkgs.nautilus
     pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
-    pkgs.nerd-fonts.fira-code
+    # pkgs.nerd-fonts.fira-code
     pkgs.nh
     pkgs.obsidian
     pkgs.powerline-fonts
@@ -144,5 +149,4 @@ in
     pkgs.zsh
     #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
-
 }

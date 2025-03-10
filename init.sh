@@ -1,55 +1,48 @@
 #!/usr/bin/env bash
+set -e
 
 this_script="$0"
 export FLAKE="$(dirname "$this_script")"
-
+export NIX_INSTALER_NO_CONFIRM="true"
+export NIX_INSTALLER_ENABLE_FLAKES="true"
+export NIX_INSTALLER_EXTRA_CONF='extra-trusted-users = "@wheel"'
 main() {
 	pushd "$FLAKE"
 
 	if ! check_cmd nix; then
-		say Installing nix
-
-		# export NIX_INSTALLER_NO_CONFIRM=true
-		export NIX_INSTALLER_ENABLE_FLAKES="true"
-		export NIX_INSTALLER_EXTRA_CONF='extra-trusted-users = "@wheel"'
-
-		install_nix_from 'https://install.lix.systems/lix' ||
-			install_nix_from 'https://install.determinate.systems/nix' ||
-			err "Coult not install nix"
-
+		install_nix
 		. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
 	fi
-	need_cmd nix
+	need_cmd nix git
 
-	run git pull --all
-	run home-manager switch --flake
+	git pull --all
+	nix --quiet run nixpkgs#comma -- home-manager switch --flake "${FLAKE}"
 	popd
 }
 
-#runs a command if it's in path, otherwise run it from nixpkgs without installing it
-run() {
-	if [ check_cmd "$1" -o !check_cmd "nix" ]; then
-		# If the command exists in path,  or if we don't even have nix as a fallback, then just run it as-is
-		"$@"
-	else
-		# as a fallback, run the command from nixpkgs (via the comma flake) without installing it
-		nix --extra-experimental-features "nix-command flakes" --quiet run nixpkgs#comma -- "$@"
-	fi
-}
 
-
-install_nix_from() {
-	local _url="$1"
-	local _retval=true
-	local _installer=$(mktemp tmp_nix-installer_XXXX.sh)
+install_nix() {
+	say Installing nix
 	ensure download --check
 
-	say "\t trying installer from ${_url}"
-	downloader "$1" "$_installer" || _retval=false
+	local _installer=$(mktemp nix-installer_tmp-XXXX.sh)
+	say "	Fetching nix installer"
+
+	if download 'https://install.lix.systems/lix' "$_installer"
+	then 
+		say "	Running Lyx installer"
+	elif download 'https://install.determinate.systems/nix' "$_installer"
+	then 
+		say "	Running Determinate Systems installer"
+	else 
+		rm "$_installer"
+		err "	Could not download nix installer"
+		return 1
+	fi
+
 	chmod +x "$_installer"
-	"$_installer" install || _retval=false
-	rm "$_installer"
-	return "$_retval"
+	$(realpath $_installer) install
+	rm $_installer
 }
 
 
@@ -57,7 +50,7 @@ install_nix_from() {
 download() {
 	local _url="$1"
 	local _file="$2"
-	local _downloader=""
+	local _downloader=""/
 	if check_cmd curl; then
 		_downloader=curl
 	elif check_cmd wget; then
@@ -102,9 +95,6 @@ err() {
 say() {
 	printf "$0: %s\n" "$1"
 }
-
-
-
 
 
 main "$@"

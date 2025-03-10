@@ -1,3 +1,7 @@
-{ pkgs, misc, ... }: {
-# TODO:
+{
+  pkgs,
+  misc,
+  ...
+}: {
+  # TODO:
 }

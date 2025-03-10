@@ -1,7 +1,11 @@
-{ pkgs, misc, ... }: {
-   # Might be broken
+{
+  pkgs,
+  misc,
+  ...
+}: {
+  # Might be broken
 
-   home.shellAliases = {
+  home.shellAliases = {
     # bat --plain for unformatted cat
     catp = "bat -P";
     ls = "eza";
