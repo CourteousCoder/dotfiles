@@ -129,7 +129,7 @@ in {
     pkgs.jujutsu
     pkgs.just
     pkgs.lazygit
-    # unstable.legcord
+    pkgs.unstable.legcord
     pkgs.libreoffice
     pkgs.mdcat
     pkgs.nautilus
