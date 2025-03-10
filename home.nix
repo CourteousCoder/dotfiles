@@ -95,7 +95,7 @@ in {
   #
   home.sessionVariables = {
     EDITOR = "nvim";
-    #VISUAL = "codium";
+    VISUAL = "codium";
     PAGER = "bat";
     XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
   };
@@ -103,13 +103,14 @@ in {
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     pkgs.alejandra
-    # pkgs.asciinema
+    pkgs.asciinema
     pkgs.bash
     pkgs.bashInteractive
     pkgs.bat
     pkgs.bitwarden
     pkgs.btop
     pkgs.codeberg-cli
+    pkgs.elvish
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -136,8 +137,9 @@ in {
     pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
-    # pkgs.nerd-fonts.fira-code
+    pkgs.unstable.nerd-fonts.fira-code
     pkgs.nh
+    pkgs.nushell
     pkgs.obsidian
     pkgs.powerline-fonts
     pkgs.powerline
@@ -145,7 +147,7 @@ in {
     pkgs.protonvpn-cli
     pkgs.protonvpn-gui
     pkgs.qflipper
-    # pkgs.redshift
+    pkgs.redshift
     pkgs.ripgrep
     pkgs.rustup
     pkgs.shellcheck
@@ -162,6 +164,7 @@ in {
     pkgs.vscodium
     pkgs.wireguard-tools
     pkgs.wofi
+    pkgs.xonsh
     pkgs.zsh
     #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
