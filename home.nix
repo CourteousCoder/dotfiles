@@ -49,6 +49,7 @@ in {
         }) [
           # Thus, these symlinks point to targets outside of the nix store
           # and therefore both writable and tracked by this flake's version control
+          ".bashrc"
           ".bin"
           ".config/bashrc"
           ".config/distrobox"
@@ -82,6 +83,7 @@ in {
           ".gtkrc-2.0"
           ".local/lib"
           ".Xresources"
+          ".zshrc"
         ])
     );
 
