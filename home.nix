@@ -8,7 +8,8 @@
 }: let
   username = "chloe";
   homeDirectory = "/home/${username}";
-  myHomeManagerFlake = "${homeDirectory}/.dotfiles";
+  #myHomeManagerFlake = "${homeDirectory}/.dotfiles";
+  myHomeManagerFlake = "${homeDirectory}/.config/home-manager";
   mydotfiles = "${myHomeManagerFlake}/dotfiles";
 in {
   programs.home-manager.enable = true;
@@ -49,7 +50,8 @@ in {
         }) [
           # Thus, these symlinks point to targets outside of the nix store
           # and therefore both writable and tracked by this flake's version control
-          ".bashrc"
+          /*
+            ".bashrc"
           ".bin"
           ".config/bashrc"
           ".config/distrobox"
@@ -84,6 +86,7 @@ in {
           ".local/lib"
           ".Xresources"
           ".zshrc"
+          */
         ])
     );
 
@@ -118,9 +121,9 @@ in {
     pkgs.bashInteractive
     pkgs.bat
     pkgs.bitwarden
+    pkgs.brave
     pkgs.btop
     pkgs.codeberg-cli
-    pkgs.elvish
     pkgs.emacs
     pkgs.eza
     pkgs.firefox
@@ -134,32 +137,25 @@ in {
     pkgs.git-stack
     pkgs.glab
     pkgs.gparted
-    pkgs.helix
     pkgs.htop
-    pkgs.jq
-    pkgs.jujutsu
-    pkgs.just
     pkgs.lazygit
     pkgs.unstable.legcord
     pkgs.libreoffice
+    pkgs.librewolf
     pkgs.mdcat
-    pkgs.nautilus
     pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
     pkgs.unstable.nerd-fonts.fira-code
     pkgs.nh
-    pkgs.nushell
     pkgs.obsidian
     pkgs.powerline-fonts
     pkgs.powerline
     pkgs.powerline-symbols
-    pkgs.protonvpn-cli
-    pkgs.protonvpn-gui
     pkgs.qflipper
-    pkgs.redshift
+    #pkgs.redshift
     pkgs.ripgrep
-    pkgs.rustup
+    #pkgs.rustup
     pkgs.shellcheck
     pkgs.starship
     pkgs.syncthing
@@ -175,6 +171,7 @@ in {
     pkgs.wireguard-tools
     pkgs.wofi
     pkgs.xonsh
+    pkgs.yazi
     pkgs.zsh
     #(pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];

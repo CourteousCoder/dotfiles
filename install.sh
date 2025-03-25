@@ -17,20 +17,20 @@ main() {
 	pushd "$FLAKE"
 
 	if ! check_cmd nix; then
-		
+
 		# If installation exists but is broken, uninstall to perform a fresh reinstall
-		if ! [ -x /nix/nix-installer ] && /nix/nix-installer repair && /nix/nix-installer self-check ; then
+		if ! [ -x /nix/nix-installer ] && /nix/nix-installer repair && /nix/nix-installer self-check; then
 			/nix/nix-installer uninstall
 		fi
-		
+
 		# If no installation is present, make sure it gets installed
 		if ! [ -x /nix/nix-installer ]; then
-			ensure install_nix	
+			ensure install_nix
 		fi
 
 		. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
 	fi
-	
+
 	# Exit with an error if nix is still an unavailable command.
 	need_cmd nix git
 
@@ -42,8 +42,7 @@ main() {
 }
 
 build_home_manager() {
-	nix --quiet run nixpkgs#comma -- home-manager switch -b 'backup' --flake "${FLAKE}"  && return
-	rm -r $HOME/.local/state/{nix/profiles/home-manager*,home-manager/gcroots/current-home}
+	#	rm -r $HOME/.local/state/home-manager/gcroots/current-home $HOME/.local/state/nix/profiles/home-manager*
 	nix --quiet run nixpkgs#comma -- home-manager switch -b 'backup' --flake "${FLAKE}"
 }
 
@@ -54,13 +53,11 @@ install_nix() {
 	local _installer=$(mktemp nix-installer_tmp-XXXX.sh)
 	say "	Fetching nix installer"
 
-	if download 'https://install.lix.systems/lix' "$_installer"
-	then 
+	if download 'https://install.lix.systems/lix' "$_installer"; then
 		say "	Downloaded Lyx installer"
-	elif download 'https://install.determinate.systems/nix' "$_installer"
-	then 
+	elif download 'https://install.determinate.systems/nix' "$_installer"; then
 		say "	Downloaded Determinate Systems installer"
-	else 
+	else
 		rm "$_installer"
 		err "	Could not download nix installer"
 		return 1
@@ -71,8 +68,7 @@ install_nix() {
 
 	ensure chmod +x "$_installer"
 
-	if [ ! -f "$NIX_INSTALLER_PLAN" ]
-	then
+	if [ ! -f "$NIX_INSTALLER_PLAN" ]; then
 		warn "Installer plan not found. Creating new installer plan for $nix_installer_base_plan-based systems: $NIX_INSTALLER_PLAN"
 
 		mkdir -p "$(dirname $NIX_INSTALLER_PLAN)"
@@ -87,7 +83,6 @@ install_nix() {
 	ensure "$_installer" install "$NIX_INSTALLER_PLAN"
 	rm "$_installer"
 }
-
 
 download() {
 	local _url="$1"
@@ -143,6 +138,5 @@ warn() {
 say() {
 	printf "$0: %s\n" "$1"
 }
-
 
 main "$@"
