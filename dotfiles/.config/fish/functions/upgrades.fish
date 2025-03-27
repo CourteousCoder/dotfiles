@@ -1,32 +1,36 @@
+#!/usr/bin/env fish
 function upgrades --description 'Perform a full upgrade of all packages managers'
-    if which nix
-        set --local fish_trace on
-        set --local dotfiles (realpath $FLAKE)
-        nix flake check $dotfiles
-        and nix run nixpkgs#nh -- home switch --update $dotfiles
+    set -l FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
+    sudo printf Authenticated for sudo
 
-        nix run nixpkgs#git -- -C $dotfiles diff --quiet $dotfiles/flake.lock
-        or begin
-            true
-            and nix run nixpkgs#git -- -C $dotfiles add flake.lock
-            and nix run nixpkgs#git -- -C $dotfiles commit -m (nix run nixpkgs#home-manager -- generations | head -n 1)
-            and nix run nixpkgs#git -- -C $dotfiles push
-        end
+    if command -q apt
+        sudoize apt
+        apt update -y
+        and apt full-upgrade -y $argv
+        apt autoremove -y
     end
 
-    if which flatpak
+    if command -q dnf
+        sudoize dnf
+        dnf check-update
+        and dnf upgrade
+        dnf autoremove
+    end
+
+    if command -q yay
+        yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm $argv
+    end
+
+    if command -q nix
+        upgrade-nhm
+    end
+
+    if command -q flatpak
         flatpak update $argv
         sudo flatpak update $argv
     end
 
-    if which apt
-        sudo apt update -y
-        and sudo apt upgrade -y $argv
-
-        sudo apt autoremove
-    end
-
-    if which pop-upgrade
+    if command -q pop-upgrade
         pop-upgrade status | grep -q inactive
         and pop-upgrade recovery check
         # and pop-upgrade release check
@@ -34,5 +38,7 @@ function upgrades --description 'Perform a full upgrade of all packages managers
         and pop-upgrade cancel
         #and pop-upgrade release; upgrade
     end
-    
+
 end
+
+

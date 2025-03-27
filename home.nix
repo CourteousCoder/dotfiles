@@ -26,7 +26,6 @@ in {
       allowUnfreePredicate = _: true;
     };
   };
-
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file =
@@ -50,46 +49,47 @@ in {
         }) [
           # Thus, these symlinks point to targets outside of the nix store
           # and therefore both writable and tracked by this flake's version control
+
           /*
             ".bashrc"
-          ".bin"
-          ".config/bashrc"
-          ".config/distrobox"
-          ".config/dunst"
-          ".config/emacs"
-          ".config/fastfetch"
-          ".config/fish"
-          ".config/git"
-          ".config/gtk-3.0"
-          ".config/gtk-4.0"
-          ".config/hypr"
-          ".config/kitty"
-          ".config/ml4w"
-          ".config/nvim"
-          ".config/nwg-dock-hyprland"
-          ".config/ohmyposh"
-          ".config/qt6ct"
-          ".config/redshift"
-          ".config/rofi"
-          ".config/starship.toml"
-          ".config/swaync"
-          ".config/vim"
-          ".config/wal"
-          ".config/waybar"
-          ".config/waypaper"
-          ".config/wlogout"
-          ".config/xonsh"
-          ".config/xsettingsd"
-          ".config/zshrc"
-          ".elvish"
-          ".gtkrc-2.0"
-          ".local/lib"
-          ".Xresources"
-          ".zshrc"
+            ".bin"
+            ".config/bashrc"
+            ".config/distrobox"
+            ".config/dunst"
+            ".config/emacs"
+            ".config/fastfetch"
+            ".config/fish"
+            ".config/git"
+            ".config/gtk-3.0"
+            ".config/gtk-4.0"
+            ".config/hypr"
+            ".config/kitty"
+            ".config/ml4w"
+            ".config/nvim"
+            ".config/nwg-dock-hyprland"
+            ".config/ohmyposh"
+            ".config/qt6ct"
+            ".config/redshift"
+            ".config/rofi"
+            ".config/starship.toml"
+            ".config/swaync"
+            ".config/vim"
+            ".config/wal"
+            ".config/waybar"
+            ".config/waypaper"
+            ".config/wlogout"
+            ".config/xonsh"
+            ".config/xsettingsd"
+            ".config/zshrc"
+            ".elvish"
+            ".gtkrc-2.0"
+            ".local/lib"
+            ".Xresources"
+            ".zshrc"
+          /*
           */
         ])
     );
-
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
   # shell provided by Home Manager. If you don't want to manage your shell
