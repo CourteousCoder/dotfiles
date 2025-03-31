@@ -141,7 +141,7 @@ in {
     pkgs.lazygit
     pkgs.unstable.legcord
     pkgs.libreoffice
-    pkgs.librewolf
+    pkgs.librewolf-bin
     pkgs.mdcat
     pkgs.neofetch
     pkgs.neovim
