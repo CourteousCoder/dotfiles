@@ -1,56 +1,29 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p alejandra bash bashInteractive git home-manager neovim nh util-linux
+#!nix-shell -i fish -p fish
 
-set -e
+function nix_edit_home
+    set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
 
-_main() {
-	_set_env
-	_check_dependencies 
+    set -q FLAKE;  or set -lx FLAKE "$HOME/.dotfiles"
+    set -q PAGER;  or set -lx PAGER bat
+    set -q EDITOR; or set -lx EDITOR nvim
+    
 
-	pushd "$FLAKE"
+    home-manager edit --flake "$FLAKE" 
+    alejandra "$FLAKE"
 
-	_edit_config
-	_rebuild_activate
+    # returns 0 if no diff detected
+    git -C (realpath "$FLAKE") diff -U0 *.nix
+    # nothing more to do so exit succes
+    and return 0
 
-	popd
-}
+    # changes detected, so we update
+    nixup
+    and return 0
+    
+    # if we get here then the upgrad must have failed.
+    grep --color error "$FLAKE/nh-home-switch.log"
+    return 1
+end
 
-_set_env() {
-	local _default_flake="$HOME/.dotfiles"
-	local _fallback_editor=nvim
-	local _fallback_pager=less
-
-	export FLAKE="${FLAKE:-$_default_flake}"
-	export EDITOR="${EDITOR:-$_fallback_editor}"
-	export PAGER="${PAGER:-$_fallback_pager}"
-}
-
-_check_dependencies() {
-	echo "INFO: Checking dependencies..."
-	local _commands=( $EDITOR $PAGER 'alejandra' 'bash' 'less' 'cat' 'false' 'git' 'grep' 'head' 'home-manager' 'nh' 'nvim' 'printf' 'tr' )
-
-	for cmd in ${_commands[@]}
-	do
-		local _is_found='no'
-		command -v "$cmd" > /dev/null && _is_found='yes'
-		printf 'INFO: %-30s%s\n' "$cmd~" "~[$_is_found]" | tr ' ~' '. '
-	done
-}
-
-_edit_config() {
-	home-manager edit
-	git diff -U0 *.nix
-	alejandra "$PWD"
-}
-
-_rebuild_activate() {
-	echo "Rebuilding Nix home manager..."
-	nh home switch "$PWD" &>nh-home-switch.log || (cat nh-home-switch.log | grep --color error && false)
-
-	gen="$(home-manager generations | head -n 1)"
-	git commit -am "$gen"
-}
-
-_main "$@"
-
-
+nix_edit_home $argv

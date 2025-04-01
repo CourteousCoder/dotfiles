@@ -110,6 +110,7 @@ in {
     EDITOR = "nvim";
     VISUAL = "codium";
     PAGER = "bat";
+    DIFFTOOL = "delta";
     XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
   };
   # packages are just installed (no configuration applied)
@@ -123,7 +124,9 @@ in {
     pkgs.bitwarden
     pkgs.brave
     pkgs.btop
+    pkgs.chezmoi
     pkgs.codeberg-cli
+    pkgs.delta
     pkgs.emacs
     pkgs.eza
     pkgs.firefox-bin
@@ -143,7 +146,6 @@ in {
     pkgs.libreoffice
     pkgs.librewolf-bin
     pkgs.mdcat
-    pkgs.neofetch
     pkgs.neovim
     pkgs.nerdfix
     pkgs.unstable.nerd-fonts.fira-code
