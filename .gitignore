@@ -1,1 +1,4 @@
 /*.log
+/dotfiles/.ssh
+# Include public keys
+!/dotfiles/.ssh/*.pub
