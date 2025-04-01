@@ -126,7 +126,7 @@ in {
     pkgs.codeberg-cli
     pkgs.emacs
     pkgs.eza
-    pkgs.firefox
+    pkgs.firefox-bin
     pkgs.fish
     pkgs.forgejo
     pkgs.fnm

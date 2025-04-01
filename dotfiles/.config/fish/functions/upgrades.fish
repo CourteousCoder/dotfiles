@@ -1,7 +1,12 @@
 #!/usr/bin/env fish
 function upgrades --description 'Perform a full upgrade of all packages managers'
-    set -l FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
     sudo printf Authenticated for sudo
+
+    # HACK: my tmpfs on /tmp keeps running out of memory and i don't feel like repartitioning.
+    set -lx TMPDIR /var/tmp
+    sudo mount --bind /var/tmp /tmp
+    and set -l mounted_tmp_status $status
+    
 
     if command -q apt
         sudoize apt
@@ -22,7 +27,7 @@ function upgrades --description 'Perform a full upgrade of all packages managers
     end
 
     if command -q nix
-        upgrade-nhm
+        nixup
     end
 
     if command -q flatpak
@@ -39,6 +44,8 @@ function upgrades --description 'Perform a full upgrade of all packages managers
         #and pop-upgrade release; upgrade
     end
 
+    test $mountetd_tmp_status
+    and sudo umount /var/tmp /tmp
 end
 
 
