@@ -165,7 +165,7 @@ in {
     pkgs.taskwarrior3
     pkgs.thefuck
     pkgs.tmsu
-    pkgs.ungoogled-chromium
+    pkgs.ungoogled-chromium-bin
     pkgs.uutils-coreutils-noprefix
     pkgs.ventoy-full
     pkgs.vlc
