@@ -4,9 +4,9 @@
 function nix_edit_home
     set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
 
-    set -q FLAKE;  or set -lx FLAKE "$HOME/.dotfiles"
-    set -q PAGER;  or set -lx PAGER bat
-    set -q EDITOR; or set -lx EDITOR nvim
+    set -gq FLAKE;  or set -lx FLAKE "~/.config/home-manager"
+    set -gq PAGER;  or set -lx PAGER bat
+    set -gq EDITOR; or set -lx EDITOR nvim
     
 
     home-manager edit --flake "$FLAKE" 
