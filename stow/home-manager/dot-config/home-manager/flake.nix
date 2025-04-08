@@ -54,6 +54,7 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
+          ./packages.nix
 
           nix-index-database.hmModules.nix-index
           # optional to also wrap and install comma
@@ -77,6 +78,7 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
+          ./packages.nix
 
           # Host Specific configs
           ./hosts/ombre/chloe.nix
