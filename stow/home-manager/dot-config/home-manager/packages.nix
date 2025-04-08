@@ -1,4 +1,5 @@
-[
+{pkgs, ...}:
+with pkgs; [
   # Unstable nixpkgs branch
   unstable.legcord
   unstable.nerd-fonts.fira-code
