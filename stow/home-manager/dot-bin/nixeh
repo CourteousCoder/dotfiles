@@ -12,10 +12,8 @@ function nix_edit_home
     home-manager edit --flake "$FLAKE" 
     alejandra "$FLAKE"
 
-    # returns 0 if no diff detected
-    git -C (realpath "$FLAKE") diff -U0 *.nix
-    # nothing more to do so exit succes
-    and return 0
+    cd (realpath "$FLAKE")
+    git diff -U0 *.nix
 
     # changes detected, so we update
     nixup
