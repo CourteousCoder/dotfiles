@@ -1,9 +1,5 @@
-{
-  pkgs,
-  unstable,
-  ...
-}: let
-  unstablePkgs = with unstable; [
+{pkgs, ...}: let
+  unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
     legcord
     nerd-fonts.fira-code
