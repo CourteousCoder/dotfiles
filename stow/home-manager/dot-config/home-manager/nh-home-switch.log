@@ -1,17 +1,14 @@
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-homelwhNwP/result
-Version changes:
-[C.]  #1  electron            33.4.8, 34.4.1 x2 -> 33.4.8, 34.4.1, 34.5.0
-[C.]  #2  electron-unwrapped  33.4.8, 34.4.1 x2 -> 33.4.8, 34.4.1, 34.5.0
-[U.]  #3  nix                 2.24.13, 2.24.13-man -> 2.24.14, 2.24.14-man
-Closure size: 1123 -> 1123 (11 paths added, 11 paths removed, delta +0, disk usage +47.3KiB).
+>>> /tmp/nh-homeJJej79/result
+No version or selection state changes.
+Closure size: 1123 -> 1123 (0 paths added, 0 paths removed, delta +0, disk usage +0B).
 Starting Home Manager activation
 Activating checkFilesChanged
 Activating checkLinkTargets
 Activating writeBoundary
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-Creating profile generation 9
+No change so reusing latest profile generation 9
 Creating home file links in /home/chloe
 Activating batCache
 No themes were found in '/home/chloe/.config/bat/themes', using the default set
