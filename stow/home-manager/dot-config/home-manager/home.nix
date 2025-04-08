@@ -54,5 +54,5 @@ in {
   };
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
-  home.packages = with pkgs; import "${myHomeManagerFlake}/packages.nix";
+  home.packages = with pkgs; import "packages.nix";
 }
