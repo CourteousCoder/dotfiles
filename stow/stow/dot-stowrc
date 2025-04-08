@@ -1,0 +1,3 @@
+--dir ~/.dotfiles/stow
+--target ~
+--dotfiles
