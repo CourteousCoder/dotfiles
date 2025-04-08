@@ -1,0 +1,7 @@
+[user]
+name = "Chloe Shetreet"
+email = "CourteousCoder@gmail.com"
+
+[ui]
+editor = "nvim"
+default-command = "log"
