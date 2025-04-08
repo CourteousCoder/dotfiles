@@ -52,7 +52,4 @@ in {
     DIFFTOOL = "delta";
     XDG_DATA_DIRS = "${homeDirectory}:$XDG_DATA_DIRS";
   };
-  # packages are just installed (no configuration applied)
-  # programs are installed and configuration applied to dotfiles
-  home.packages = with pkgs; import "./packages.nix";
 }
