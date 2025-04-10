@@ -1,13 +1,13 @@
 #!/usr/bin/env sh
 
-REMOTE_URL="${DOTFILES_REMOTE_URL:-'ssh://git@codeberg.org/CourteousCoder/dotfiles.git'}" main() {
-DOTFILES_LOCAL="~/.dotfiles"
-
-
+REMOTE_URL='git@codeberg.org/CourteousCoder/dotfiles.git'
+DOTFILES_LOCAL="$HOME/.dotfiles"
 
 main() {
+    echo $REMOTE_REPO $DOTFILES_LOCAL
     get_repo "$REMOTE_REPO" "$DOTFILES_LOCAL"
     cd $DOTFILES_LOCAL
+    
 
     run_cmd just setup
     run_cmd just update
@@ -22,16 +22,20 @@ install_nix() {
 get_repo() {
     local _remote="$1"
     local _local="$2"
-    #export TIMESTAMP="$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns')"
-
-    if ! [ -d "$_local" ]; then
+    if [ -d "$_local" ]; then
         echo "Already have $_local"
-    elif run_cmd git clone "$_remote" "$_local"; then
+        return
+    fi
+    export local _timestamp="$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns')"
+    export local _tmp="$(mktemp -d)"
+
+    if run_cmd git clone "$_remote" "$_tmp"; then
+        mv "$_tmp" "$_local"
         echo "Cloned $_local from $_remote"
     else
         # cleanup incomplete state
-        mkdir -p "$_local"
-        rm -rf "$_local"
+        mkdir -p "$_tmp"
+        rm -rf "$_tmp"
 
         # Restore backup
         mv "$_backup_at" "$_local"

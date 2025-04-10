@@ -1,7 +1,7 @@
 default:
     #!/usr/bin/env sh
     cd stow
-    just stow -S *
+    just stow -R *
 
 setup: default chemacs update
 
@@ -21,9 +21,8 @@ chemacs:
         url='https://github.com/plexus/chemacs2.git'
         pkg=chemacs
         dir="dot-config/emacs"
-        just                                                \
-            (get_contents_from_git "$url" "$pkg" "$dir")    \
-            (stow -R *emacs)                       \
+        just get_contents_from_git "$url" "$pkg" "$dir"    \
+            stow -R *emacs                                \
         ;
     fi
 
