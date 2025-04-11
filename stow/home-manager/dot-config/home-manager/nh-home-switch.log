@@ -1,0 +1,56 @@
+<<< /home/chloe/.local/state/nix/profiles/home-manager
+>>> /tmp/nh-homeiUTcmq/result
+Version changes:
+[C.]  #1  electron                       33.4.8, 34.4.1, 34.5.0 -> 33.4.8, 34.5.0 x2
+[C.]  #2  electron-unwrapped             33.4.8, 34.4.1, 34.5.0 -> 33.4.8, 34.5.0 x2
+[U.]  #3  firefox-bin                    137.0 -> 137.0.1
+[U.]  #4  firefox-release-bin-unwrapped  137.0 -> 137.0.1
+Added packages:
+[A.]  #1  libnatpmp     20230423
+[A.]  #2  miniupnpc     2.2.8
+[A.]  #3  transmission  3.00
+Removed packages:
+[R.]  #01  7zz                         24.09
+[R.]  #02  chafa                       1.14.5
+[R.]  #03  djvulibre                   3.5.28
+[R.]  #04  fd                          10.2.0
+[R.]  #05  ffmpegthumbnailer-unstable  2024-01-04
+[R.]  #06  fftw-double                 3.3.10
+[R.]  #07  gperftools                  2.15
+[R.]  #08  imagemagick                 7.1.1-45
+[R.]  #09  jemalloc                    5.3.0
+[R.]  #10  libheif                     1.18.2
+[R.]  #11  libjxl                      0.11.1
+[R.]  #12  liblqr                      1-0.4.2
+[R.]  #13  libraw                      0.21.3-lib
+[R.]  #14  poppler-utils               24.02.0
+[R.]  #15  potrace                     1.16
+[R.]  #16  yazi                        0.3.3 x2
+Closure size: 1123 -> 1109 (16 paths added, 30 paths removed, delta -14, disk usage -69.4MiB).
+Starting Home Manager activation
+Activating checkFilesChanged
+Activating checkLinkTargets
+Activating writeBoundary
+Activating linkGeneration
+Cleaning up orphan links from /home/chloe
+Creating profile generation 11
+Creating home file links in /home/chloe
+Activating batCache
+No themes were found in '/home/chloe/.config/bat/themes', using the default set
+No syntaxes were found in '/home/chloe/.config/bat/syntaxes', using the default set.
+Writing theme set to /home/chloe/.cache/bat/themes.bin ... okay
+Writing syntax set to /home/chloe/.cache/bat/syntaxes.bin ... okay
+Writing metadata to folder /home/chloe/.cache/bat ... okay
+Activating installPackages
+Activating onFilesChange
+Activating reloadSystemd
+The user systemd session is degraded:
+  UNIT                        LOAD   ACTIVE SUB    DESCRIPTION
+● app-picom@autostart.service loaded failed failed Picom
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+1 loaded units listed.
+Attempting to reload services anyway...

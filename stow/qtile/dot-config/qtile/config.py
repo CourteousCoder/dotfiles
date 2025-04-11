@@ -28,6 +28,8 @@ from libqtile import bar, layout, qtile, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+from libqtile.widget.battery import thunderbolt_smart_charge
+
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -157,11 +159,18 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
+
                 widget.TextBox("default config", name="default"),
                 widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
+                widget.Volume()
+                widget.PulseVolume()
+                widget.Bluetooth()
+                widget.BatteryIcon()
+                widget.Battery(charge_controller=(thunderbold_smart_charge))
+                widget.Backlight()
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 widget.StatusNotifier(),
-                #widget.Systray(),
+                widget.Systray(),
                 widget.Clock(format="%Y-%m-%d %a %H:%M %p"),
                 widget.QuickExit(),
             ],

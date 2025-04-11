@@ -52,13 +52,13 @@
     taskwarrior3
     thefuck
     tmsu
+    transmission
     ventoy-full
     vlc
     vscodium
     wireguard-tools
     wofi
     xonsh
-    yazi
     zsh
     #(nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
