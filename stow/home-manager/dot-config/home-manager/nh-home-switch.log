@@ -1,14 +1,14 @@
 <<< /home/chloe/.local/state/nix/profiles/home-manager
->>> /tmp/nh-homeLN3oPn/result
+>>> /tmp/nh-homeYcJLxg/result
 No version or selection state changes.
-Closure size: 1109 -> 1109 (7 paths added, 7 paths removed, delta +0, disk usage +0B).
+Closure size: 1109 -> 1109 (10 paths added, 10 paths removed, delta +0, disk usage +254.7KiB).
 Starting Home Manager activation
 Activating checkFilesChanged
 Activating checkLinkTargets
 Activating writeBoundary
 Activating linkGeneration
 Cleaning up orphan links from /home/chloe
-Creating profile generation 12
+Creating profile generation 13
 Creating home file links in /home/chloe
 Activating batCache
 No themes were found in '/home/chloe/.config/bat/themes', using the default set

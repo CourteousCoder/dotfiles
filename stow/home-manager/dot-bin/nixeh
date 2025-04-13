@@ -9,7 +9,7 @@ function nix_edit_home
     set -gq EDITOR; or set -lx EDITOR nvim
     
 
-    home-manager edit --flake "$FLAKE/packages.nix" 
+    "$EDITOR" "$FLAKE/packages.nix" 
     alejandra "$FLAKE"
 
     cd (realpath "$FLAKE")
