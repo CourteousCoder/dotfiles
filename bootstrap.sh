@@ -9,26 +9,26 @@ _SUCCESS="false"
 
 main() {
     echo Bootstrapping $REMOTE_REPO to $DOTFILES_LOCAL
-    get_repo "$REMOTE_REPO" "$DOTFILES_LOCAL"
+    get_repo
     cd $DOTFILES_LOCAL
     run_cmd just setup
     run_cmd just update
     _SUCCESS="true"
 }
 
-set_up() {
-    trap clean_up EXIT INT HUP
+initialize() {
+    trap cleanup EXIT INT HUP
     _TEMP_WORKDIR="$(mktemp -d)"
 
     if [ -d "$DOTFILES_LOCAL" ]; then
         echo "Already have $DOTFILES_LOCAL"
         _BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup"
         echo "Making a backup of  $DOTFILES_LOCAL at $_BACKUP_AT"
-        cp -ap --reflink=auto "$DOTFILES_LOCAL" "_$BACKUP_AT"
+        cp -ap --reflink=auto "$DOTFILES_LOCAL" "$_$BACKUP_AT"
     fi
 }
 
-tear_down() {
+cleanup() {
     if [ -d "$_TEMP_WORKDIR" ]; then
         echo deleting temporary files
         rm -rf $_TEMP_WORKDIR
@@ -57,11 +57,9 @@ install_nix() {
 }
 
 get_repo() {
-    local _remote="$1"
-    local _local="$2"
-
-    if run_cmd git clone "$_remote" "$_tmp"; then
-        mv "$_tmp" "$_local"
+    initialize
+    if run_cmd git clone "$REMOTE_REPO" "$_TEMP_WORKDIR"; then
+        mv "$_TEMP_WORKDIR" "$DOTFILES_LOCAL"
         echo "Cloned $_local from $_remote"
     else
         # cleanup incomplete state
