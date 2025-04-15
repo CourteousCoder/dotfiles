@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-REMOTE_URL='git@codeberg.org/CourteousCoder/dotfiles.git'
+REMOTE_REPO='git@codeberg.org/CourteousCoder/dotfiles.git'
 DOTFILES_LOCAL="$HOME/.dotfiles"
 
 _TEMP_WORKDIR=
