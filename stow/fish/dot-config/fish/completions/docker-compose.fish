@@ -1,1 +1,0 @@
-../../../.dotfiles/stow/docker/dot-config/fish/completions/docker-compose.fish
