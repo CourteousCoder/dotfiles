@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-REMOTE_REPO='git@codeberg.org/CourteousCoder/dotfiles.git'
+REMOTE_REPO='git@codeberg.org:CourteousCoder/dotfiles.git'
 DOTFILES_LOCAL="$HOME/.dotfiles"
 
 _BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup";
