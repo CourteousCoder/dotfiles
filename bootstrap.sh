@@ -3,50 +3,60 @@
 REMOTE_REPO='git@codeberg.org/CourteousCoder/dotfiles.git'
 DOTFILES_LOCAL="$HOME/.dotfiles"
 
-_TEMP_WORKDIR=
-_BACKUP_AT=
-_SUCCESS="false"
+_BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup";
+_TEMP_WORKDIR="$(mktemp -dt 'dot-dotfiles-XXXX')"
+_EXIT_CODE=1
 
 main() {
     echo Bootstrapping $REMOTE_REPO to $DOTFILES_LOCAL
+    initialize
     get_repo
-    cd $DOTFILES_LOCAL
+    pushd $DOTFILES_LOCAL > /dev/null
+    _EXIT_CODE=0
     run_cmd just setup
     run_cmd just update
-    _SUCCESS="true"
+    popd > /dev/null
 }
 
 initialize() {
+    set -e
     trap cleanup EXIT INT HUP
-    _TEMP_WORKDIR="$(mktemp -d)"
+    pushd $HOME > /dev/null
 
     if [ -d "$DOTFILES_LOCAL" ]; then
         echo "Already have $DOTFILES_LOCAL"
-        _BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup"
         echo "Making a backup of  $DOTFILES_LOCAL at $_BACKUP_AT"
-        cp -ap --reflink=auto "$DOTFILES_LOCAL" "$_$BACKUP_AT"
+        cp -rap --reflink=auto "$DOTFILES_LOCAL" "$_BACKUP_AT"
     fi
 }
 
 cleanup() {
     if [ -d "$_TEMP_WORKDIR" ]; then
         echo deleting temporary files
-        rm -rf $_TEMP_WORKDIR
+        rm -rf "$_TEMP_WORKDIR"
     fi
 
     # reset trap EXIT so that tear_down is not called again if more than one signal was trapped.
     trap - EXIT
+    popd > /dev/null
 
-    if [ "${_SUCCESS:-false}" -eq "true" ]; then   
-        exit 0
+    if [ "$_EXIT_CODE" -eq '0' -a -d "$_BACKUP_AT" ]; then
+        echo "Success. Dotfiles successfully initialized in $DOTFILES_LOCAL"
+        echo "Pre-existing $DOTFILES_LOCAL has been backed up to $_BACKUP_AT"
+    elif [ "$_EXIT_CODE" -eq '0' ]; then
+        echo "Dotfile ssuccessfully initialized in $DOTFILES_LOCAL"
     elif [ -d "$_BACKUP_AT" ]; then
-        echo restoring backup
-        mkdir -p $DOTFILES_LOCAL
-        rm -rf $DOTFILES_LOCAL
-        cp -ap --reflink=auto  $_BACKUP_AT $DOTFILES_LOCAL
+        echo 'Error encountered. Restoring from backup.' > /dev/stderr
+        mkdir -p "$DOTFILES_LOCAL"
+        rm -rf "$DOTFILES_LOCAL"
+        echo Copying "$_BACKUP_AT" back to "$DOTFILES_LOCAL" > /dev/stderr
+        cp -rap --reflink=auto  "$_BACKUP_AT" "$DOTFILES_LOCAL" && rm -rf "$_BACKUP_AT"
+    else
+        echo Error encountered. Exiting... > /dev/sdterr
     fi
 
-    exit 1
+    set +e
+    exit $_EXIT_CODE
 }
 
 
@@ -57,19 +67,13 @@ install_nix() {
 }
 
 get_repo() {
-    initialize
     if run_cmd git clone "$REMOTE_REPO" "$_TEMP_WORKDIR"; then
-        mv "$_TEMP_WORKDIR" "$DOTFILES_LOCAL"
-        echo "Cloned $_local from $_remote"
+        mkdir -p "$DOTFILES_LOCAL"
+        rm -rf "$DOTFILES_LOCAL"
+        cp -rap --reflink=auto "$_TEMP_WORKDIR" "$DOTFILES_LOCAL"
+        echo "Cloned $REMOTE_REPO to $DOTFILES_LOCAL"
     else
-        # cleanup incomplete state
-        mkdir -p "$_tmp"
-        rm -rf "$_tmp"
-`
-        # Restore backup
-        mv "$_backup_at" "$_local"
-        
-        echo Failed to clone remote "$_remote" to local "$_local" > /dev/stderr
+        echo Failed to clone remote "$REMOTE_REPO" to local "$DOTFILES_LOCAL" > /dev/stderr
         exit 1
     fi
 }
@@ -87,5 +91,4 @@ run_cmd() {
         return
     fi
 }
-
 main "$@"
