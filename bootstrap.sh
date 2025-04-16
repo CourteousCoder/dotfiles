@@ -12,9 +12,7 @@ main() {
     initialize
     get_repo
     pushd $DOTFILES_LOCAL > /dev/null
-    run_cmd just setup
-    run_cmd just update
-    _EXIT_CODE=0
+    run_cmd just setup && _EXIT_CODE=0
     popd > /dev/null
 }
 
@@ -28,6 +26,8 @@ initialize() {
         echo "Making a backup of  $DOTFILES_LOCAL at $_BACKUP_AT"
         cp -rap --reflink=auto "$DOTFILES_LOCAL" "$_BACKUP_AT"
     fi
+
+    install_nix
 }
 
 cleanup() {
@@ -91,4 +91,5 @@ run_cmd() {
         return
     fi
 }
+
 main "$@"
