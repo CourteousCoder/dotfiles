@@ -25,7 +25,7 @@ stow +PACKAGES:
     stow --dotfiles --dir {{DOTFILES}}/stow --target ~ --adopt {{PACKAGES}}
 
 
-chemacs:
+chemacs: update
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
     #!nix-shell -p bash emacs just

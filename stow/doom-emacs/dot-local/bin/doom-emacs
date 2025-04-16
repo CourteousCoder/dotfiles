@@ -1,11 +1,14 @@
-#!/usr/bin/env sh
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash
+#!nix-shell -p doom-emacs emacs git
+
 # Just a shim to install and run doom-emacs via chemacs2 
 
 _install_dir=$HOME/.local/share/doom-emacs
 
-if ! [ -d "$_install_dir/.git" -a -e "$_install_dir/init.el" -a -x "$_install_dir/bin/doom" ]; then
-    git clone https://github.com/syl20bnr/spacemacs "$_install_dir"
-    "$_install_dir/bin/doom" install
-fi
+#TODO Fix this it's broken
+#if ! [ -d "$_install_dir/.git" -a -e "$_install_dir/init.el" -a -x "$_install_dir/bin/doom" ]; then
+#    "$_install_dir/bin/doom" install
+#fi
 
 echo emacs --with-profile "((user-emacs-directory . \"$_insall_dir\"))"
