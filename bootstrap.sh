@@ -65,7 +65,7 @@ get_repo() {
         # cleanup incomplete state
         mkdir -p "$_tmp"
         rm -rf "$_tmp"
-
+`
         # Restore backup
         mv "$_backup_at" "$_local"
         
