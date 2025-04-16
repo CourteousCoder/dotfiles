@@ -1,12 +1,10 @@
 # dotfiles
 
-This my little automation of setting up my environment, using gnu stow for symlinking config files and nix home-manager for installing per-user packages.
+This my little automation of setting up my environment.
 
-Originlly it was using just home-manager, which I had configured to setup symlinks similarly to how gnu stow does, but I found more flexibility having home-manager depend on stow than the other way around.
+Originlly it was using just home-manager for everthing. Trying out a gnu stow for config files instead. I still use my nix home-manager flake for per-user package management.
 
-This is just a fun little tinkering project for myself. There are probably way better ways of handling this, and that's okay with me. If you _really_ want to contribute or share your opinion, go ahead and create an issue. I always welcome opportunities to improve!
-
-## Intall
+## Install
 
 ### Recklessly
 
@@ -33,3 +31,11 @@ Then inspect the script before you run it:
 "$DEST/bootstrap.sh"
 ```
 
+## Contributing
+
+This is just a fun little tinkering project for myself. There are probably way better ways of handling this, and that's okay with me.
+
+If you _really_ want to contribute or share your opinion, go ahead and create an issue. I always welcome opportunities to improve!
+
+## License
+[MIT License](LICENSE)
