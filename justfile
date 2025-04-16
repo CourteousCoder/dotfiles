@@ -1,12 +1,11 @@
 default:
-    #!/usr/bin/env sh
     cd stow
-    just stow -R *
+    just stow -R --adopt * 
 
 setup: default chemacs update
 
 update: 
-    just stow -R home-manager fish git neovim
+    just stow -R --adoot home-manager fish git neovim
     fish -c 'pkgup'
 
 stow +PACKAGES:
