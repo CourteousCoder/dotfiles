@@ -4,7 +4,7 @@ REMOTE_REPO='git@codeberg.org:CourteousCoder/dotfiles.git'
 DOTFILES_LOCAL="$HOME/.dotfiles"
 
 _BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup";
-_TEMP_WORKDIR="$(mktemp -dt 'dot-dotfiles-XXXX')"
+_TEMP_WORKDIR="$(mktemp -dt 'dot-dotfiles-XXXXX')"
 _EXIT_CODE=1
 
 main() {
@@ -12,9 +12,9 @@ main() {
     initialize
     get_repo
     pushd $DOTFILES_LOCAL > /dev/null
-    _EXIT_CODE=0
     run_cmd just setup
     run_cmd just update
+    _EXIT_CODE=0
     popd > /dev/null
 }
 
