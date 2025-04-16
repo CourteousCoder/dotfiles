@@ -61,7 +61,7 @@ cleanup() {
 
 
 install_nix() {
-    export NIX_INSTALLER_NO_CONFIRM=1
+    export NIX_INSTALLER_NO_CONFIRM=true
     export NIX_INSTALLER_EXTRA_CONF='trusted-users = "@wheel"'
     command -v nix || curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 }
