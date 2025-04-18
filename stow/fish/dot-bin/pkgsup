@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 # FIXME: HACK: my tmpfs on /tmp keeps running out of memory and I don't feel like repartitionings
-set -lx TMPDIR /var/tmp
+#set -lx TMPDIR /var/tmp
 
 function pkgsup --description 'Perform a full upgrade of all packages managers'
     sudo printf Authenticated for sudo

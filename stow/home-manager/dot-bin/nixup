@@ -3,7 +3,6 @@
 #!nix-shell -p fish git nh home-manager
 
 #set -lx TMPDIR $TMPDIR
-set -gx TMPDIR /var/tmp/
 
 function nixup
     set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
@@ -25,5 +24,3 @@ function nixup
 end
 
 nixup $argv
-echo $TMPDIR
-rmdir (mktemp -d)
