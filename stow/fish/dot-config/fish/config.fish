@@ -40,8 +40,4 @@ if status is-interactive
     abbr --add --position command -- lla 'eza --long --all'
     abbr --add --position command -- tree 'eza --tree'
 
-    thefuck --alias | source
-    uv --generate-shell-completion fish | source
-    uvx --generate-shell-completion fish | source
-
 end

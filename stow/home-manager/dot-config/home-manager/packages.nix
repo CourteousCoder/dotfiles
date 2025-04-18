@@ -52,7 +52,7 @@
     taskwarrior3
     thefuck
     tmsu
-    transmission4
+    #transmission4
     ventoy-full
     vlc
     vscodium
