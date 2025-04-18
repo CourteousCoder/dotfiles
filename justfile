@@ -15,7 +15,7 @@ update:
     #!nix-shell -p bash fish git home-manager just neovim nh
     cd {{DOTFILES}}/stow
     just stow -R  bash fish git gnustow home-manager neovim
-    fish -c 'nixup'
+    fish -c 'pkgsup'
 
 stow +PACKAGES:
     #!/usr/bin/env nix-shell
