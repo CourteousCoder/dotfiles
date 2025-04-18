@@ -1,21 +1,24 @@
 DOTFILES := '~/.dotfiles'
 
-default: update
+default:
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
     #!nix-shell -p bash just
     cd {{DOTFILES}}/stow
     just stow -R *
 
-setup: update chemacs default 
-
-update: 
+setup: default
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
-    #!nix-shell -p bash fish git home-manager just neovim nh
+    #!nix-shell -p bash just
     cd {{DOTFILES}}/stow
-    just stow -R  bash fish git gnustow home-manager neovim
-    fish -c 'pkgsup'
+    just stow -S  fish git gnustow home-manager neovim
+    just update
+    #just chemacs
+
+update: default
+    ~/.bin/pkgsup
+
 
 stow +PACKAGES:
     #!/usr/bin/env nix-shell
@@ -25,7 +28,7 @@ stow +PACKAGES:
     stow --dotfiles --dir {{DOTFILES}}/stow --target ~ --adopt {{PACKAGES}}
 
 
-chemacs: update
+chemacs:
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
     #!nix-shell -p bash emacs just
