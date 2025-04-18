@@ -3,7 +3,6 @@
     # Unstable nixpkgs branch
     font-awesome
     legcord
-    #obsidian
     nerd-fonts.fira-code
     nerdfix
     nh
@@ -13,35 +12,36 @@
   ];
   stablePkgs = with pkgs; [
     alejandra
-    #asciinema
-    #bash
-    #bashInteractive
-    #bat
+    asciinema
+    bash
+    bashInteractive
+    bat
     #bitwarden
-    #brave
+    brave
     #btop
-    #@chezmoi
+    #chezmoi
     codeberg-cli
     comma
-    #delta
+    delta
     emacs
     eza
     firefox-bin
-    #fish
+    fish
     #forgejo
     fnm
     fzf
-    #gh
-    #git
+    gh
+    git
     git-stack
     #glab
     gparted
     #htop
     lazygit
-    libreoffice
+    libreoffice-bin
     librewolf-bin
     #mdcat
     neovim
+    obsidian
     #qflipper
     #redshift
     ripgrep
@@ -50,17 +50,17 @@
     starship
     syncthing
     tailscale
-    #taskwarrior3
-    #thefuck
-    #tmsu
-    #transmission4
-    #ventoy-full
-    #vlc
-    #vscodium
-    #wireguard-tools
-    #wofi
-    #xonsh
-    #zsh
+    taskwarrior3
+    thefuck
+    tmsu
+    transmission4
+    ventoy-full
+    vlc
+    vscodium
+    wireguard-tools
+    wofi
+    xonsh
+    zsh
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
