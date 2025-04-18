@@ -6,21 +6,22 @@
   ];
   stablePkgs = with pkgs; [
     alejandra
-    asciinema
+    #asciinema
     bash
     bashInteractive
     bat
-    bitwarden
+    #bitwarden
     brave
-    btop
-    chezmoi
+    #btop
+    #@chezmoi
     codeberg-cli
+    comma
     delta
     emacs
     eza
     firefox-bin
     fish
-    forgejo
+    #forgejo
     fnm
     font-awesome
     fzf
@@ -29,11 +30,11 @@
     git-stack
     glab
     gparted
-    htop
+    #htop
     lazygit
     libreoffice
     librewolf-bin
-    mdcat
+    #mdcat
     neovim
     nerdfix
     nh
@@ -41,7 +42,7 @@
     powerline-fonts
     powerline
     powerline-symbols
-    qflipper
+    #qflipper
     #redshift
     ripgrep
     #rustup
@@ -58,7 +59,7 @@
     vscodium
     wireguard-tools
     wofi
-    xonsh
+    #xonsh
     zsh
     #(nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
