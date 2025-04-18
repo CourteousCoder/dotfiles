@@ -5,7 +5,7 @@
     legcord
     #obsidian
     nerd-fonts.fira-code
-    nerdfdix
+    nerdfix
     nh
     powerline
     powerline-fonts
