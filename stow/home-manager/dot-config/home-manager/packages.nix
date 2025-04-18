@@ -9,6 +9,7 @@
     powerline
     powerline-fonts
     powerline-symbols
+    transmission4
   ];
   stablePkgs = with pkgs; [
     alejandra
@@ -53,7 +54,6 @@
     taskwarrior3
     thefuck
     tmsu
-    transmission4
     ventoy-full
     vlc
     vscodium
