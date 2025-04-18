@@ -38,7 +38,7 @@
     gparted
     #htop
     lazygit
-    libreoffice-bin
+    #libreoffice
     librewolf-bin
     #mdcat
     neovim
