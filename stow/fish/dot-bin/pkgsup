@@ -1,17 +1,18 @@
 #!/usr/bin/env fish
-function pkgup --description 'Perform a full upgrade of all packages managers'
-    set -l FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
+
+# FIXME: HACK: my tmpfs on /tmp keeps running out of memory and I don't feel like repartitionings
+set -lx TMPDIR /var/tmp
+
+function pkgsup --description 'Perform a full upgrade of all packages managers'
     sudo printf Authenticated for sudo
-    
-    # TODO:  Consider returning early after the first match, but only if $argv is given
-    # 
+
     if command -q apt
         sudoize apt
         apt update -y
         and apt full-upgrade -y $argv
         apt autoremove -y
-    end 
-    
+    end
+
     if command -q dnf
         sudoize dnf
         dnf check-update
@@ -20,7 +21,7 @@ function pkgup --description 'Perform a full upgrade of all packages managers'
     end
 
     if command -q yay
-        yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm
+        yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm $argv
     end
 
     if command -q nix
@@ -33,7 +34,7 @@ function pkgup --description 'Perform a full upgrade of all packages managers'
     end
 
     if command -q pop-upgrade
-        pop-upgrade status | grep -q inactive
+        pop-upgrade status | grecp -q inactive
         and pop-upgrade recovery check
         # and pop-upgrade release check
         and pop-upgrade release update
@@ -43,4 +44,4 @@ function pkgup --description 'Perform a full upgrade of all packages managers'
 
 end
 
-
+pkgsup $argv
