@@ -1,34 +1,40 @@
 {pkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
+    font-awesome
     legcord
+    #obsidian
     nerd-fonts.fira-code
+    nerdfdix
+    nh
+    powerline
+    powerline-fonts
+    powerline-symbols
   ];
   stablePkgs = with pkgs; [
     alejandra
     #asciinema
-    bash
-    bashInteractive
-    bat
+    #bash
+    #bashInteractive
+    #bat
     #bitwarden
-    brave
+    #brave
     #btop
     #@chezmoi
     codeberg-cli
     comma
-    delta
+    #delta
     emacs
     eza
     firefox-bin
-    fish
+    #fish
     #forgejo
     fnm
-    font-awesome
     fzf
-    gh
-    git
+    #gh
+    #git
     git-stack
-    glab
+    #glab
     gparted
     #htop
     lazygit
@@ -36,12 +42,6 @@
     librewolf-bin
     #mdcat
     neovim
-    nerdfix
-    nh
-    obsidian
-    powerline-fonts
-    powerline
-    powerline-symbols
     #qflipper
     #redshift
     ripgrep
@@ -50,18 +50,17 @@
     starship
     syncthing
     tailscale
-    taskwarrior3
-    thefuck
-    tmsu
+    #taskwarrior3
+    #thefuck
+    #tmsu
     #transmission4
-    ventoy-full
-    vlc
-    vscodium
-    wireguard-tools
-    wofi
+    #ventoy-full
+    #vlc
+    #vscodium
+    #wireguard-tools
+    #wofi
     #xonsh
-    zsh
-    #(nerdfonts.override { fonts = [ "FiraCode" ]; })
+    #zsh
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
