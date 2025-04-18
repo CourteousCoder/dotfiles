@@ -9,7 +9,6 @@
     powerline
     powerline-fonts
     powerline-symbols
-    transmission4
   ];
   stablePkgs = with pkgs; [
     alejandra
@@ -24,6 +23,7 @@
     codeberg-cli
     comma
     delta
+    deluge
     emacs
     eza
     firefox-bin
