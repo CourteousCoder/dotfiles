@@ -1,13 +1,26 @@
 Starting Home Manager activation
-The previous generation number and path are in conflict! These
-must be either both empty or both set but are now set to
+Activating checkFilesChanged
+Activating checkLinkTargets
+Activating writeBoundary
+Activating linkGeneration
+Creating profile generation 1
+Creating home file links in /home/chloe
+Activating batCache
+No themes were found in '/home/chloe/.config/bat/themes', using the default set
+No syntaxes were found in '/home/chloe/.config/bat/syntaxes', using the default set.
+Writing theme set to /home/chloe/.cache/bat/themes.bin ... okay
+Writing syntax set to /home/chloe/.cache/bat/syntaxes.bin ... okay
+Writing metadata to folder /home/chloe/.cache/bat ... okay
+Activating installPackages
+Activating onFilesChange
+Activating reloadSystemd
+The user systemd session is degraded:
+  UNIT                        LOAD   ACTIVE SUB    DESCRIPTION
+● app-picom@autostart.service loaded failed failed Picom
 
-    '13' and ''
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
 
-If you don't mind losing previous profile generations then
-the easiest solution is probably to run
-
-   rm /home/chloe/.local/state/nix/profiles/home-manager*
-   rm /home/chloe/.local/state/home-manager/gcroots/current-home
-
-and trying home-manager switch again. Good luck!
+1 loaded units listed.
+Attempting to reload services anyway...
