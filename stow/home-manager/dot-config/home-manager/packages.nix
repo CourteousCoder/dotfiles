@@ -7,7 +7,6 @@
     nerd-fonts.hack
     nerd-fonts.monoid
     nerd-fonts.noto
-    nerd-fonts.source-code-pro
     nerdfix
     noto-fonts-color-emoji
     nh
