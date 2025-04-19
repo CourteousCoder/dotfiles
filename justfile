@@ -17,7 +17,12 @@ setup: default
     #just chemacs
 
 update: default
-    env EDITOR=cat ~/.bin/nixeh
+    #!/usr/bin/env nix-shell
+    #!nix-shell -i fish
+    #!nix-shell -p fish
+    set -gx PAGER cat
+    set -gx EDITOR cat
+    env ~/.bin/nixeh
 
 
 stow +PACKAGES:

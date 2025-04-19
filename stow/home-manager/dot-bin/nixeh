@@ -3,7 +3,7 @@
 #!nix-shell -p alejandra bat fish git home-manager nh neovim
 
 function nix_edit_home
-    set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
+    #set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
 
     set -gq FLAKE;  or set -lx FLAKE "~/.config/home-manager"
     set -gq PAGER;  or set -lx PAGER bat
@@ -20,7 +20,7 @@ function nix_edit_home
     nixup
     and return 0
     
-    # if we get here then the upgrad must have failed.
+    # if we get here then the upgrade must have failed.
     grep --color error "$FLAKE/nh-home-switch.log"
     return 1
 end
