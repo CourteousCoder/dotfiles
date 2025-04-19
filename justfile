@@ -22,7 +22,8 @@ update: default
     #!nix-shell -p fish
     set -gx PAGER cat
     set -gx EDITOR cat
-    env ~/.bin/nixeh
+    exec ~/.bin/nixeh
+    
 
 
 stow +PACKAGES:
