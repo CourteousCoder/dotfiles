@@ -29,6 +29,7 @@
     deluge
     emacs
     eza
+    fd
     firefox-bin
     fish
     #forgejo
