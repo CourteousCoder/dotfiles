@@ -1,4 +1,4 @@
-gpkgs, ...}: let
+{pkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
     font-awesome
