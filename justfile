@@ -22,7 +22,7 @@ update: default
     #!nix-shell -p fish
     set -gx PAGER cat
     set -gx EDITOR cat
-    exec ~/.bin/nixeh
+    source ~/.bin/nixeh
     
 
 
