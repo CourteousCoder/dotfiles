@@ -58,6 +58,7 @@
     vlc
     vscodium
     wireguard-tools
+    wl-clipboard-rs
     wofi
     #    xonsh
     zsh
