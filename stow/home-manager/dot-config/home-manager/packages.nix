@@ -1,10 +1,15 @@
-{pkgs, ...}: let
+gpkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
     font-awesome
     legcord
     nerd-fonts.fira-code
+    nerd-fonts.hack
+    nerd-fonts.monoid
+    nerd-fonts.noto
+    nerd-fonts.source-code-pro
     nerdfix
+    noto-fonts-color-emoji
     nh
     powerline
     powerline-fonts
@@ -30,10 +35,12 @@
     #forgejo
     fnm
     fzf
+    gcc
     gh
     git
     git-stack
     #glab
+    gnumake
     gparted
     #htop
     lazygit
@@ -47,13 +54,14 @@
     ripgrep
     #rustup
     shellcheck
-    signal
+    signal-desktop
     starship
     syncthing
     tailscale
     taskwarrior3
     thefuck
     tmsu
+    unzrip
     ventoy-full
     vlc
     vscodium
