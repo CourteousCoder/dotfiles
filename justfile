@@ -17,7 +17,7 @@ setup: default
     #just chemacs
 
 update: default
-    ~/.bin/pkgsup
+    ~/.bin/nixup
 
 
 stow +PACKAGES:
