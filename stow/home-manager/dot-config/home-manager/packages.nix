@@ -47,6 +47,7 @@
     ripgrep
     #rustup
     shellcheck
+    signal
     starship
     syncthing
     tailscale
