@@ -8,5 +8,5 @@ and fnm env                         \
   --shell fish                      \
   | source
 and test -d ~/.cargo/bin
-and fish_add_path -mgx ~/.cargo.bin
+and fish_add_path -gm ~/.cargo.bin
 
