@@ -7,4 +7,6 @@ and fnm env                         \
   --resolve-engines                 \
   --shell fish                      \
   | source
+and test -d ~/.cargo/bin
+and fish_add_path -mgx ~/.cargo.bin
 

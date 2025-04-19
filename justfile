@@ -49,7 +49,7 @@ chemacs:
     # dependency the contents into this files. The downside is it impure
     emacs_version="$(emacs --version)"
     [ "$(doom-emacs --version)" -eq "$emacs_version" ]
-    [ $(spacemacs --version) -eq (emacs --version) ]
+    [ "$(spacemacs --version)" -eq "$emacs_version" ]
 
 
 # Download just the contents of a git repo without keeping a clone of the version-controlled repo itself

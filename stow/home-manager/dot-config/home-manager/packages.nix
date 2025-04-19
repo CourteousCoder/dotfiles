@@ -59,9 +59,11 @@
     vscodium
     wireguard-tools
     wofi
-    xonsh
+    #    xonsh
     zsh
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
 }
+#just chemacs
+
