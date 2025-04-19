@@ -21,7 +21,6 @@
     #btop
     #chezmoi
     codeberg-cli
-    comma
     delta
     deluge
     emacs

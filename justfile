@@ -17,7 +17,7 @@ setup: default
     #just chemacs
 
 update: default
-    ~/.bin/nixup
+    env EDITOR=cat ~/.bin/nixeh
 
 
 stow +PACKAGES:

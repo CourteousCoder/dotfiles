@@ -1,0 +1,13 @@
+Starting Home Manager activation
+The previous generation number and path are in conflict! These
+must be either both empty or both set but are now set to
+
+    '13' and ''
+
+If you don't mind losing previous profile generations then
+the easiest solution is probably to run
+
+   rm /home/chloe/.local/state/nix/profiles/home-manager*
+   rm /home/chloe/.local/state/home-manager/gcroots/current-home
+
+and trying home-manager switch again. Good luck!
