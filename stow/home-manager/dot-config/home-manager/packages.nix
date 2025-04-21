@@ -22,8 +22,7 @@
     bat
     #bitwarden
     brave
-    #btop
-    #chezmoi
+    btop
     codeberg-cli
     delta
     deluge
@@ -32,27 +31,27 @@
     fd
     firefox-bin
     fish
-    #forgejo
+    forgejo
     fnm
     fzf
     gcc
     gh
     git
     git-stack
-    #glab
+    glab
     gnumake
     gparted
-    #htop
+    htop
     lazygit
     #libreoffice
     librewolf-bin
-    #mdcat
+    mdcat
     neovim
     obsidian
     #qflipper
     #redshift
     ripgrep
-    #rustup
+    rustup
     shellcheck
     signal-desktop
     starship
