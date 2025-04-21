@@ -13,6 +13,7 @@ setup: default
     #!nix-shell -p bash just pre-commit
     pre-commit autoupdate
     pre-commit install
+    git add .pre-commit-config.yaml
     cd {{DOTFILES}}/stow
     just stow -S fish git gnustow home-manager neovim
     just update
