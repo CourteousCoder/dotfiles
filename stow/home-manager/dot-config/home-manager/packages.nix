@@ -72,4 +72,4 @@
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
-
+}
