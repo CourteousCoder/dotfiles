@@ -43,7 +43,7 @@
     gparted
     htop
     lazygit
-    #libreoffice
+    libreoffice
     librewolf-bin
     mdcat
     neovim
@@ -72,6 +72,4 @@
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
-}
-#just chemacs
 
