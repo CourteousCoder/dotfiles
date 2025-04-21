@@ -42,7 +42,7 @@ chemacs:
     #!nix-shell -i bash
     #!nix-shell -p bash emacs just
     # If we don't have a self-managed emacs config, then just get chemacs from git
-    if ! [ -f stow/emacs/dot-config/emacs/init.el ]; then
+    if ! [ -f {{DOTFILES}}/stow/emacs/dot-config/emacs/init.el ]; then
         url='https://github.com/plexus/chemacs2.git'
         pkg=chemacs
         dir="dot-config/emacs"
@@ -57,8 +57,8 @@ chemacs:
     # to deal with submodules in this repo yet still keep it an external
     # dependency the contents into this files. The downside is it impure
     emacs_version="$(emacs --version)"
-    [ "$(doom-emacs --version)" -eq "$emacs_version" ]
-    [ "$(spacemacs --version)" -eq "$emacs_version" ]
+    [ "$(doom-emacs --version)" = "$emacs_version" ]
+    [ "$(spacemacs --version)" = "$emacs_version" ]
 
 
 # Download just the contents of a git repo without keeping a clone of the version-controlled repo itself

@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 # Just a shim to install and run spacemacs via chemacs2 
-local _install_dir=~/.local/share/spacemacs
+_install_dir=~/.local/share/spacemacs
 
-if ! [ -d "$_install_dir/.git" -a -e "$_install_dir/init.el" ]; then
+if ! ( [ -d "$_install_dir/.git" ] &&  [ -e "$_install_dir/init.el" ] ); then
     git clone https://github.com/syl20bnr/spacemacs "$_install_dir"
 fi
 
