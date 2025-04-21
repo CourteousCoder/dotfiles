@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# Just a shim to run doomemacs via chemacs2 
+exec emacs --with-profile '((user-emacs-directory . ~/.local/share/doomemacs))' "$@"

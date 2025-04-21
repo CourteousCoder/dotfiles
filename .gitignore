@@ -1,4 +1,10 @@
-/*.log
-/dotfiles/.ssh
-# Include public keys
-!/dotfiles/.ssh/*.pub
+**/*.cache
+**/*.log
+**/.ssh
+# public keys are fine, but will ignore them for now.
+#!**.ssh/*.pub
+
+# Because pre-commit gitleaks complains that there are examples that reveals example ccredentials.
+stow/emacs/dot-config/spacemacs/CHANGELOG*
+stow/emacs/dot-config/spacemacs/layers/+music/pianobar/README.org
+stow/pianobar/dot-config/pianobar/config
