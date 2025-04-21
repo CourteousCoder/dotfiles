@@ -41,3 +41,4 @@ if status is-interactive
     abbr --add --position command -- tree 'eza --tree'
 
 end
+
