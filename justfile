@@ -10,16 +10,18 @@ default:
 setup: default
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
-    #!nix-shell -p bash just
+    #!nix-shell -p bash just pre-commit
+    pre-commit autoupdate
+    pre-commit install
     cd {{DOTFILES}}/stow
-    just stow -S  fish git gnustow home-manager neovim
+    just stow -S fish git gnustow home-manager neovim
     just update
     #just chemacs
 
 update: default
     #!/usr/bin/env nix-shell
     #!nix-shell -i fish
-    #!nix-shell -p fish
+    #!nix-shell -p fish pre-commit
     set -gx PAGER cat
     set -gx EDITOR cat
     source ~/.bin/nixeh

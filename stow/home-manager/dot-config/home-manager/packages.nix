@@ -42,6 +42,7 @@
     gnumake
     gparted
     htop
+    just
     lazygit
     libreoffice
     librewolf-bin

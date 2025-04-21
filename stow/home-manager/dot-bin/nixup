@@ -1,6 +1,6 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i fish
-#!nix-shell -p fish git nh home-manager
+#!nix-shell -p fish git gitleaks nh home-manager pre-commit
 
 #set -lx TMPDIR $TMPDIR
 
@@ -13,7 +13,7 @@ function nixup
 
     nix-flake check "$FLAKE"
     and nix-flake update --flake "$FLAKE"
-    and git add flake.lock
+    and git add flake.lock *.nix
     and nh home switch -ub ".backup_$(date -u +%s).bak" "$FLAKE" | tee "$FLAKE/nh-home-switch.log"
     or return 1
 
