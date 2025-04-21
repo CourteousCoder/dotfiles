@@ -1,3 +1,3 @@
 type -q gitleaks;
-and gitleaks completion fish | tee ../completions/gitleaks.fish
+and gitleaks completion fish ../completions/gitleaks.fish
 
