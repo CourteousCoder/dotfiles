@@ -39,6 +39,7 @@
     git
     git-stack
     glab
+    gitleaks
     gnumake
     gparted
     htop
