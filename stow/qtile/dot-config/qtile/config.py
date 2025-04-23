@@ -162,12 +162,12 @@ screens = [
 
                 widget.TextBox("default config", name="default"),
                 widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
-                widget.Volume()
-                widget.PulseVolume()
-                widget.Bluetooth()
-                widget.BatteryIcon()
-                widget.Battery(charge_controller=(thunderbold_smart_charge))
-                widget.Backlight()
+                widget.Volume(),
+                widget.PulseVolume(),
+                widget.Bluetooth(),
+                widget.BatteryIcon(),
+                widget.Battery(charge_controller=(thunderbolt_smart_charge)),
+                widget.Backlight(),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 widget.StatusNotifier(),
                 widget.Systray(),
