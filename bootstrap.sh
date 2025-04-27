@@ -46,10 +46,10 @@ cleanup() {
     elif [ "$_EXIT_CODE" -eq '0' ]; then
         echo "Dotfile ssuccessfully initialized in $DOTFILES_LOCAL"
     elif [ -d "$_BACKUP_AT" ]; then
-        echo 'Error encountered. Restoring from backup.' > /dev/stderr
+        echo 'Error encountered. Restoring from backup.' 1>&2
         mkdir -p "$DOTFILES_LOCAL"
         rm -rf "$DOTFILES_LOCAL"
-        echo Copying "$_BACKUP_AT" back to "$DOTFILES_LOCAL" > /dev/stderr
+        echo Copying "$_BACKUP_AT" back to "$DOTFILES_LOCAL" 1>&2
         cp -rap --reflink=auto  "$_BACKUP_AT" "$DOTFILES_LOCAL" && rm -rf "$_BACKUP_AT"
     else
         echo Error encountered. Exiting... > /dev/sdterr
@@ -63,7 +63,10 @@ cleanup() {
 install_nix() {
     export NIX_INSTALLER_NO_CONFIRM=true
     export NIX_INSTALLER_EXTRA_CONF='trusted-users = "@wheel"'
-    command -v nix || curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+    command -v nix \
+	    || curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --no-confirm --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
+	    && . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+    #
 }
 
 get_repo() {
@@ -73,7 +76,7 @@ get_repo() {
         cp -rap --reflink=auto "$_TEMP_WORKDIR" "$DOTFILES_LOCAL"
         echo "Cloned $REMOTE_REPO to $DOTFILES_LOCAL"
     else
-        echo Failed to clone remote "$REMOTE_REPO" to local "$DOTFILES_LOCAL" > /dev/stderr
+        echo Failed to clone remote "$REMOTE_REPO" to local "$DOTFILES_LOCAL" 1>&2
         exit 1
     fi
 }

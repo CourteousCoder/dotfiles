@@ -24,7 +24,7 @@ update: default
     #!nix-shell -p fish pre-commit
     set -gx PAGER cat
     set -gx EDITOR cat
-    source ~/.bin/nixeh
+    source ~/.bin/nixup
 
 stow +PACKAGES:
     #!/usr/bin/env nix-shell

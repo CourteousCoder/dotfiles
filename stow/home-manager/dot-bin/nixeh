@@ -11,9 +11,8 @@ function nix_edit_home
     
 
     "$EDITOR" "$FLAKE/packages.nix" 
-    alejandra "$FLAKE"
-
     cd (realpath "$FLAKE")
+    alejandra *.nix
     git diff -U0 *.nix
 
     # changes detected, so we update

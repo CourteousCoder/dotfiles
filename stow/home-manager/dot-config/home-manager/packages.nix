@@ -50,6 +50,7 @@
     mdcat
     neovim
     obsidian
+    oh-my-posh
     #qflipper
     #redshift
     ripgrep
