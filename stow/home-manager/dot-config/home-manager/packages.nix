@@ -45,7 +45,7 @@
     htop
     just
     lazygit
-    libreoffice
+    #libreoffice
     librewolf-bin
     mdcat
     neovim

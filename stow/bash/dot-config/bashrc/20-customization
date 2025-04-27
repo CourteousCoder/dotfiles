@@ -7,7 +7,9 @@ POSH=agnoster
 # Prompt
 # -----------------------------------------------------
 # eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zen.toml)"
-eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/EDM115-newline.omp.json)"
+if [[ command -v oh-my-posh ]]; then
+	eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/EDM115-newline.omp.json)"
+fi
 
 # -----------------------------------------------------
 # Pywal
@@ -21,9 +23,9 @@ cat ~/.cache/wal/sequences
 if command -v devbox; then 
   . <(devbox global shellenv --init-hook)
 fi
-
-eval "$(uv generate-shell-completion bash)"
-eval "$(uvx --generate-shell-completion bash)"
+ 
+[[ command -v uv]] && eval "$(uv generate-shell-completion bash)"
+[[ command -v uvx]] && eval "$(uvx --generate-shell-completion bash)"
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
