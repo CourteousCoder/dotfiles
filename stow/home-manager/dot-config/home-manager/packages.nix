@@ -72,6 +72,7 @@
     wofi
     #    xonsh
     zsh
+    zoom
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs;
