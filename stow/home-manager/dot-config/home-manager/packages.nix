@@ -58,8 +58,8 @@
     shellcheck
     signal-desktop
     starship
-    syncthing
-    tailscale
+    #syncthing
+    #tailscale
     taskwarrior3
     thefuck
     tmsu
