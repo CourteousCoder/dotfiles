@@ -49,14 +49,14 @@
     librewolf-bin
     mdcat
     neovim
-    obsidian
+    obsidian-bin
     oh-my-posh
     #qflipper
     #redshift
     ripgrep
     rustup
     shellcheck
-    signal-desktop-bin
+    signal-desktop
     starship
     #syncthing
     #tailscale
