@@ -2,7 +2,7 @@
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
     font-awesome
-    legcord-bin
+    legcord
     nerd-fonts.fira-code
     nerd-fonts.hack
     nerd-fonts.monoid
