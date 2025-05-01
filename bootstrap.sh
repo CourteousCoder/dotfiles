@@ -12,8 +12,8 @@ main() {
     initialize
     get_repo
     pushd $DOTFILES_LOCAL > /dev/null
-    run_cmd just setup && _EXIT_CODE=0
-    popd > /dev/null
+    exec run_cmd just setup
+    _EXIT_CODE=?
 }
 
 initialize() {
@@ -62,11 +62,10 @@ cleanup() {
 
 install_nix() {
     export NIX_INSTALLER_NO_CONFIRM=true
-    export NIX_INSTALLER_EXTRA_CONF='trusted-users = "@wheel"'
+    export NIX_INSTALLER_EXTRA_CONF="extra-trusted-users = '@wheel $USER'"
     command -v nix \
-	    || curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --no-confirm --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
+	    || curl -sSf -L https://install.lix.systems/lix | sh -s -- install --no-confirm --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
 	    && . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
-    #
 }
 
 get_repo() {
