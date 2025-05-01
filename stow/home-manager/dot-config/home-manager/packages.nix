@@ -66,7 +66,7 @@
     unzrip
     ventoy-full
     vlc
-    vscodium-bin
+    vscodium
     wireguard-tools
     wl-clipboard-rs
     wofi
