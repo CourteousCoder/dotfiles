@@ -49,7 +49,7 @@
     librewolf-bin
     mdcat
     neovim
-    obsidian
+    #obsidian
     oh-my-posh
     #qflipper
     #redshift
