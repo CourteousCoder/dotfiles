@@ -5,7 +5,8 @@ set -gx EDITOR nvim
 #set -gx VISUAL codium
 #set -gx FLAKE $HOME/.dotfiles
 
-set -gx FLAKE $HOME/.config/home-manager
+set -gx NH_FLAKE $HOME/.config/home-manager
+set -gx FLAKE $HOME/.config/home-manager # TODO:deprcated remove
 set -gx VIRTUAL_ENV_DISABLE_PROMPT true
 
 fish_add_path --global --move --append "$HOME/.bin"

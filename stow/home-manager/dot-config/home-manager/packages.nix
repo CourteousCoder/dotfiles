@@ -2,7 +2,7 @@
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
     font-awesome
-    legcord
+    legcord-bin
     nerd-fonts.fira-code
     nerd-fonts.hack
     nerd-fonts.monoid
@@ -56,7 +56,7 @@
     ripgrep
     rustup
     shellcheck
-    signal-desktop
+    signal-desktop-bin
     starship
     #syncthing
     #tailscale
@@ -66,7 +66,7 @@
     unzrip
     ventoy-full
     vlc
-    vscodium
+    vscodium-bin
     wireguard-tools
     wl-clipboard-rs
     wofi
