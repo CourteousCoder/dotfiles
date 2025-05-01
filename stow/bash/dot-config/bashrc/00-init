@@ -24,13 +24,13 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-GOPATH=$(go env GOPATH)
+command -v go && GOPATH=$(go env GOPATH)
 
 # -----------------------------------------------------
 # Exports
 # -----------------------------------------------------
 export EDITOR=nvim
-export VISUAL=nvim
+export VISUAL="$EDITOR"
 export PAGER=bat
 export BROWSER=librewolf
 
