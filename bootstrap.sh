@@ -1,25 +1,29 @@
 #!/usr/bin/env sh
 
+set -euo pipefail
+
 REMOTE_REPO='git@codeberg.org:CourteousCoder/dotfiles.git'
 DOTFILES_LOCAL="$HOME/.dotfiles"
 
 _BACKUP_AT="$DOTFILES_LOCAL.$(date '+%Yy_%jd_%Hh_%Mm_%S.%Ns').backup";
 _TEMP_WORKDIR="$(mktemp -dt 'dot-dotfiles-XXXXX')"
-_EXIT_CODE=1
+_EXIT_CODE=0
 
 main() {
-    echo Bootstrapping $REMOTE_REPO to $DOTFILES_LOCAL
     initialize
-    get_repo
-    pushd $DOTFILES_LOCAL > /dev/null
-    exec run_cmd just setup
-    _EXIT_CODE=?
+    echo Bootstrapping $REMOTE_REPO to $DOTFILES_LOCAL
+
+    install_nix
+    verify_nix
+
+    clone_dotfiles_repo
+    setup_dotfiles
+
+    exit_cleanly
 }
 
 initialize() {
-    set -e
-    trap cleanup EXIT INT HUP
-    pushd $HOME > /dev/null
+    trap exit_cleanly EXIT INT HUP
 
     if [ -d "$DOTFILES_LOCAL" ]; then
         echo "Already have $DOTFILES_LOCAL"
@@ -27,10 +31,51 @@ initialize() {
         cp -rap --reflink=auto "$DOTFILES_LOCAL" "$_BACKUP_AT"
     fi
 
-    install_nix
 }
 
-cleanup() {
+install_nix() {
+    export NIX_INSTALLER_NO_CONFIRM=true
+    export NIX_INSTALLER_EXTRA_CONF="extra-trusted-users = @wheel $USER"
+    if ! command -v nix &>/dev/null; then
+        curl -sSf -L https://install.lix.systems/lix > "$_TEMP_WORKDIR/lix-installer.sh"
+        sh "$_TEMP_WORKDIR/lix-installer.sh" \
+            --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
+            --no-confirm
+    fi
+}
+
+verify_nix() {
+    if [ -f /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh ]; then
+        # multi-user install:
+        # this file guards itself so it only runs once per shell
+        . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+    elif [ -f "${HOME}/.nix-profile/etc/profile.d/nix.sh" ]; then
+        # single-user install:
+        . "${HOME}/.nix-profile/etc/profile.d/nix.sh"
+    else
+        exit_cleanly 1
+    fi
+}
+
+clone_dotfiles_repo() {
+    if nix flake clone "$REMOTE_REPO" "$_TEMP_WORKDIR/repo"; then
+        mkdir -p "$DOTFILES_LOCAL"
+        rm -rf "$DOTFILES_LOCAL"
+        cp -rap --reflink=auto "$_TEMP_WORKDIR/repo" "$DOTFILES_LOCAL"
+        echo "Cloned $REMOTE_REPO to $DOTFILES_LOCAL"
+    else
+        echo "❌ Could not clone remote '$REMOTE_REPO' to local '$DOTFILES_LOCAL'" >&2
+        exit_cleanly 1
+    fi
+}
+
+setup_dotfiles()
+    cd $DOTFILES_LOCAL
+    nix run $DOTFILES_LOCAL -- setup
+}
+
+exit_cleanly() {
+    _EXIT_CODE="$1"
     if [ -d "$_TEMP_WORKDIR" ]; then
         echo deleting temporary files
         rm -rf "$_TEMP_WORKDIR"
@@ -41,57 +86,22 @@ cleanup() {
     popd > /dev/null
 
     if [ "$_EXIT_CODE" -eq '0' -a -d "$_BACKUP_AT" ]; then
-        echo "Success. Dotfiles successfully initialized in $DOTFILES_LOCAL"
-        echo "Pre-existing $DOTFILES_LOCAL has been backed up to $_BACKUP_AT"
+        echo "⚠️  Pre-existing '$DOTFILES_LOCAL' has been backed up to '$_BACKUP_AT'"
+        echo "✔️  Dotfiles successfully initialized in $DOTFILES_LOCAL"
     elif [ "$_EXIT_CODE" -eq '0' ]; then
-        echo "Dotfile ssuccessfully initialized in $DOTFILES_LOCAL"
+        echo "✔️  Dotfiles successfully initialized in $DOTFILES_LOCAL"
     elif [ -d "$_BACKUP_AT" ]; then
-        echo 'Error encountered. Restoring from backup.' 1>&2
+        echo "❌ Error encountered during setup. Restoring previous state from backup." >&2
         mkdir -p "$DOTFILES_LOCAL"
         rm -rf "$DOTFILES_LOCAL"
         echo Copying "$_BACKUP_AT" back to "$DOTFILES_LOCAL" 1>&2
         cp -rap --reflink=auto  "$_BACKUP_AT" "$DOTFILES_LOCAL" && rm -rf "$_BACKUP_AT"
     else
-        echo Error encountered. Exiting... > /dev/sdterr
+        echo "❌ Error encountered during setup Exiting..." >&2
     fi
 
-    set +e
     exit $_EXIT_CODE
 }
 
-
-install_nix() {
-    export NIX_INSTALLER_NO_CONFIRM=true
-    export NIX_INSTALLER_EXTRA_CONF="extra-trusted-users = '@wheel $USER'"
-    command -v nix \
-	    || curl -sSf -L https://install.lix.systems/lix | sh -s -- install --no-confirm --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
-	    && . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
-}
-
-get_repo() {
-    if run_cmd git clone "$REMOTE_REPO" "$_TEMP_WORKDIR"; then
-        mkdir -p "$DOTFILES_LOCAL"
-        rm -rf "$DOTFILES_LOCAL"
-        cp -rap --reflink=auto "$_TEMP_WORKDIR" "$DOTFILES_LOCAL"
-        echo "Cloned $REMOTE_REPO to $DOTFILES_LOCAL"
-    else
-        echo Failed to clone remote "$REMOTE_REPO" to local "$DOTFILES_LOCAL" 1>&2
-        exit 1
-    fi
-}
-
-run_cmd() {
-    local cmd="$1"
-    shift
-
-    if command -v "$cmd"; then 
-        "$cmd" "$@"
-    elif command -v "nix"; then
-        nix run 'nixpkgs#comma' -- "$cmd" "$@"
-    else
-        install_nix && nix run 'nixpkgs#comma' -- "$cmd" "$@"
-        return
-    fi
-}
 
 main "$@"
