@@ -26,8 +26,11 @@ update: default
 
 clean:
     #!/usr/bin/env nix-shell
-    #!nix-shell -i bash -p just
+    #!nix-shell -i zsh -p zsh just
     just stow --delete .
+    pushd ~ > /dev/null
+    rm -- **/*(-@D) || echo "And that's fine. You can safely ignore that."
+    popd > /dev/null
 
 stow *STOW_PACKAGES:
     #!/usr/bin/env nix-shell 
