@@ -70,7 +70,7 @@
     wireguard-tools
     wl-clipboard-rs
     wofi
-    #    xonsh
+    xonsh
     zsh
   ];
 in {

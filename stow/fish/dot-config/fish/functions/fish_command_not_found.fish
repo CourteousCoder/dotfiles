@@ -10,7 +10,7 @@ function fish_command_not_found --wraps=__fish_default_command_not_found_handler
     or return 1
 
     echo Attempting to run "'$argv[1]'" from nixpkgs
-    if not test -e "~/.cache/nix-index/files"
+    if not test -e "$HOME/.cache/nix-index/files"
         echo "Building package index..."
         echo '  nix run nixpkgs#nix-index'
         nix run nixpkgs#nix-index
@@ -18,7 +18,7 @@ function fish_command_not_found --wraps=__fish_default_command_not_found_handler
     end
 
     if command -q comma
-        echo "  comma -- $argv"
+        echo "  , $argv"
         comma -- $argv
     else 
         echo "  nix --extra-experimental-features 'nix-command flakes' run 'nixpkgs#comma' -- $argv"

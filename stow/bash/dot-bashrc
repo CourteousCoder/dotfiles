@@ -1,33 +1,9 @@
-#    _               _              
-#   | |__   __ _ ___| |__  _ __ ___ 
-#   | '_ \ / _` / __| '_ \| '__/ __|
-#  _| |_) | (_| \__ \ | | | | | (__ 
-# (_)_.__/ \__,_|___/_| |_|_|  \___|
-# 
-# -----------------------------------------------------
-# ML4W bashrc loader
-# -----------------------------------------------------
+# ~/.bashrc
 
-# DON'T CHANGE THIS FILE
+# Point at your external Bash config file
+BASH_CONFIG="$HOME/.config/bash/config.bashrc"
 
-# You can define your custom configuration by adding
-# files in ~/.config/bashrc 
-# or by creating a folder ~/.config/bashrc/custom
-# with copies of files from ~/.config/bashrc 
-# You can also create a .bashrc_custom file in your home directory
-# -----------------------------------------------------
-
-# -----------------------------------------------------
-# Load modular configarion
-# -----------------------------------------------------
-
-for f in ~/.config/bashrc/*; do 
-    if [ ! -d $f ]; then
-        source $f
-    fi
-done
-
-# -----------------------------------------------------
-# Load single customization file (if exists)
-# -----------------------------------------------------
-
+# If it exists and is readable, include it
+if [ -f "$BASH_CONFIG" ] && [ -r "$BASH_CONFIG" ]; then
+  . "$BASH_CONFIG"
+fi
