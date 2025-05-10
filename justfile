@@ -21,7 +21,7 @@ setup_precommit:
 update: default
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
-    #!nix-shell -p bash cat
+    #!nix-shell -p bash uutils-coreutils-noprefix
     PAGER=cat EDITOR=cat ~/.bin/nixup
 
 clean:
