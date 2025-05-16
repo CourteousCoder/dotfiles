@@ -49,12 +49,14 @@
     librewolf-bin
     mdcat
     neovim
+    obs
     obsidian
     oh-my-posh
     #qflipper
     #redshift
     ripgrep
     rustup
+    runelite
     shellcheck
     signal-desktop
     starship
