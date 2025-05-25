@@ -65,7 +65,7 @@
     thefuck
     tmsu
     unzrip
-    ventoy-full
+    #ventoy-full
     vlc
     vscodium
     wireguard-tools
