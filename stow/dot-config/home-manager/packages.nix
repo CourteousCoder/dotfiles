@@ -49,7 +49,6 @@
     librewolf-bin
     mdcat
     neovim
-    obs
     obsidian
     oh-my-posh
     #qflipper
