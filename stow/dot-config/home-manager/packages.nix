@@ -31,7 +31,6 @@
     fd
     firefox-bin
     fish
-    flake
     forgejo
     fnm
     fzf
