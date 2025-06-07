@@ -5,19 +5,32 @@
 # -----------------------------------------------------
 # Pywal
 # -----------------------------------------------------
-cat ~/.cache/wal/sequences
+pywal_sequences=~/.cache/wal/sequences
+if [[ -r "$pywall_sequences" && -s "$pywall_sequences" ]]; then
+    cat ~/.cache/wal/sequences
+fi
 
 # -----------------------------------------------------
 # Fastfetch
 # -----------------------------------------------------
-if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/13
-else
-    echo
-    if [ -f /bin/qtile ]; then
-        echo "Start Qtile X11 with command Qtile"
-    fi
-    if [ -f /bin/hyprctl ]; then
-        echo "Start Hyprland with command Hyprland"
-    fi
-fi
+
+_discover_gui() {
+     gui=""
+     for gui in "$@"; do
+        which_gui=$(command -v "$gui")
+        [[ -n "which_gui" ]]
+# TODO: Fix this only when your goal is ACTUALLY configure your system, not if you are getting distracted from something else."
+#            && printf "Found  %1$s at %2$s \nRun command `%1$s` to start a graphical session.\n" "$gui" "$which_gui"
+    done
+
+    [[ -n "$which_gui" ]]
+}
+
+# TODO: Fix this only when your goal is ACTUALLY configure your system, not if you are getting distracted from something else."
+# if [[  $(tty) == *"pts"* ]] && command -v fastfetch > /dev/null; then
+#    fastfetch --config examples/13
+#elsif _discover_gui "qtile" "hyprctl" "xmonad" "sway" "i3" "awesome" "river" "startplasmacompositor" "gnome-session" "startxfce" "startx" ; then
+#else
+#            || echo 'No graphical window managers detected.'
+   
+#fi
