@@ -56,7 +56,7 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
     end
 
     sudo umount /tmp
-    set -e $TMPDIR
+    set -e TMPDIR
 end
 
 pkgsup $argv
