@@ -1,15 +1,18 @@
 #!/usr/bin/env fish
 
 # FIXME: HACK: my tmpfs on /tmp keeps running out of memory and I don't feel like repartitionings
-#set -lx TMPDIR /var/tmp
 
 function pkgsup --description 'Perform a full upgrade of all packages managers'
-    sudo printf Authenticated for sudo
+    sudo printf "Authenticated for sudo\n"
+    set -lx TMPDIR ~/.cache/pkgsup
+    mkdir -p TMPDIR
+    sudo rm -rf /tmp/*
+    sudo mount --bind $TMPDIR /tmp
 
     if command -q apt
         sudoize apt
         apt update -y
-        and apt full-upgrade -y $argv
+        and apt full-upgrade -y
         apt autoremove -y
     end
 
@@ -21,16 +24,21 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
     end
 
     if command -q yay
-        yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm $argv
+        yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm
+    else if command -q pacman
+        sudo pacman -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm
     end
-
-    if command -q nix
-        nixup
+    
+    if command -q zypper
+        sudo zypper ref
+        hostnamectl | grep -q 'Tumbleweed'
+        and sudo zypper dup --no-confirm --no-recommends 
+        or sudo zypper up --no-confirm --no-recommends 
     end
 
     if command -q flatpak
-        flatpak update $argv
-        sudo flatpak update $argv
+        flatpak update --noninteractive
+        sudo flatpak update --noninteractive
     end
 
     if command -q pop-upgrade
@@ -42,6 +50,13 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
         #and pop-upgrade release; upgrade
     end
 
+    sudo rm -rf /tmp/*
+    if command -q nix
+        nixup
+    end
+
+    sudo umount /tmp
+    set -e $TMPDIR
 end
 
 pkgsup $argv

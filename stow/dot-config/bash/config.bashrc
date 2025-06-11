@@ -15,10 +15,19 @@ fi
 # — Handy functions
 
 
+
 # — Load any *.sh in config.d/ if you want modular chunks
 CONFIG_D="$HOME/.config/bash/config.d"
 if [ -d "$CONFIG_D" ]; then
-  for f in "$CONFIG_D"/*.sh; do
+  for f in "$CONFIG_D"/*.{sh,rc,bashrc,bash}; do
+    [ -r "$f" ] && . "$f"
+  done
+fi
+
+# — Load any *.sh in config.d/ if you want modular chunks
+BASH_THEMES_D="$HOME/.config/bash/themes"
+if [ -d "$BASH_THEMES_D" ]; then
+  for f in "$BASH_THEMES_D"/*.{sh,rc,bashrc,bash}; do
     [ -r "$f" ] && . "$f"
   done
 fi

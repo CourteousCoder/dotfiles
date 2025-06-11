@@ -1,1 +1,2 @@
-execx($(oh-my-posh init xonsh))
+# execx($(oh-my-posh init xonsh))
+execx($(starship init xonsh))

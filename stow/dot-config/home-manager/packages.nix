@@ -26,11 +26,13 @@
     codeberg-cli
     delta
     deluge
+    #devbox
     emacs
     eza
     fd
     firefox-bin
     fish
+    #flox
     forgejo
     fnm
     fzf
