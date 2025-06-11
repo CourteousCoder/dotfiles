@@ -32,7 +32,7 @@
     fd
     firefox-bin
     fish
-    flox
+    #    flox
     forgejo
     fnm
     fzf
