@@ -35,7 +35,7 @@ initialize() {
 
 install_nix() {
     export NIX_INSTALLER_NO_CONFIRM=true
-    export NIX_INSTALLER_EXTRA_CONF="extra-trusted-users = @wheel $USER"
+    export NIX_INSTALLER_EXTRA_CONF="trusted-users = root @wheel $USER"
     if ! command -v nix &>/dev/null; then
         curl -sSf -L https://install.lix.systems/lix > "$_TEMP_WORKDIR/lix-installer.sh"
         sh "$_TEMP_WORKDIR/lix-installer.sh" \
@@ -69,7 +69,7 @@ clone_dotfiles_repo() {
     fi
 }
 
-setup_dotfiles()
+setup_dotfiles() {
     cd $DOTFILES_LOCAL
     nix run $DOTFILES_LOCAL -- setup
 }
