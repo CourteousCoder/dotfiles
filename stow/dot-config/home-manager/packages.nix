@@ -26,13 +26,11 @@
     codeberg-cli
     delta
     deluge
-    devbox
     emacs
     eza
     fd
     firefox-bin
     fish
-    #flox
     forgejo
     fnm
     fzf
@@ -76,6 +74,9 @@
     xonsh
     zsh
   ];
+  overlayedPkgs = with pkgs; [
+    flox
+  ];
 in {
-  home.packages = stablePkgs ++ unstablePkgs;
+  home.packages = stablePkgs ++ unstablePkgs ++ overlayedPkgs;
 }

@@ -1,5 +1,9 @@
 {
   description = "Home Manager configuration of chloe";
+  nixConfig = {
+    extra-trusted-substituters = ["https://cache.flox.dev"];
+    extra-trusted-public-keys = ["flox-cache-public-1:7F4OyH7ZCnFhcze3fJdfyXYLQw/aV7GEed86nQ7IsOs="];
+  };
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/release-25.05";
@@ -10,6 +14,8 @@
 
     nix-index-database.url = "github:nix-community/nix-index-database";
     nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
+
+    flox.url = "github:flox/flox/v1.4.4";
 
     nixgl.url = "github:nix-community/nixGL";
     # Snowfall Lib is not required, but will make configuration easier for you.
@@ -27,6 +33,7 @@
 
   outputs = {
     self,
+    flox,
     home-manager,
     nixgl,
     nixpkgs,
@@ -45,7 +52,9 @@
               system = prev.system;
             };
           })
-
+          (final: prev: {
+            flox = inputs.flox.packages.${prev.system}.default;
+          })
           # nixGL overlay is required for opengl programs from nixpkgs to run on non-nixos linux
           nixgl.overlay
         ];
