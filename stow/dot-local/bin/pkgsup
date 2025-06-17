@@ -9,36 +9,40 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
     sudo rm -rf /tmp/*
     sudo mount --bind $TMPDIR /tmp
 
+    if command -q flatpak
+        flatpak update --noninteractive
+        sudo flatpak update --noninteractive
+    end
+
+    sudo rm -rf /tmp/*
+    if command -q nix
+        nixup
+    end
+
     if command -q apt
         sudoize apt
         apt update -y
         and apt full-upgrade -y
         apt autoremove -y
-    end
 
-    if command -q dnf
+    else if command -q zypper
+        sudo zypper ref
+        hostnamectl | grep -q 'Tumbleweed'
+        and sudo zypper -n dup -ly --no-recommends 
+        or sudo zypper -n up -ly --skip-interactive --best-effort --no-recommends 
+
+    else if command -q dnf
         sudoize dnf
         dnf check-update
         and dnf upgrade
         dnf autoremove
-    end
 
-    if command -q yay
+    else if command -q yay
         yay -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm
+
     else if command -q pacman
         sudo pacman -Syyu --needed --combinedupgrade --noredownload --norebuild --cleanafter --noconfirm
-    end
-    
-    if command -q zypper
-        sudo zypper ref
-        hostnamectl | grep -q 'Tumbleweed'
-        and sudo zypper dup --no-confirm --no-recommends 
-        or sudo zypper up --no-confirm --no-recommends 
-    end
 
-    if command -q flatpak
-        flatpak update --noninteractive
-        sudo flatpak update --noninteractive
     end
 
     if command -q pop-upgrade
@@ -50,10 +54,6 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
         #and pop-upgrade release; upgrade
     end
 
-    sudo rm -rf /tmp/*
-    if command -q nix
-        nixup
-    end
 
     sudo umount /tmp
     set -e TMPDIR
