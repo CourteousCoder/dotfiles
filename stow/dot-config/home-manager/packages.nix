@@ -13,6 +13,7 @@
     powerline
     powerline-fonts
     powerline-symbols
+    mommy
   ];
   stablePkgs = with pkgs; [
     alejandra
