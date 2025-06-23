@@ -18,15 +18,18 @@
   stablePkgs = with pkgs; [
     alejandra
     asciinema
+    babelfish
     bash
     bashInteractive
     bat
     bitwarden
     brave
     btop
+    carapace
     codeberg-cli
     delta
     deluge
+    elvish
     emacs
     eza
     fd
