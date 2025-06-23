@@ -73,6 +73,7 @@
     wl-clipboard-rs
     wofi
     xonsh
+    zed
     zsh
   ];
   overlayedPkgs = with pkgs; [
