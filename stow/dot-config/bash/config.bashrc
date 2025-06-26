@@ -14,20 +14,27 @@ fi
 # — Prompt (simple example; customize as you like)
 # — Handy functions
 
-
-
 # — Load any *.sh in config.d/ if you want modular chunks
-CONFIG_D="$HOME/.config/bash/config.d"
-if [ -d "$CONFIG_D" ]; then
-  for f in "$CONFIG_D"/*.{sh,rc,bashrc,bash}; do
+SOURCES_D="$HOME/.config/bash/config.d"
+if [ -d "$SOURCES_D" ]; then
+  for f in "$SOURCES_D"/*.{sh,rc,bashrc,bash}; do
     [ -r "$f" ] && . "$f"
   done
 fi
 
-# — Load any *.sh in config.d/ if you want modular chunks
-BASH_THEMES_D="$HOME/.config/bash/themes"
-if [ -d "$BASH_THEMES_D" ]; then
-  for f in "$BASH_THEMES_D"/*.{sh,rc,bashrc,bash}; do
+# — Load any *.sh in themes.d/ if you want modular chunks
+SOURCES_D="$HOME/.config/bash/themes"
+if [ -d "$SOURCES_D" ]; then
+  for f in "$SOURCES_D"/*.{sh,rc,bashrc,bash}; do
+
+    [ -r "$f" ] && . "$f"
+  done
+fi
+
+# — Load themes
+SOURCES_D="$HOME/.config/bash/completions"
+if [ -d "$SOURCES_D" ]; then
+  for f in "$SOURCES_D"/*.{sh,rc,bashrc,bash}; do
     [ -r "$f" ] && . "$f"
   done
 fi
