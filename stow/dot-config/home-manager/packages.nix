@@ -55,6 +55,9 @@
     neovim
     obsidian
     oh-my-posh
+    podman
+    podman-compose
+    podman-desktop
     #qflipper
     #redshift
     ripgrep
