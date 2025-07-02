@@ -10,6 +10,7 @@
     nerdfix
     noto-fonts-color-emoji
     nh
+    pacstrap
     powerline
     powerline-fonts
     powerline-symbols
@@ -54,6 +55,7 @@
     #libreoffice
     librewolf-bin
     mdcat
+    mdp
     neovim
     obsidian
     oh-my-posh
