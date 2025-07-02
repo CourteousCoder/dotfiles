@@ -34,6 +34,7 @@
     eza
     fd
     firefox-bin
+    firejail
     fish
     forgejo
     fnm
@@ -47,6 +48,7 @@
     gnumake
     gparted
     htop
+    jj
     just
     lazygit
     #libreoffice
