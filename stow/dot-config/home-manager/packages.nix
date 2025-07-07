@@ -49,7 +49,7 @@
     gnumake
     gparted
     htop
-    jj
+    jujutsu
     just
     lazygit
     #libreoffice
