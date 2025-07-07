@@ -10,7 +10,6 @@
     nerdfix
     noto-fonts-color-emoji
     nh
-    pacstrap
     powerline
     powerline-fonts
     powerline-symbols
