@@ -1,8 +1,10 @@
 {pkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
+    bitwarden
     font-awesome
     legcord
+    mommy
     nerd-fonts.fira-code
     nerd-fonts.hack
     nerd-fonts.monoid
@@ -10,10 +12,12 @@
     nerdfix
     noto-fonts-color-emoji
     nh
+    obsidian
     powerline
     powerline-fonts
     powerline-symbols
-    mommy
+    signal-desktop
+    vscodium
   ];
   stablePkgs = with pkgs; [
     alejandra
@@ -22,7 +26,6 @@
     bash
     bashInteractive
     bat
-    bitwarden
     brave
     btop
     carapace
@@ -56,7 +59,6 @@
     mdcat
     mdp
     neovim
-    obsidian
     oh-my-posh
     podman
     podman-compose
@@ -67,7 +69,6 @@
     rustup
     runelite
     shellcheck
-    signal-desktop
     starship
     syncthing
     tailscale
@@ -77,7 +78,6 @@
     unzrip
     #ventoy-full
     vlc
-    vscodium
     wireguard-tools
     wl-clipboard-rs
     wofi

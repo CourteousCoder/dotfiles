@@ -3,5 +3,8 @@ name = "Chloe Shetreet"
 email = "CourteousCoder@gmail.com"
 
 [ui]
+pager = "bat"
 editor = "nvim"
 default-command = "log"
+
+
