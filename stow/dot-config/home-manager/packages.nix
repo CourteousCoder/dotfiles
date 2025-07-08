@@ -12,7 +12,7 @@
     nerdfix
     noto-fonts-color-emoji
     nh
-    #obsidian
+    obsidian
     powerline
     powerline-fonts
     powerline-symbols
