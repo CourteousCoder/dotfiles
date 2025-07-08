@@ -62,16 +62,16 @@
     oh-my-posh
     podman
     podman-compose
-    podman-desktop
+    #podman-desktop
     #qflipper
     #redshift
     ripgrep
     rustup
-    runelite
+    #runelite
     shellcheck
     starship
-    syncthing
-    tailscale
+    #syncthing
+    #tailscale
     taskwarrior3
     thefuck
     tmsu
