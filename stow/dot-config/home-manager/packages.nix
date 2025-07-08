@@ -1,9 +1,9 @@
 {pkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
-    bitwarden
+    #bitwarden
     font-awesome
-    legcord
+    #legcord
     mommy
     nerd-fonts.fira-code
     nerd-fonts.hack
@@ -12,12 +12,12 @@
     nerdfix
     noto-fonts-color-emoji
     nh
-    obsidian
+    #obsidian
     powerline
     powerline-fonts
     powerline-symbols
-    signal-desktop
-    vscodium
+    #signal-desktop
+    #vscodium
   ];
   stablePkgs = with pkgs; [
     alejandra
