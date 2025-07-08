@@ -1,2 +1,3 @@
 # Could contain creds if not omitted
-config
+zoom.conf
+zoomus.conf

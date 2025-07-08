@@ -1,0 +1,25 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Chloe Shetreet
+	email = CourteousCoder@gmail.com
+[alias]
+	ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ | tee -a .gitignore ;}; gi"
+    
+[core]
+	excludesFile = ~/.config/git/ignore
+	editor = nvim
+
+[credential "https://github.com"]
+	helper = !~/.nix-profile/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = !~/.nix-profile/bin/gh auth git-credential
+[merge]
+	ff = only
+	autoStash = true
+[diff]
+	tool = delta
+[pull]
+	ff = only
+	autostash = true
