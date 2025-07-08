@@ -7,4 +7,7 @@ pager = "bat"
 editor = "nvim"
 default-command = "log"
 
+[aliases]
+init = ["git", "init", "--colocate"]
+
 
