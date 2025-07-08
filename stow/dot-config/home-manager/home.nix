@@ -16,15 +16,13 @@ in {
   fonts.fontconfig.enable = true;
   home.stateVersion = "24.05";
 
-  nixpkgs = {
-    # Configure your nixpkgs instance
-    config = {
-      # Disable if you don't want unfree packages
-      allowUnfree = true;
-      # Workaround for https://github.com/nix-community/home-manager/issues/2942
-      allowUnfreePredicate = _: true;
-    };
-  };
+  nixpkgs.config.allowUnfree = true;
+  nixpkgs.unstable.config.allowUnfree = true;
+
+  # Workaround for https://github.com/nix-community/home-manager/issues/2942
+  nixpkgs.config.allowUnfreePredicate = _: true;
+  nixpkgs.unstable.config.allowUnfreePredicate = _: true;
+
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'. But I'm using gnu stow instead
 
