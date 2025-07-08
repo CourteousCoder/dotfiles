@@ -69,7 +69,6 @@
     rustup
     runelite
     shellcheck
-    spacemacs
     starship
     syncthing
     tailscale
