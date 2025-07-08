@@ -3,7 +3,7 @@
     # Unstable nixpkgs branch
     bitwarden
     font-awesome
-    #legcord
+    legcord
     mommy
     nerd-fonts.fira-code
     nerd-fonts.hack
