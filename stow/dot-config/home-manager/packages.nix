@@ -17,7 +17,7 @@
     powerline-fonts
     powerline-symbols
     #signal-desktop
-    #vscodium
+    vscodium
   ];
   stablePkgs = with pkgs; [
     alejandra
