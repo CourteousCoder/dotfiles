@@ -23,3 +23,11 @@
 [pull]
 	ff = only
 	autostash = true
+[maintenance]
+	repo = /home/chloe/Projects/Lola/GTA/GitHub/Bloom-QBOX_miror.git
+	repo = /home/chloe/Projects/Lola/GTA/GitHub/Bloom-QBOX.loladrive
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

@@ -1,6 +1,8 @@
 **/*.cache
 **/*.log
 **/.ssh
+# Tag items as ignored by renaming
+**/*.ignored.*
 # public keys are fine, but will ignore them for now.
 #!**.ssh/*.pub
 
@@ -8,3 +10,4 @@
 stow/emacs/dot-config/spacemacs/CHANGELOG*
 stow/emacs/dot-config/spacemacs/layers/+music/pianobar/README.org
 stow/pianobar/dot-config/pianobar/config
+**/*.ignored.*

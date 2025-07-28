@@ -17,11 +17,8 @@ in {
   home.stateVersion = "24.05";
 
   nixpkgs.config.allowUnfree = true;
-  nixpkgs.unstable.config.allowUnfree = true;
-
   # Workaround for https://github.com/nix-community/home-manager/issues/2942
   nixpkgs.config.allowUnfreePredicate = _: true;
-  nixpkgs.unstable.config.allowUnfreePredicate = _: true;
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'. But I'm using gnu stow instead

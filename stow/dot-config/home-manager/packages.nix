@@ -12,14 +12,14 @@
     nerdfix
     noto-fonts-color-emoji
     nh
-    obsidian
     powerline
     powerline-fonts
     powerline-symbols
-    #signal-desktop
+    signal-desktop
     vscodium
   ];
   stablePkgs = with pkgs; [
+    obsidian
     alejandra
     asciinema
     babelfish
@@ -66,7 +66,6 @@
     #qflipper
     #redshift
     ripgrep
-    rustup
     #runelite
     shellcheck
     starship
@@ -86,7 +85,7 @@
     zsh
   ];
   overlayedPkgs = with pkgs; [
-    flox
+    #flox
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs ++ overlayedPkgs;

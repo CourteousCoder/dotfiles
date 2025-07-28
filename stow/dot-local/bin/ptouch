@@ -1,9 +1,9 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-ptouch() {
-	for f in "$@"; do
+_touchp() {
+	for f in $@; do
 		mkdir -p "$(dirname "$f")" && touch "$f"
 	done
 }
 
-ptouch "$@"
+_touchp $@

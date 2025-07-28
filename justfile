@@ -3,12 +3,12 @@ DOTFILES := '~/.dotfiles'
 default:
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash -p bash just
-    just stow --restow .
+    just stow --restow
 
 setup_dotfiles: setup_precommit
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash -p bash just
-    just stow --stow --adopt .
+    just stow --stow --adopt
 
 setup_precommit:
     #!/usr/bin/env nix-shell
@@ -32,9 +32,9 @@ clean:
     rm -- **/*(-@D) || echo "And that's fine. You can safely ignore that."
     popd > /dev/null
 
-stow *STOW_PACKAGES:
+stow *OPTS:
     #!/usr/bin/env nix-shell 
     #!nix-shell -i bash -p bash stow
     pushd {{DOTFILES}}/stow > /dev/null
-    stow --target ~ --dir {{DOTFILES}}/stow --dotfiles {{STOW_PACKAGES}}
+    stow --target ~ --dir {{DOTFILES}} --dotfiles {{OPTS}} stow
     popd > /dev/null
