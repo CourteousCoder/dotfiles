@@ -32,13 +32,14 @@
     codeberg-cli
     delta
     deluge
+    elmPackages.elm
     elvish
     emacs
     eza
     fd
     firefox-bin
     firejail
-    fish
+    #fish
     forgejo
     fnm
     fzf
