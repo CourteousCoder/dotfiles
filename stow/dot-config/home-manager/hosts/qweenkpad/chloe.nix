@@ -1,8 +1,8 @@
 {
-pkgs,
-misc,
-home,
-...
+  pkgs,
+  misc,
+  home,
+  ...
 }: let
   username = "chloe";
 in {

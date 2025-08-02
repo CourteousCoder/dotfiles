@@ -6,6 +6,7 @@
   };
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
+    #Solaar-Flake.url = "https://flakehub.com/f/Svenum/Solaar-Flake/0.1.2.tar.gz";
     nixpkgs.url = "github:nixos/nixpkgs/release-25.05";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
@@ -39,6 +40,7 @@
     nixpkgs,
     nixpkgs-unstable,
     nix-index-database,
+    #Solaar-Flake,
     ...
   } @ inputs: {
     homeConfigurations = let
