@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 set -gx SHELL (which fish)
 
-loadenv ~/.config/env/common.env
+load_dotenv -I ~/.config/env/common.env
 
 set -gx VISUAL codium
 set -gx VIRTUAL_ENV_DISABLE_PROMPT true
