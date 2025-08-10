@@ -1,24 +1,10 @@
 #!/usr/bin/env fish
-
 set -gx SHELL (which fish)
-set -gx EDITOR nvim
-#set -gx VISUAL codium
-#set -gx FLAKE $HOME/.dotfiles
 
-set -gx NH_FLAKE $HOME/.config/home-manager
-set -gx FLAKE $HOME/.config/home-manager # TODO:deprcated remove
+loadenv ~/.config/env/common.env
+
+set -gx VISUAL codium
 set -gx VIRTUAL_ENV_DISABLE_PROMPT true
-
-fish_add_path --global --move --append "$HOME/.bin"
-fish_add_path --global --move --append "$HOME/.local/bin"
-fish_add_path --global --move --append "$HOME/.nix-profile/bin"
-fish_add_path --global --move --append "$HOME/.cargo/bin"
-fish_add_path --global --move --append "$HOME/.local/share/JetBrains/Toolbox/bin"
-fish_add_path --global --move --append "$HOME/.config/emacs/bin"
-fish_add_path --global --move --append "/usr/local/bin"
-fish_add_path --global --move --append "/nix/var/nix/profiles/default/bin"
-fish_add_path --global --move --append "/usr/bin"
-fish_add_path --global --move --append "/bin"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

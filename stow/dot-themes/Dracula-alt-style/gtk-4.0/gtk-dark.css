@@ -1055,6 +1055,21 @@ toggle-group {
       toggle-group toggle:checked, toggle-group toggle:checked label {
         color: #f8f8f2; }
 
+button.accent-button, button.accent-button:backdrop {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 5px;
+  border-radius: 100%;
+  background: var(--accent-bg-color);
+  outline: none;
+  background-clip: content-box;
+  box-shadow: none;
+  border: none; }
+button.accent-button:hover {
+  box-shadow: 0 0 0 3px #333545; }
+button.accent-button:checked, button.accent-button:checked:backdrop {
+  box-shadow: 0 0 0 3px var(--accent-bg-color); }
+
 /************
  * Calendar *
  ***********/
@@ -2468,6 +2483,19 @@ banner revealer widget {
   background: rgba(80, 250, 122, 0.75);
   padding: 5px;
   color: #f8f8f2; }
+  banner revealer widget button.suggested-action {
+    background-color: transparent;
+    background-image: none;
+    background-color: #262833;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+    background-color: rgba(0, 0, 0, 0.5); }
+    banner revealer widget button.suggested-action:hover, banner revealer widget button.suggested-action:active {
+      color: #f8f8f2;
+      outline-color: rgba(248, 248, 242, 0.3);
+      background-color: rgba(0, 0, 0, 0.7);
+      text-shadow: none; }
 
 levelbar.horizontal trough > block {
   min-height: 5px;
@@ -6234,5 +6262,32 @@ window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.path
   color: #f8f8f2; }
   .caja-notebook .entry:selected {
     background: rgba(189, 147, 249, 0.5); }
+
+.colorpad {
+  color: @colorpad_fg_color; }
+  .colorpad, .colorpad:backdrop, .colorpad:hover, .colorpad:hover:backdrop, .colorpad:active, .colorpad:active:backdrop, .colorpad:checked, .colorpad:checked:backdrop {
+    background-color: @colorpad_color; }
+  .colorpad:hover {
+    filter: brightness(93%); }
+  .colorpad:active {
+    filter: brightness(86%); }
+  .colorpad:checked {
+    filter: brightness(100%);
+    box-shadow: 0px 0px 0px 1.5px rgba(189, 147, 249, 0.5), inset 0px -3px 0px 0px @colorpad_fg_color; }
+
+.colorsetter {
+  color: colorsetter_fg_color; }
+  .colorsetter, .colorsetter:backdrop, .colorsetter:hover, .colorsetter:hover:backdrop, .colorsetter:active, .colorsetter:active:backdrop, .colorsetter:checked, .colorsetter:checked:backdrop {
+    background-color: @colorsetter_color; }
+  .colorsetter:hover {
+    filter: brightness(93%); }
+  .colorsetter:active {
+    filter: brightness(86%); }
+  .colorsetter:checked {
+    filter: brightness(100%); }
+
+.overlay_toolbar, .overlay_toolbar_scrollable {
+  background: #333545;
+  padding: 10px; }
 
 /*# sourceMappingURL=gtk-dark.css.map */

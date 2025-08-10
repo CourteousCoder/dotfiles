@@ -1,7 +1,7 @@
 # ~/.bashrc
 
 # Point at your external Bash config file
-BASH_CONFIG="$HOME/.config/bash/config.bashrc"
+BASH_CONFIG="$HOME/.config/bash/config.bash"
 
 # If it exists and is readable, include it
 if [ -f "$BASH_CONFIG" ] && [ -r "$BASH_CONFIG" ]; then
