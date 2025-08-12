@@ -1,10 +1,9 @@
 function load_dotenv
-    set -l 
     argparse h/help print printb U/unload I/interpolate -- $argv
     or return 1
 
     if set -q _flag_help
-        echo "Usage: $(status current-function) [OPTIONS] [FILE]"
+        echo "Usage: load_dotenv [OPTIONS] [FILE]"
         echo ""
         echo "Export keys and values from a dotenv file."
         echo ""
