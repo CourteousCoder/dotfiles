@@ -4,7 +4,7 @@
     bitwarden
     font-awesome
     legcord
-    mommy
+    #mommy
     nerd-fonts.fira-code
     nerd-fonts.hack
     nerd-fonts.monoid
@@ -32,6 +32,7 @@
     codeberg-cli
     delta
     deluge
+    difftastic
     elmPackages.elm
     elvish
     emacs
@@ -59,6 +60,7 @@
     librewolf-bin
     mdcat
     mdp
+    mommy
     neovim
     oh-my-posh
     podman

@@ -9,6 +9,7 @@
 [core]
 	excludesFile = ~/.config/git/ignore
 	editor = nvim
+	pager = delta
 
 [credential "https://github.com"]
 	helper = !~/.nix-profile/bin/gh auth git-credential
@@ -18,8 +19,7 @@
 [merge]
 	ff = only
 	autoStash = true
-[diff]
-	tool = delta
+	conflictStyle = zdiff3
 [pull]
 	ff = only
 	autostash = true
@@ -31,3 +31,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
