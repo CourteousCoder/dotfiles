@@ -35,3 +35,7 @@
 	diffFilter = delta --color-only
 [delta]
 	navigate = true
+
+# vim: set filetype=toml
+[difftool "difftastic"]
+	cmd = difft
