@@ -88,7 +88,8 @@
     zsh
   ];
   overlayedPkgs = with pkgs; [
-    #flox
+    flox
+    snowfallorg.flakes
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs ++ overlayedPkgs;
