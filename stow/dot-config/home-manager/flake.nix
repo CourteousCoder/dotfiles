@@ -45,7 +45,7 @@
           (final: prev: {
             flox = flox.packages.${prev.system}.default;
           })
-          snowfall-flake.overlay
+          snowfall-flake.overlays."package/flake"
         ];
       };
     in {
