@@ -21,7 +21,7 @@
     nixgl.url = "github:nix-community/nixGL";
     # Snowfall Lib is not required, but will make configuration easier for you.
     snowfall-lib.url = "github:snowfallorg/lib";
-    snowfall-lib.inputs.nixpkgs.follows = "nixpkgs";
+    snowfall-lib.inputs.nixpkgs.follows = "nixpkgs-unstable";
 
     snowfall-flake.url = "github:snowfallorg/flake";
     snowfall-flake.inputs.nixpkgs.follows = "nixpkgs";
@@ -45,7 +45,7 @@
           (final: prev: {
             flox = flox.packages.${prev.system}.default;
           })
-          snowfall-flake.overlays."package/flake"
+          snowfall-flake.overlays."packages/flake".default
         ];
       };
     in {

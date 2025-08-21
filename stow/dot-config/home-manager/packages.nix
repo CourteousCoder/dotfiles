@@ -89,7 +89,7 @@
   ];
   overlayedPkgs = with pkgs; [
     flox
-    #    flakes
+    snowfall-flake.flakes
   ];
 in {
   home.packages = stablePkgs ++ unstablePkgs ++ overlayedPkgs;
