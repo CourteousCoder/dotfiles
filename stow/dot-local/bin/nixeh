@@ -1,6 +1,6 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i fish
-#!nix-shell -p alejandra bat fish git home-manager nh neovim
+#!nix-shell -p alejandra bat fish git home-manager nh neovim delta difftastic
 
 function nix_edit_home
     #set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
@@ -15,7 +15,9 @@ function nix_edit_home
     "$EDITOR" "$FLAKE/flake.nix" 
     cd (realpath "$FLAKE")
     alejandra *.nix
-    git difftool -U0 *.nix
+
+    git difftool -t difft -U0 *.nix
+    git difftool -t delta -U0 *.nix
 
     # changes detected, so we update
     nixup
