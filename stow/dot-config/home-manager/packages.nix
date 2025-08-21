@@ -86,11 +86,11 @@
     xonsh
     zed
     zsh
-  ];
-  overlayedPkgs = with pkgs; [
+    # ];
+    #overlayedPkgs = with pkgs; [
     flox
-    #flakes
+    snowfallorg.flakes
   ];
 in {
-  home.packages = stablePkgs ++ unstablePkgs ++ overlayedPkgs;
+  home.packages = stablePkgs ++ unstablePkgs; # ++ overlayedPkgs;
 }

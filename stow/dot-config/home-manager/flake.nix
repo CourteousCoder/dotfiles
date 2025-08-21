@@ -44,8 +44,8 @@
           nixgl.overlay
           (final: prev: {
             flox = flox.packages.${prev.system}.default;
+            snowfallorg.flakes = snowfall-flake.packages.${prev.system}.default;
           })
-          snowfall-flake.overlays."packages/flake".default
         ];
       };
     in {
