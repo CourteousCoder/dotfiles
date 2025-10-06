@@ -44,7 +44,6 @@
     forgejo
     fnm
     fzf
-    gcc
     gh
     git
     git-stack
