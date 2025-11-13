@@ -23,47 +23,48 @@
     alejandra
     asciinema
     babelfish
-    bash
-    bashInteractive
+    #bash
+    #bashInteractive
     bat
-    brave
+    #brave
     btop
-    carapace
-    codeberg-cli
+    #carapace
+    #codeberg-cli
     delta
     deluge
     difftastic
-    elmPackages.elm
-    elvish
-    emacs
+    #elmPackages.elm
+    #elvish
+    #emacs
     eza
     fd
-    firefox-bin
-    firejail
+    #firefox-bin
+    #firejail
     #fish
-    forgejo
+    #forgejo
     fnm
     fzf
+    #gcc
     gh
-    git
+    #git
     git-stack
     glab
     gitleaks
     gnumake
-    gparted
-    htop
+    #gparted
+    #htop
     jujutsu
     just
     lazygit
     #libreoffice
-    librewolf-bin
+    #librewolf-bin
     mdcat
     mdp
     mommy
     neovim
     oh-my-posh
-    podman
-    podman-compose
+    #podman
+    # podman-compose
     #podman-desktop
     #qflipper
     #redshift
@@ -78,16 +79,16 @@
     tmsu
     unzrip
     #ventoy-full
-    vlc
+    #vlc
     wireguard-tools
     wl-clipboard-rs
     wofi
-    xonsh
-    zed
-    zsh
+    #xonsh
+    #zed
+    #zsh
     # ];
     #overlayedPkgs = with pkgs; [
-    flox
+    #flox
     snowfallorg.flakes
   ];
 in {

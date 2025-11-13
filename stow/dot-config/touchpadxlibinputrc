@@ -1,6 +1,7 @@
 [ELAN06C9:00 04F3:320B Touchpad]
 clickMethodAreas=false
 clickMethodClickfinger=true
+disableEventsOnExternalMouse=true
 disableWhileTyping=false
 middleEmulation=false
 naturalScroll=true
