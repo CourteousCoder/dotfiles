@@ -1,9 +1,19 @@
 # ~/.bashrc
 
+
 # Point at your external Bash config file
-BASH_CONFIG="$HOME/.config/bash/config.bash"
+BASH_CONFIG_DIR="$HOME/.config/bash"
 
 # If it exists and is readable, include it
-if [ -f "$BASH_CONFIG" ] && [ -r "$BASH_CONFIG" ]; then
-  . "$BASH_CONFIG"
+if [ -d "$BASH_CONFIG_DIR" ]; then
+  eval "$(find "$BASH_CONFIG_DIR" -name '*.bash' | sort | xargs cat)"
 fi
+
+
+. "$HOME/.local/bin/env"
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH=$PATH:$HOME/.maestro/bin

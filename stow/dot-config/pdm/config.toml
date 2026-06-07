@@ -1,1 +1,4 @@
 use_uv = true
+
+[python]
+install_root = "/home/chloe/.local/share/uv/python"

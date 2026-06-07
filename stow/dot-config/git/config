@@ -1,11 +1,15 @@
+# vim: set filetype=toml
+
 [init]
 	defaultBranch = main
 [user]
-	name = Chloe Shetreet
-	email = CourteousCoder@gmail.com
+	name = CourteousCoder
+	email = 10914070+CourteousCoder@users.noreply.github.com
+	signingkey = FE7A0CB8CC843EE3
 [alias]
 	ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ | tee -a .gitignore ;}; gi"
-    
+	unstage = restore --staged
+
 [core]
 	excludesFile = ~/.config/git/ignore
 	editor = nvim
@@ -33,11 +37,13 @@
 	required = true
 [interactive]
 	diffFilter = delta --color-only
-[delta]
+	[delta]
 	navigate = true
 
-# vim: set filetype=toml
 [difftool "difftastic"]
 	cmd = difft
 [difftool "difft"]
 	cmd = difft
+[push]
+	autoSetupRemote = true
+

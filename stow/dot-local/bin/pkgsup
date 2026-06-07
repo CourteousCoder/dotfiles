@@ -1,20 +1,20 @@
 #!/usr/bin/env fish
 
-# FIXME: HACK: my tmpfs on /tmp keeps running out of memory and I don't feel like repartitionings
+
 
 function pkgsup --description 'Perform a full upgrade of all packages managers'
     sudo printf "Authenticated for sudo\n"
-    set -lx TMPDIR ~/.cache/pkgsup
-    mkdir -p TMPDIR
-    sudo rm -rf /tmp/*
-    sudo mount --bind $TMPDIR /tmp
+    # FIXME: HACK: my tmpfs on /tmp keeps running out of memory.
+    #set -lx TMPDIR ~/.cache/pkgsup
+    #mkdir -p $TMPDIR
+    #sudo mount --bind $TMPDIR /tmp
 
     if command -q flatpak
         flatpak update --noninteractive
         sudo flatpak update --noninteractive
     end
 
-    sudo rm -rf /tmp/*
+    #sudo rm -rf /tmp/*
     if command -q nix
         nixup
     end
@@ -55,7 +55,6 @@ function pkgsup --description 'Perform a full upgrade of all packages managers'
     end
 
 
-    sudo umount /tmp
     set -e TMPDIR
 end
 

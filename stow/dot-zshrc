@@ -33,3 +33,18 @@ done
 if [ -f ~/.zshrc_custom ]; then
     source ~/.zshrc_custom
 fi
+
+# Point at your external zshrc config file
+ZSH_CONFIG_DIR="$HOME/.config/zsh"
+
+# If it exists and is readable, include it
+if [ -d "$ZSH_CONFIG_DIR" ]; then
+  eval "$(find $ZSH_CONFIG_DIR -name '*.zsh' | sort | xargs cat)"
+fi
+
+. "$HOME/.local/bin/env"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH=$PATH:$HOME/.maestro/bin

@@ -3,6 +3,7 @@ clickMethodAreas=false
 clickMethodClickfinger=true
 disableEventsOnExternalMouse=true
 disableWhileTyping=false
+enabled=true
 middleEmulation=false
 naturalScroll=true
 tapDragLock=true

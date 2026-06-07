@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -euo pipefail
 
@@ -19,7 +19,7 @@ main() {
     clone_dotfiles_repo
     setup_dotfiles
 
-    exit_cleanly
+    exit_cleanly 0
 }
 
 initialize() {
@@ -38,7 +38,7 @@ install_nix() {
     export NIX_INSTALLER_EXTRA_CONF="trusted-users = root @wheel $USER"
     if ! command -v nix &>/dev/null; then
         curl -sSf -L https://install.lix.systems/lix > "$_TEMP_WORKDIR/lix-installer.sh"
-        sh "$_TEMP_WORKDIR/lix-installer.sh" \
+        sh "$_TEMP_WORKDIR/lix-installer.sh" install \
             --extra-conf "$NIX_INSTALLER_EXTRA_CONF" \
             --no-confirm
     fi
@@ -75,7 +75,8 @@ setup_dotfiles() {
 }
 
 exit_cleanly() {
-    _EXIT_CODE="$1"
+    _EXIT_CODE="$?"
+    _EXIT_CODE="${1:-$_EXIT_CODE}"
     if [ -d "$_TEMP_WORKDIR" ]; then
         echo deleting temporary files
         rm -rf "$_TEMP_WORKDIR"
@@ -83,7 +84,6 @@ exit_cleanly() {
 
     # reset trap EXIT so that tear_down is not called again if more than one signal was trapped.
     trap - EXIT
-    popd > /dev/null
 
     if [ "$_EXIT_CODE" -eq '0' -a -d "$_BACKUP_AT" ]; then
         echo "⚠️  Pre-existing '$DOTFILES_LOCAL' has been backed up to '$_BACKUP_AT'"
@@ -102,6 +102,5 @@ exit_cleanly() {
 
     exit $_EXIT_CODE
 }
-
 
 main "$@"

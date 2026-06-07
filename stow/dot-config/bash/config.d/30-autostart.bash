@@ -1,0 +1,18 @@
+# -----------------------------------------------------
+# AUTOSTART
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Fastfetch
+# -----------------------------------------------------
+if [[ $(tty) == *"pts"* ]]; then
+    command -v fastfetch > /dev/null && fastfetch --config examples/13
+else
+    echo
+    if [ -x /bin/qtile ]; then
+        echo "Start Qtile X11 with command Qtile"
+    fi
+    if [ -x /bin/hyprctl ]; then
+        echo "Start Hyprland with command Hyprland"
+    fi
+fi

@@ -1,8 +1,10 @@
 {pkgs, ...}: let
   unstablePkgs = with pkgs.unstable; [
     # Unstable nixpkgs branch
+    amp
     bitwarden-desktop
     font-awesome
+    direnv
     legcord
     #mommy
     nerd-fonts.fira-code

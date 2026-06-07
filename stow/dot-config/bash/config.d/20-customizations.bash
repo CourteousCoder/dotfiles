@@ -1,0 +1,32 @@
+# -----------------------------------------------------
+# CUSTOMIZATION
+# -----------------------------------------------------
+POSH=agnoster
+
+# -----------------------------------------------------
+# Prompt
+# -----------------------------------------------------
+# eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zen.toml)"
+command -v oh-my-posh > /dev/null && eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/EDM115-newline.omp.json)"
+
+# -----------------------------------------------------
+# Dev Environments
+# -----------------------------------------------------
+
+command -v devbox > /dev/null && source <(devbox global shellenv --init-hook)
+command -v uv     > /dev/null && eval   "$(uv generate-shell-completion bash)"
+command -v uvx    > /dev/null && eval   "$(uvx --generate-shell-completion bash)"
+
+[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"  # This loads nvm
+[[ -s "$NVM_DIR/bash_completion" ]] && source "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Source the Lazyman shell initialization for aliases and nvims selector
+# shellcheck source=.config/nvim-Lazyman/.lazymanrc
+[[ -f ~/.config/nvim-Lazyman/.lazymanrc ]] && source ~/.config/nvim-Lazyman/.lazymanrc
+# Source the Lazyman .nvimsbind for nvims key binding
+# shellcheck source=.config/nvim-Lazyman/.nvimsbind
+[[ -f ~/.config/nvim-Lazyman/.nvimsbind ]] && source ~/.config/nvim-Lazyman/.nvimsbind
+# Luarocks bin path
+
+[[ -e "$HOME/lib/oci_autocomplete.sh" ]] && source "/$HOME/lib/oci_autocomplete.sh"
+
+
