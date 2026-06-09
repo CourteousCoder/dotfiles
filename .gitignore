@@ -14,3 +14,13 @@ config/glab-cli/aliases.yml
 # zoom configs may contain creds (moved here from the deleted config/.gitignore)
 config/zoom.conf
 config/zoomus.conf
+
+# nix build symlinks
+result
+result-*
+
+# python bytecode caches (e.g. thefuck)
+**/__pycache__/
+
+config/KDE/neochat.conf
+
