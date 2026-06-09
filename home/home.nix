@@ -20,8 +20,7 @@ in {
   # Workaround for https://github.com/nix-community/home-manager/issues/2942
   nixpkgs.config.allowUnfreePredicate = _: true;
 
-  # Home Manager is pretty good at managing dotfiles. The primary way to manage
-  # plain files is through 'home.file'. But I'm using gnu stow instead
+  # Home Manager owns every dotfile via out-of-store symlinks (see home/files.nix).
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a

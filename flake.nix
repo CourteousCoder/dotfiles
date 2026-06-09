@@ -53,26 +53,27 @@
 
       # TODO: reduce repeated code by recursing over each user of each hostname and user.
       #   Available through 'home-manager --flake .#your-username@your-hostname'
-      "chloe@qweenkpad" = with inputs;
+      "chloe@queenkpad" = with inputs;
         home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
           modules = [
-            ./home.nix
-            ./path.nix
-            ./shell.nix
-            ./user.nix
-            ./aliases.nix
-            ./programs.nix
-            ./packages.nix
+            ./home/home.nix
+            ./home/path.nix
+            ./home/shell.nix
+            ./home/user.nix
+            ./home/aliases.nix
+            ./home/programs.nix
+            ./home/packages.nix
+            ./home/files.nix
 
             nix-index-database.hmModules.nix-index
             # optional to also wrap and install comma
             {programs.nix-index-database.comma.enable = true;}
 
             # Host Specific configs
-            ./hosts/qweenkpad/chloe.nix
-            ./hosts/qweenkpad/custom.nix
+            ./home/hosts/queenkpad/chloe.nix
+            ./home/hosts/queenkpad/custom.nix
 
             {home.packages = [];}
             {nixpkgs.overlays = pkgs.overlays;}
@@ -83,17 +84,18 @@
           inherit pkgs;
           extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
           modules = [
-            ./home.nix
-            ./path.nix
-            ./shell.nix
-            ./user.nix
-            ./aliases.nix
-            ./programs.nix
-            ./packages.nix
+            ./home/home.nix
+            ./home/path.nix
+            ./home/shell.nix
+            ./home/user.nix
+            ./home/aliases.nix
+            ./home/programs.nix
+            ./home/packages.nix
+            ./home/files.nix
 
             # Host Specific configs
-            ./hosts/ombre/chloe.nix
-            ./hosts/ombre/custom.nix
+            ./home/hosts/ombre/chloe.nix
+            ./home/hosts/ombre/custom.nix
 
             {home.packages = [];}
             {nixpkgs.overlays = pkgs.overlays;}
