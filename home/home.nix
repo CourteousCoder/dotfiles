@@ -8,9 +8,6 @@
 }: let
   username = "chloe";
   homeDirectory = "/home/${username}";
-  #myHomeManagerFlake = "${homeDirectory}/.dotfiles";
-  myHomeManagerFlake = "${homeDirectory}/.config/home-manager";
-  #mydotfiles = "${myHomeManagerFlake}/dotfiles";
 in {
   programs.home-manager.enable = true;
   fonts.fontconfig.enable = true;

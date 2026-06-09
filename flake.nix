@@ -30,14 +30,25 @@
   outputs = inputs @ {self, ...}: {
     homeConfigurations = let
       system = "x86_64-linux";
+      # Shared nixpkgs config. allowUnfree was previously only supplied by the
+      # global ~/.config/nixpkgs/config.nix; set it here so eval is hermetic and
+      # version-controlled. electron-39.8.10 (pulled in by bitwarden-desktop from
+      # the unstable set) is EOL/insecure — explicitly permit it so the build
+      # succeeds. Drop it from the list if bitwarden-desktop is removed.
+      nixpkgsConfig = {
+        allowUnfree = true;
+        permittedInsecurePackages = ["electron-39.8.10"];
+      };
       pkgs = import inputs.nixpkgs {
         inherit inputs;
         system = "${system}";
+        config = nixpkgsConfig;
         overlays = with inputs; [
           # when installing packages it’s then possible to use pkgs.unstable.foobar-some-package
           (final: prev: {
             unstable = import nixpkgs-unstable {
               system = prev.system;
+              config = nixpkgsConfig;
             };
           })
           # nixGL overlay is required for opengl programs from nixpkgs to run on non-nixos linux
@@ -67,7 +78,7 @@
             ./home/packages.nix
             ./home/files.nix
 
-            nix-index-database.hmModules.nix-index
+            nix-index-database.homeModules.nix-index
             # optional to also wrap and install comma
             {programs.nix-index-database.comma.enable = true;}
 
