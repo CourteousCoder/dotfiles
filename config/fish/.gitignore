@@ -4,7 +4,7 @@
 ### Fish ###
 fishd.*
 fish_history
-fish_variables
+fish_variables*
 config.local.fish
 
 # End of https://www.toptal.com/developers/gitignore/api/fish
