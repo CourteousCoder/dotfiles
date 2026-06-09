@@ -5,18 +5,18 @@
 function nix_edit_home
     #set -lx FISH_COMMAND_NOT_FOUND_AUTO_TRY_NIXPKGS true
 
-    set -gq FLAKE;  or set -lx FLAKE "~/.config/home-manager"
+    set -gq FLAKE;  or set -lx FLAKE "~/.dotfiles"
     set -gq PAGER;  or set -lx PAGER bat
     set -gq EDITOR; or set -lx EDITOR nvim
     
 
-    "$EDITOR" "$FLAKE/packages.nix" 
-    "$EDITOR" "$FLAKE/home.nix" 
-    "$EDITOR" "$FLAKE/flake.nix" 
+    "$EDITOR" "$FLAKE/home/packages.nix"
+    "$EDITOR" "$FLAKE/home/home.nix"
+    "$EDITOR" "$FLAKE/flake.nix"
     cd (realpath "$FLAKE")
-    alejandra *.nix
+    alejandra flake.nix home/ lib/
 
-    git diff -U0 *.nix | delta
+    git diff -U0 -- '*.nix' | delta
 
     # changes detected, so we update
     nixup

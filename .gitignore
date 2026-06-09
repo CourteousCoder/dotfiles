@@ -6,6 +6,11 @@
 # public keys are fine, but will ignore them for now.
 #!**.ssh/*.pub
 
+# gh / glab CLI configs gain runtime OAuth tokens on auth — never track them.
+# Files stay on disk (out-of-store symlink targets); a fresh clone just re-auths.
+config/gh/hosts.yml
+config/glab-cli/aliases.yml
+
 # Because pre-commit gitleaks complains that there are examples that reveals example ccredentials.
 stow/emacs/dot-config/spacemacs/CHANGELOG*
 stow/emacs/dot-config/spacemacs/layers/+music/pianobar/README.org
