@@ -11,8 +11,6 @@
 config/gh/hosts.yml
 config/glab-cli/aliases.yml
 
-# Because pre-commit gitleaks complains that there are examples that reveals example ccredentials.
-stow/emacs/dot-config/spacemacs/CHANGELOG*
-stow/emacs/dot-config/spacemacs/layers/+music/pianobar/README.org
-stow/pianobar/dot-config/pianobar/config
-**/*.ignored.*
+# zoom configs may contain creds (moved here from the deleted config/.gitignore)
+config/zoom.conf
+config/zoomus.conf

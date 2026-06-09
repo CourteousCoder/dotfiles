@@ -2,15 +2,20 @@ DOTFILES := '~/.dotfiles'
 
 set unstable := true
 
-default:
+# Build the Home Manager generation without activating (verification, zero side effects).
+build:
     #!/usr/bin/env nix-shell
-    #!nix-shell -i bash -p bash just
-    just stow --restow
+    #!nix-shell -i bash -p bash home-manager
+    home-manager build --flake {{ DOTFILES }}#chloe@$(hostname)
 
-setup_dotfiles: setup_precommit
+# Activate the Home Manager generation. The one and only activation path.
+switch:
     #!/usr/bin/env nix-shell
-    #!nix-shell -i bash -p bash just
-    just stow --stow --adopt
+    #!nix-shell -i bash -p bash nh
+    nh home switch {{ DOTFILES }}
+
+# First-time setup on a host: install the gitleaks pre-commit hook, then activate.
+setup_dotfiles: setup_precommit switch
 
 setup_precommit:
     #!/usr/bin/env nix-shell
@@ -20,23 +25,9 @@ setup_precommit:
     pre-commit install
     git add .pre-commit-config.yaml
 
-update: default
+# Update flake inputs and switch (nixup does: flake update + nh switch + commit).
+update:
     #!/usr/bin/env nix-shell
     #!nix-shell -i bash
     #!nix-shell -p bash uutils-coreutils-noprefix
-    PAGER=cat EDITOR=cat ~/.bin/nixup
-
-clean:
-    #!/usr/bin/env nix-shell
-    #!nix-shell -i zsh -p zsh just
-    just stow --delete .
-    pushd ~ > /dev/null
-    rm -- **/*(-@D) || echo "And that's fine. You can safely ignore that."
-    popd > /dev/null
-
-stow *OPTS:
-    #!/usr/bin/env nix-shell 
-    #!nix-shell -i bash -p bash stow
-    pushd {{ DOTFILES }}/stow > /dev/null
-    stow --target ~ --dir {{ DOTFILES }} --dotfiles {{ OPTS }} stow
-    popd > /dev/null
+    PAGER=cat EDITOR=cat ~/.local/bin/nixup

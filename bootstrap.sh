@@ -70,8 +70,11 @@ clone_dotfiles_repo() {
 }
 
 setup_dotfiles() {
-    cd $DOTFILES_LOCAL
-    nix run $DOTFILES_LOCAL -- setup
+    cd "$DOTFILES_LOCAL"
+    # No stow. `just setup_dotfiles` installs the gitleaks pre-commit hook
+    # (Security invariant #3) and then activates Home Manager (`nh home switch`),
+    # which creates every dotfile as an out-of-store symlink.
+    nix run --extra-experimental-features 'nix-command flakes' nixpkgs#just -- setup_dotfiles
 }
 
 exit_cleanly() {
