@@ -23,4 +23,7 @@ result-*
 **/__pycache__/
 
 config/KDE/neochat.conf
+config/KDE/kunifiedpush-distributor.conf
+config/KDE/UserFeedback.conf
+config/gtk-3.0/bookmarks
 
