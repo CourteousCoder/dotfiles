@@ -9,6 +9,12 @@
 [alias]
 	ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ | tee -a .gitignore ;}; gi"
 	unstage = restore --staged
+	wt = "worktree"
+	wt-ls = "worktree list"
+	wt-mv = "worktree move"
+	wt-rm = "worktree remove"
+	brdel-remote = "! _f() { local remote_branches=\"$(git branch --remotes)\"; test -z \"$remote_branches\" || git branch --delete --remote \"$remote_branches\"; }; _f"
+	
 
 [core]
 	excludesFile = ~/.config/git/ignore

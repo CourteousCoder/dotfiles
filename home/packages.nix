@@ -3,6 +3,7 @@
     # Unstable nixpkgs branch
     amp
     bitwarden-desktop
+    bolt-launcher
     font-awesome
     direnv
     legcord
