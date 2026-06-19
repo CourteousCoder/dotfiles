@@ -5,7 +5,6 @@
     bitwarden-desktop
     bolt-launcher
     font-awesome
-    direnv
     legcord
     #mommy
     nerd-fonts.fira-code
