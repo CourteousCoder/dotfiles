@@ -79,8 +79,6 @@
             ./home/files.nix
 
             nix-index-database.homeModules.nix-index
-            # optional to also wrap and install comma
-            {programs.nix-index-database.comma.enable = true;}
 
             # Host Specific configs
             ./home/hosts/queenkpad/chloe.nix
