@@ -24,8 +24,8 @@
     alejandra
     asciinema
     babelfish
-    #bash
-    #bashInteractive
+    bash
+    bashInteractive
     bat
     #brave
     btop
@@ -35,19 +35,19 @@
     deluge
     difftastic
     #elmPackages.elm
-    #elvish
+    elvish
     #emacs
     eza
     fd
     #firefox-bin
     #firejail
-    #fish
+    fish
     #forgejo
     fnm
     fzf
     #gcc
     gh
-    #git
+    git
     git-stack
     glab
     gitleaks
@@ -84,9 +84,9 @@
     wireguard-tools
     wl-clipboard-rs
     wofi
-    #xonsh
+    xonsh
     #zed
-    #zsh
+    zsh
     # ];
     #overlayedPkgs = with pkgs; [
     #flox

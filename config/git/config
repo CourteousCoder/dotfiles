@@ -14,6 +14,7 @@
 	wt-mv = "worktree move"
 	wt-rm = "worktree remove"
 	brdel-remote = "! _f() { local remote_branches=\"$(git branch --remotes)\"; test -z \"$remote_branches\" || git branch --delete --remote \"$remote_branches\"; }; _f"
+	st = status
 	
 
 [core]
