@@ -1,0 +1,207 @@
+#!/usr/bin/env fish
+
+set -g __mvln_version "mvln 1.0.0"
+
+# mvln's own usage. Always plain (verbose only affects whether mv/ln help is
+# also shown, by the caller, before this).
+function __mvln_help
+	echo "mvln — move/rename a path, then leave a symlink at the OLD location pointing to the NEW one"
+	echo
+	echo "Usage:"
+	echo "  mvln [OPTIONS] SOURCE DEST        rename SOURCE→DEST, leave link at SOURCE"
+	echo "  mvln [OPTIONS] SOURCE... DIR      move into DIR, leave a link at each SOURCE"
+	echo "  mvln [OPTIONS] -t DIR SOURCE...   move into DIR (explicit target-directory)"
+	echo
+	echo "Forwarded to mv only:   -u  -Z/--context"
+	echo "Forwarded to ln only:   -L -P -F  -d/--directory  -s/--symbolic"
+	echo "Forwarded to both:      -b  -f/--force  -i/--interactive  -S/--suffix=  -v/--verbose"
+	echo "Structural (mv only, drives linking):  -t/--target-directory=  -T/--no-target-directory"
+	echo
+	echo "mvln-specific (not forwarded):"
+	echo "  -s/--symbolic   make a symlink (this is the default)"
+	echo "  -H/--hard       make a hardlink instead of a symlink"
+	echo "  -D/--dry-run    print the 'mv && ln' commands without running them"
+	echo "  -h/--help       show this help (add -v to also run 'mv --help' then 'ln --help')"
+	echo "  -V/--version    show version (add -v to also run 'mv --version' then 'ln --version')"
+end
+
+# Compute old->new path pairs (TAB-separated, one per line) for the move.
+# mode: tdir | notarget | auto.  dir: target dir for tdir mode (else "").
+function __mvln_plan --argument-names mode dir
+	set -l paths $argv[3..-1]
+	switch $mode
+		case tdir
+			if not test -d $dir
+				echo "mvln: target-directory '$dir' is not a directory" >&2
+				return 2
+			end
+			for s in $paths
+				printf '%s\t%s\n' $s $dir/(basename $s)
+			end
+		case notarget
+			if test (count $paths) -ne 2
+				echo "mvln: -T requires exactly 2 arguments (source target)" >&2
+				return 2
+			end
+			printf '%s\t%s\n' $paths[1] $paths[2]
+		case auto
+			set -l last $paths[-1]
+			if test (count $paths) -gt 2; or test -d $last
+				# move-into-directory: last arg is the dir
+				if not test -d $last
+					echo "mvln: target '$last' is not a directory" >&2
+					return 2
+				end
+				for s in $paths[1..-2]
+					printf '%s\t%s\n' $s $last/(basename $s)
+				end
+			else
+				# rename (exactly 2 args)
+				printf '%s\t%s\n' $paths[1] $paths[2]
+			end
+	end
+end
+
+function mvln -d "move/rename a path, then leave a symlink at the OLD location pointing to the NEW one. mv/ln options are forwarded to their respective command"
+
+	# mv only (behavioral)
+	set -l opts_mv u Z/context
+
+	# mv only (structural: drive path calc, forwarded to mv but NOT to ln)
+	set -l opts_struct t/target-directory= T/no-target-directory
+
+	# ln only (link type)
+	set -l opts_ln s/symbolic L/logical P/Physical F d/directory
+
+	# both
+	set -l opts_both b f/force i/interactive S/suffix= v/verbose
+
+	# mvln-specific (not forwarded)
+	set -l opts_self D/dry-run H/hard h/help V/version
+
+	set -l options $opts_self $opts_both $opts_mv $opts_struct $opts_ln
+
+	set -l mutex -x t,T -x i,f -x i,f,u -x s,L,P -x s,H -x h,V
+
+	argparse $mutex $options -- $argv || return 2
+
+	# ---- help / version (handled locally, never forwarded) ----
+	# With -v/--verbose, first run the underlying tools', then show mvln's plain one.
+	if set -q _flag_help
+		if set -q _flag_verbose
+			command mv --help
+			command ln --help
+		end
+		__mvln_help
+		return 0
+	end
+	if set -q _flag_version
+		if set -q _flag_verbose
+			command mv --version
+			command ln --version
+		end
+		echo $__mvln_version
+		return 0
+	end
+
+	# ---- operand count (no -N: help/version must work with 0 operands) ----
+	if set -q _flag_target_directory
+		if test (count $argv) -lt 1
+			echo "mvln: -t needs at least one source" >&2
+			return 2
+		end
+	else if test (count $argv) -lt 2
+		echo "mvln: need a source and a destination (or use -t DIR). try --help" >&2
+		return 2
+	end
+
+	# ---- reconstruct forwarded flags from the _flag_* vars argparse set ----
+	set -l flags_mv
+	set -l flags_struct
+	set -l flags_ln
+	set -l flags_both
+
+	for pair in opts_mv:flags_mv opts_struct:flags_struct opts_ln:flags_ln opts_both:flags_both
+		set -l p (string split : -- $pair)
+		set -l srcvar $p[1]
+		set -l dstvar $p[2]
+
+		for spec in $$srcvar
+			# spec -> takesarg, canonical flag, _flag_ varname
+			set -l takesarg 0
+			set -l body $spec
+			if string match -qr '=\??$' -- $body
+				set takesarg 1
+				set body (string replace -r '=\??$' '' -- $body)
+			end
+			set -l names (string split / -- $body)
+			set -l long ''
+			test (count $names) -ge 2; and set long $names[2]
+
+			set -l canon
+			set -l var
+			if test -n "$long"
+				set canon "--$long"
+				set var "_flag_"(string replace -a -- - _ $long)
+			else
+				set canon "-$names[1]"
+				set var "_flag_$names[1]"
+			end
+
+			set -q $var; or continue
+			for v in $$var
+				if test "$takesarg" -eq 1; and test -n "$v"
+					set -a $dstvar "$canon=$v"
+				else
+					set -a $dstvar $canon
+				end
+			end
+		end
+	end
+
+	# default to symlink unless user picked a hardlink (-H) or symbolic explicitly
+	if not set -q _flag_hard; and not set -q _flag_symbolic
+		set flags_ln -s $flags_ln
+	end
+
+	# ---- plan old->new pairs ----
+	set -l mode auto
+	set -l dir ''
+	if set -q _flag_target_directory
+		set mode tdir
+		set dir $_flag_target_directory
+	else if set -q _flag_no_target_directory
+		set mode notarget
+	end
+
+	set -l plan (__mvln_plan $mode "$dir" $argv); or return $status
+
+	set -l olds
+	set -l news
+	for line in $plan
+		set -l pr (string split \t -- $line)
+		set -a olds $pr[1]
+		set -a news $pr[2]
+	end
+
+	# ---- dry run ----
+	if set -q _flag_dry_run
+		echo "mv $flags_mv $flags_struct $flags_both -- $argv"
+		for i in (seq (count $olds))
+			echo "ln $flags_ln $flags_both -- <abs:$news[$i]> $olds[$i]"
+		end
+		return 0
+	end
+
+	# ---- execute ----
+	command mv $flags_mv $flags_struct $flags_both -- $argv; or return $status
+
+	for i in (seq (count $olds))
+		# resolve to absolute so the link is valid regardless of CWD/link location
+		set -l target (realpath -- $news[$i]); or return $status
+		command ln $flags_ln $flags_both -- $target $olds[$i]; or return $status
+	end
+end
+
+mvln $argv
+exit $status
